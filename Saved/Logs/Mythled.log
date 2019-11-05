@@ -1,4 +1,4 @@
-﻿Log file open, 11/05/19 14:41:00
+﻿Log file open, 11/05/19 14:37:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: Mythled
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.064275
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.127030
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -117,12 +117,12 @@ LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.23-CL-8386587
-LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
 LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Net CL: 8386587
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics 630
-LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
@@ -157,6 +157,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.11.05-19.41.00:810][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.11.05-19.41.00:810][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.11.05-19.41.00:810][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
@@ -713,3 +714,1045 @@ Script Stack (0 frames):
 [2019.11.05-20.13.16:333][ 23]LogExit: Executing StaticShutdownAfterError
 [2019.11.05-20.13.16:358][ 23]LogWindows: FPlatformMisc::RequestExit(1)
 [2019.11.05-20.13.16:404][ 23]Log file closed, 11/05/19 15:13:16
+=======
+[2019.11.05-19.37.01:444][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.05-19.37.01:444][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.05-19.37.01:444][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.05-19.37.01:444][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.05-19.37.01:444][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.05-19.37.01:444][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.05-19.37.01:445][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.05-19.37.01:445][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.05-19.37.01:445][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.05-19.37.01:449][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.05-19.37.01:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.05-19.37.01:450][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.05-19.37.01:450][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.05-19.37.01:450][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.05-19.37.01:454][  0]LogHAL: Display: Platform has ~ 8 GB [8507314176 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.05-19.37.01:454][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.05-19.37.01:454][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.05-19.37.01:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.05-19.37.01:455][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.05-19.37.01:456][  0]LogInit: Computer: NAT-LAPTOP-2017
+[2019.11.05-19.37.01:456][  0]LogInit: User: nat
+[2019.11.05-19.37.01:456][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.11.05-19.37.01:456][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.05-19.37.01:456][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.11.05-19.37.01:456][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.05-19.37.01:456][  0]LogMemory: Process Physical Memory: 99.49 MB used, 99.49 MB peak
+[2019.11.05-19.37.01:456][  0]LogMemory: Process Virtual Memory: 87.66 MB used, 87.66 MB peak
+[2019.11.05-19.37.01:456][  0]LogMemory: Physical Memory: 6198.41 MB used,  1914.80 MB free, 8113.21 MB total
+[2019.11.05-19.37.01:456][  0]LogMemory: Virtual Memory: 4625.26 MB used,  134213104.00 MB free, 134217728.00 MB total
+[2019.11.05-19.37.01:460][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.05-19.37.01:513][  0]LogInit: Using OS detected language (en-US).
+[2019.11.05-19.37.01:513][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.05-19.37.01:515][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.05-19.37.01:716][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.05-19.37.01:780][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.05-19.37.01:780][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.05-19.37.02:074][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.05-19.37.02:074][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.05-19.37.02:158][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.11.05-19.37.02:159][  0]LogD3D11RHI:       2010/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.05-19.37.02:168][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.11.05-19.37.02:168][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.05-19.37.02:171][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.05-19.37.02:171][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.05-19.37.02:172][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.05-19.37.02:200][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.05-19.37.02:201][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.11.05-19.37.02:201][  0]LogWindows: EnumDisplayDevices:
+[2019.11.05-19.37.02:201][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.11.05-19.37.02:202][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.11.05-19.37.02:202][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.11.05-19.37.02:203][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.05-19.37.02:203][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.11.05-19.37.02:203][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.05-19.37.02:203][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.05-19.37.02:203][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.11.05-19.37.02:256][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.05-19.37.02:279][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.05-19.37.02:769][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.05-19.37.02:782][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.05-19.37.02:795][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.05-19.37.02:809][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.05-19.37.02:823][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.05-19.37.02:836][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.05-19.37.02:850][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.05-19.37.02:863][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.05-19.37.02:871][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.05-19.37.02:907][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.05-19.37.02:910][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.05-19.37.02:934][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.05-19.37.02:935][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.05-19.37.02:952][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.05-19.37.02:952][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.05-19.37.02:960][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.05-19.37.02:969][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.05-19.37.02:977][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.05-19.37.02:987][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.05-19.37.03:018][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.05-19.37.03:018][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.05-19.37.03:018][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.05-19.37.03:036][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.05-19.37.03:144][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/nat/Documents/GitHub/Mythled/Intermediate/Shaders/WorkingDirectory/7216/).
+[2019.11.05-19.37.03:144][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nat/AppData/Local/Temp/UnrealShaderWorkingDir/0988FE5C477199D1FE7A48955C870F7A/'.
+[2019.11.05-19.37.03:150][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.05-19.37.03:150][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.05-19.37.03:150][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.05-19.37.03:860][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.05-19.37.03:926][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/nat/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.05-19.37.03:973][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nat/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.05-19.37.03:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nat/Documents/GitHub/Mythled/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.05-19.37.03:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.05-19.37.03:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nat/Documents/GitHub/Mythled/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.05-19.37.03:973][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.05-19.37.03:986][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.05-19.37.03:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.05-19.37.03:986][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.05-19.37.03:988][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.05-19.37.03:988][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.05-19.37.03:988][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.05-19.37.04:012][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.05-19.37.04:014][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.05-19.37.04:015][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.05-19.37.04:100][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2019.11.05-19.37.04:455][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.05-19.37.04:637][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.05-19.37.04:637][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.05-19.37.04:637][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.05-19.37.04:637][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.05-19.37.04:637][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.05-19.37.04:648][  0]LogNetVersion: Mythled 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1487724216)
+[2019.11.05-19.37.05:159][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.083013 seconds
+[2019.11.05-19.37.05:167][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.05-19.37.05:167][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.05-19.37.05:168][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.05-19.37.06:417][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.05-19.37.06:421][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.05-19.37.06:493][  0]SourceControl: Source control is disabled
+[2019.11.05-19.37.07:620][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.05-19.37.07:767][  0]LogOcInput: OculusInput pre-init called
+[2019.11.05-19.37.07:776][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.05-19.37.07:776][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.05-19.37.07:874][  0]LogEngine: Initializing Engine...
+[2019.11.05-19.37.07:875][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.05-19.37.07:876][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.05-19.37.08:139][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.05-19.37.08:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.05-19.37.08:191][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-19.37.08:303][  0]LogInit: FAudioDevice initialized.
+[2019.11.05-19.37.08:303][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.05-19.37.08:590][  0]LogDerivedDataCache: Saved boot cache 0.29s 73MB C:/Users/nat/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.05-19.37.08:602][  0]LogInit: Texture streaming: Enabled
+[2019.11.05-19.37.08:668][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.05-19.37.08:669][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.11.05-19.37.08:693][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.11.05-19.37.08:780][  0]LogInit: Transaction tracking system initialized
+[2019.11.05-19.37.08:856][  0]BlueprintLog: New page: Editor Load
+[2019.11.05-19.37.09:036][  0]LocalizationService: Localization service is disabled
+[2019.11.05-19.37.09:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/' took 0.00s
+[2019.11.05-19.37.09:402][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.05-19.37.09:402][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.05-19.37.09:759][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-19.37.09:760][  0]LightingResults: New page: Lighting Build
+[2019.11.05-19.37.09:768][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-19.37.09:768][  0]MapCheck: New page: Map Check
+[2019.11.05-19.37.09:768][  0]LightingResults: New page: Lighting Build
+[2019.11.05-19.37.09:810][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.11.05-19.37.09:942][  0]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-19.37.09:949][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-19.37.09:985][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.05-19.37.09:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-19.37.09:985][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.143ms to complete.
+[2019.11.05-19.37.09:986][  0]LogFileHelpers: Loading map 'BaseMap_MAP' took 0.226
+[2019.11.05-19.37.10:164][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-19.37.10:176][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-19.37.10:190][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-19.37.10:203][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-19.37.10:224][  0]LogCollectionManager: Loaded 0 collections in 0.007485 seconds
+[2019.11.05-19.37.10:237][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Saved/Collections/' took 0.00s
+[2019.11.05-19.37.10:237][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/Developers/nat/Collections/' took 0.00s
+[2019.11.05-19.37.10:237][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/Collections/' took 0.00s
+[2019.11.05-19.37.10:237][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.11.05-19.37.10:252][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2863 classes and 680 folders.
+[2019.11.05-19.37.10:272][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.05-19.37.10:392][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.05-19.37.10:405][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.05-19.37.10:523][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.05-19.37.10:527][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.05-19.37.10:535][  0]LogSlate: Took 0.000446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.05-19.37.10:635][  0]LogRenderer: Reallocating scene render targets to support 916x444 Format 10 NumSamples 1 (Frame:1).
+[2019.11.05-19.37.10:817][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.05-19.37.10:818][  0]LogLoad: (Engine Initialization) Total time: 12.35 seconds
+[2019.11.05-19.37.10:818][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.05-19.37.10:887][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.05-19.37.10:911][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.05-19.37.10:919][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/' took 0.08s
+[2019.11.05-19.37.10:937][  1]LogAssetRegistry: Asset discovery search completed in 6.8393 seconds
+[2019.11.05-19.37.10:943][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.11.05-19.37.10:943][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
+[2019.11.05-19.37.12:854][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-19.37.13:861][147]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.05-19.37.30:423][125]AssetReimport: New page: Outstanding source content changes 9:37:30 AM
+[2019.11.05-19.37.30:525][126]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/nat/Documents/GitHub/Mythled/Content/CharacterAaron(1).fbx)
+[2019.11.05-19.37.30:877][126]LogFbx: Loading FBX Scene from C:/Users/nat/Documents/GitHub/Mythled/Content/CharacterAaron(1).fbx
+[2019.11.05-19.37.31:109][126]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.05-19.37.34:401][126]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.05-19.37.38:070][126]LogStaticMesh: Building static mesh CharacterAaron_1_...
+[2019.11.05-19.37.38:925][126]LogStaticMesh: Built static mesh [0.85s] /Game/CharacterAaron_1_.CharacterAaron_1_
+[2019.11.05-19.37.40:507][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.37.40:926][127]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_6A0C51884C7D47F46C0F3AA2D943E55D.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/CharacterAaron_1_.uasset'
+[2019.11.05-19.37.44:772][267]AssetReimport: Importing new asset /Game/CharacterAaron_1_.
+[2019.11.05-19.37.50:015][556]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 220
+[2019.11.05-19.37.50:648][591]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 210
+[2019.11.05-19.37.59:366][ 82]LogSlate: Window 'Message Log' being destroyed
+[2019.11.05-19.37.59:380][ 82]LogSlate: Window 'Message Log' being destroyed
+[2019.11.05-19.38.02:509][261]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 200
+[2019.11.05-19.38.06:944][384]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 190
+[2019.11.05-19.38.10:839][497]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={BD436528-4C13-5EAD-1E4D-908EC36A6949}
+[2019.11.05-19.38.12:391][543]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 180
+[2019.11.05-19.38.14:929][615]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 170
+[2019.11.05-19.38.26:645][958]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 160
+[2019.11.05-19.38.27:036][970]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 150
+[2019.11.05-19.38.34:378][186]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 140
+[2019.11.05-19.38.43:118][440]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 130
+[2019.11.05-19.38.44:115][467]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 120
+[2019.11.05-19.38.52:787][716]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 110
+[2019.11.05-19.38.59:566][912]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 100
+[2019.11.05-19.39.07:308][138]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 90
+[2019.11.05-19.39.08:519][174]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 80
+[2019.11.05-19.39.10:869][242]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={B01F245E-47E2-3268-828A-B489E68305CB}
+[2019.11.05-19.39.13:677][322]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/CharacterAaron_1_.CharacterAaron_1_
+[2019.11.05-19.39.16:755][322]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 70
+[2019.11.05-19.39.17:792][323]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 60
+[2019.11.05-19.39.19:742][391]LogRenderer: Reallocating scene render targets to support 1144x708 Format 10 NumSamples 1 (Frame:67).
+[2019.11.05-19.39.20:287][411]LogSlate: Window 'CharacterAaron_1_' being destroyed
+[2019.11.05-19.39.25:775][717]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 50
+[2019.11.05-19.39.30:095][964]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
+[2019.11.05-19.39.40:571][564]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 30
+[2019.11.05-19.39.46:896][931]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2019.11.05-19.39.53:206][294]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2019.11.05-19.39.57:400][536]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2019.11.05-19.40.04:358][938]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2019.11.05-19.40.06:979][ 90]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2019.11.05-19.40.08:105][156]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2019.11.05-19.42.00:397][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-19.42.00:685][881]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-19.45.35:235][832]LogSlate: Window 'Source Control Login' being destroyed
+[2019.11.05-19.45.50:748][754]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-19.45.51:049][754]EditorErrors: Warning: No assets to check in!
+[2019.11.05-19.46.04:701][563]LogSlate: Window 'Source Control Login' being destroyed
+[2019.11.05-19.47.11:224][235]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={3F30C568-44A3-AFA0-0A13-9FB3E24569FF}
+[2019.11.05-19.47.36:899][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.47.37:035][390]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_DBB639F94FBAF01F7C40B38800384505.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset'
+[2019.11.05-19.47.38:029][390]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.11.05-19.47.38:062][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.11.05-19.47.38:085][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.46:738][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Skins" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Skins.uasset" SILENT=true
+[2019.11.05-19.47.46:759][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Skins67B8A4D649A01B0701C5FC9EBE2AC411.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Skins.uasset'
+[2019.11.05-19.47.47:195][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bottes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Bottes.uasset" SILENT=true
+[2019.11.05-19.47.47:215][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Bottes63C0875241AECEAA3F7CA08B48439072.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Bottes.uasset'
+[2019.11.05-19.47.47:625][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BottesTop" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/BottesTop.uasset" SILENT=true
+[2019.11.05-19.47.47:651][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BottesTop2CF954CD4D74A9EC89B2CA972B08D0A9.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/BottesTop.uasset'
+[2019.11.05-19.47.48:114][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Eyes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Eyes.uasset" SILENT=true
+[2019.11.05-19.47.48:135][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Eyes2F2F991C427311564476CFA6018BA0C2.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Eyes.uasset'
+[2019.11.05-19.47.48:562][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Glass" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Glass.uasset" SILENT=true
+[2019.11.05-19.47.48:583][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Glass832F581847844C7AB068FFB099B5F667.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Glass.uasset'
+[2019.11.05-19.47.49:026][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Hair" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Hair.uasset" SILENT=true
+[2019.11.05-19.47.49:047][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Hair45A9DB8C4BB9E2BE93A5B2945A4B3F87.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Hair.uasset'
+[2019.11.05-19.47.49:467][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lips" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Lips.uasset" SILENT=true
+[2019.11.05-19.47.49:487][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Lips009A0B5D4601E120F017A5B04BEAE0D0.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Lips.uasset'
+[2019.11.05-19.47.49:943][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Material.uasset" SILENT=true
+[2019.11.05-19.47.49:965][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Material6E4AD6634C81CE382CEE46A46F496829.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Material.uasset'
+[2019.11.05-19.47.50:419][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pants" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Pants.uasset" SILENT=true
+[2019.11.05-19.47.50:442][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Pants0EAE7AFB454808EBD00955A2024588A7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Pants.uasset'
+[2019.11.05-19.47.51:051][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PointEye" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/PointEye.uasset" SILENT=true
+[2019.11.05-19.47.51:074][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PointEyeCA5A9479441CB8CB43AC36AA427B73C0.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/PointEye.uasset'
+[2019.11.05-19.47.51:513][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Shirt" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Shirt.uasset" SILENT=true
+[2019.11.05-19.47.51:535][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/ShirtBE2A4A70459185420214BABAECBBD801.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Shirt.uasset'
+[2019.11.05-19.47.54:930][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.54:964][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.47.54:991][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.47.55:014][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.47.55:038][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.11.05-19.47.55:062][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.47.55:085][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.55:110][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.11.05-19.47.55:139][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.47.55:161][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.55:184][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.11.05-19.47.55:214][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.11.05-19.47.55:241][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.05-19.47.55:445][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.47.55:572][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_8BDEFE244E79B6226B7D97AD3EE62B6B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.04:293][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.48.04:412][899]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_1D1252AD4766BD752BCC03A4BEE6C7D8.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.05:780][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.05-19.48.05:818][899]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.11.05-19.48.05:843][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.48.06:200][899]SourceControl: rm 'Content/Assets/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.17:228][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Bottes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes.uasset" SILENT=true
+[2019.11.05-19.48.17:250][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Bottes01CD184148904FC0B89CC88D5FC14B93.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes.uasset'
+[2019.11.05-19.48.17:784][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/BottesTop" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop.uasset" SILENT=true
+[2019.11.05-19.48.17:806][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BottesTop2C6399BA4A752006D41BF69E64798BAD.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop.uasset'
+[2019.11.05-19.48.18:305][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Eyes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes.uasset" SILENT=true
+[2019.11.05-19.48.18:326][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/EyesA27DB3FE41B2ECFE4742ADAD17909126.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes.uasset'
+[2019.11.05-19.48.18:754][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Glass" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass.uasset" SILENT=true
+[2019.11.05-19.48.18:775][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GlassF41CDECD4215E4BB72161588958B7E3C.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass.uasset'
+[2019.11.05-19.48.19:241][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Hair" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair.uasset" SILENT=true
+[2019.11.05-19.48.19:262][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/HairDECBBDAF4D9B56E7D0F6AD801A82F56A.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair.uasset'
+[2019.11.05-19.48.19:742][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Lips" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips.uasset" SILENT=true
+[2019.11.05-19.48.19:762][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Lips264444C640688D7E5C23E88652FB5D4D.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips.uasset'
+[2019.11.05-19.48.20:308][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Material" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material.uasset" SILENT=true
+[2019.11.05-19.48.20:328][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Material2550301B4762F9CB22ABFDB591360156.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material.uasset'
+[2019.11.05-19.48.20:820][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Pants" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants.uasset" SILENT=true
+[2019.11.05-19.48.20:839][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PantsDD03CF4148B9127B7EEC3C83C4045C99.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants.uasset'
+[2019.11.05-19.48.21:306][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/PointEye" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye.uasset" SILENT=true
+[2019.11.05-19.48.21:326][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PointEyeB75AFCAD40255B3EF9EB719D6FB69D70.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye.uasset'
+[2019.11.05-19.48.21:793][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Shirt" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt.uasset" SILENT=true
+[2019.11.05-19.48.21:814][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/ShirtBC74FEA14E4813E4CEEBB281E99D14B7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt.uasset'
+[2019.11.05-19.48.22:293][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Skins" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins.uasset" SILENT=true
+[2019.11.05-19.48.22:312][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Skins42CD9E474A4F85EE73A22DB03AEC2602.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins.uasset'
+[2019.11.05-19.48.27:455][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.05-19.48.27:486][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.11.05-19.48.27:512][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.48.27:534][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.05-19.48.27:559][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.48.27:584][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.48.27:606][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.11.05-19.48.27:629][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.48.27:657][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.48.27:682][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.05-19.48.27:707][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.48.27:740][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.11.05-19.48.27:765][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Bottes.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/BottesTop.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Eyes.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Glass.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Hair.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Lips.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Material.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Pants.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/PointEye.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Shirt.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Skins.uasset'
+[2019.11.05-19.48.28:325][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.48.28:435][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_5AC3A3FA4A63B593E9263D9EDD6AB8A6.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.36:496][494]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.05-19.48.45:803][  3]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-19.48.47:953][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 121 classes and 0 folders.
+[2019.11.05-19.48.54:373][103]LogSlate: Window 'Aaron_BP' being destroyed
+[2019.11.05-19.48.56:696][225]LogSlate: Took 0.038567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.05-19.49.20:046][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-19.49.20:110][504]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Aaron_BP2146B2B341BD43E2C5EAB8AC87030C89.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-19.49.30:451][ 82]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-19.49.52:019][348]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-19.50.04:316][348]LogSlate: Window 'Submit Files' being destroyed
+[2019.11.05-19.50.06:167][348]LogSourceControl: commit successful: [master 849e5f7] aaron blueprint
+[2019.11.05-19.50.06:723][348]SourceControl: [master 849e5f7] aaron blueprint
+[2019.11.05-19.50.06:723][348]SourceControl:  14 files changed, 0 insertions(+), 0 deletions(-)
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Bottes.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/BottesTop.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Eyes.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Glass.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Hair.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Lips.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Material.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Pants.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/PointEye.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Shirt.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Skins.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Models/CharacterAaron_1_.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Blueprints/Character/Aaron_BP.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  delete mode 100644 Content/CharacterAaron(1).fbx
+[2019.11.05-19.50.06:737][348]SourceControl: Commited [master 849e5f7] aaron blueprint.
+[2019.11.05-19.51.38:614][137]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-19.51.49:551][683]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-19.51.49:557][683]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-19.52.10:644][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Bottes_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes_MAT.uasset" SILENT=true
+[2019.11.05-19.52.10:664][717]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Bottes_MAT268910144150349AE0997AAD18D21020.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes_MAT.uasset'
+[2019.11.05-19.52.11:078][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Bottes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes.uasset" SILENT=true
+[2019.11.05-19.52.11:094][717]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BottesDDD7C1E2482ED3B6E4187CAEDACC28AB.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes.uasset'
+[2019.11.05-19.52.22:191][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/BottesTop_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop_MAT.uasset" SILENT=true
+[2019.11.05-19.52.22:211][237]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BottesTop_MAT3E4986034C63336A724DC6AFF64A1421.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop_MAT.uasset'
+[2019.11.05-19.52.22:598][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/BottesTop" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop.uasset" SILENT=true
+[2019.11.05-19.52.22:616][237]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BottesTop7619CCE549FEB7CDBCE9BF90DD443AEE.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop.uasset'
+[2019.11.05-19.52.33:255][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Eyes_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes_MAT.uasset" SILENT=true
+[2019.11.05-19.52.33:283][727]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Eyes_MATEDBE29D34E88EAF81868ADA0D6681827.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes_MAT.uasset'
+[2019.11.05-19.52.33:710][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Eyes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes.uasset" SILENT=true
+[2019.11.05-19.52.33:727][727]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/EyesFEB4F18F4B6B50A960A6C1AE482BB7ED.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes.uasset'
+[2019.11.05-19.52.42:613][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Glass_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass_MAT.uasset" SILENT=true
+[2019.11.05-19.52.42:632][ 99]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Glass_MAT8B3652BE4711FC373CEF7F98494BF7AE.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass_MAT.uasset'
+[2019.11.05-19.52.43:024][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Glass" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass.uasset" SILENT=true
+[2019.11.05-19.52.43:162][ 99]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GlassCAF68A0246CEC5CB20AF758CE4820D89.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass.uasset'
+[2019.11.05-19.53.11:390][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Hair_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair_MAT.uasset" SILENT=true
+[2019.11.05-19.53.11:412][328]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Hair_MAT1989D7F64381BF96778D73851AEA1471.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair_MAT.uasset'
+[2019.11.05-19.53.11:895][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Hair" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair.uasset" SILENT=true
+[2019.11.05-19.53.11:912][328]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/HairF0A61F0240F25517CE579FB47F712F7D.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair.uasset'
+[2019.11.05-19.53.21:322][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Lips_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips_MAT.uasset" SILENT=true
+[2019.11.05-19.53.21:344][714]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Lips_MAT2F954289405013D4ECC724BD4CDD2279.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips_MAT.uasset'
+[2019.11.05-19.53.21:754][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Lips" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips.uasset" SILENT=true
+[2019.11.05-19.53.21:773][714]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Lips2C3CD84744A62B6FD0DF42ABB05D85DE.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips.uasset'
+[2019.11.05-19.53.29:935][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Material_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material_MAT.uasset" SILENT=true
+[2019.11.05-19.53.29:956][ 50]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Material_MAT4C53D1584FBEFFB73095AF8F1CC92B74.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material_MAT.uasset'
+[2019.11.05-19.53.30:412][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Material" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material.uasset" SILENT=true
+[2019.11.05-19.53.30:432][ 50]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Material71A9732441C4325D20B91D870D1F3B2B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material.uasset'
+[2019.11.05-19.53.38:849][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Pants_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants_MAT.uasset" SILENT=true
+[2019.11.05-19.53.38:871][381]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Pants_MAT26EA1B63425864CB33560DA426B1DC19.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants_MAT.uasset'
+[2019.11.05-19.53.39:327][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Pants" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants.uasset" SILENT=true
+[2019.11.05-19.53.39:347][381]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Pants2C7DFD4A4BC2606FE3BF138AA46BA8E4.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants.uasset'
+[2019.11.05-19.53.47:645][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/PointEye_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye_MAT.uasset" SILENT=true
+[2019.11.05-19.53.47:665][726]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PointEye_MAT60A2BBDD463DF4268ABB3AABF42F7788.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye_MAT.uasset'
+[2019.11.05-19.53.48:135][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/PointEye" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye.uasset" SILENT=true
+[2019.11.05-19.53.48:155][726]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PointEye469E46F24AB6092407FEBC9777DC81BA.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye.uasset'
+[2019.11.05-19.53.58:756][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Shirt_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt_MAT.uasset" SILENT=true
+[2019.11.05-19.53.58:777][187]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Shirt_MATF44F0A2C46723C2A947AC2BF71A5A1BF.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt_MAT.uasset'
+[2019.11.05-19.53.59:227][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Shirt" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt.uasset" SILENT=true
+[2019.11.05-19.53.59:246][187]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Shirt6B5B69D6435167D38728179895223E9A.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt.uasset'
+[2019.11.05-19.54.08:370][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Skins_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins_MAT.uasset" SILENT=true
+[2019.11.05-19.54.08:391][570]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Skins_MATE3E2AD0641666800DCCA15BAF9BA6C6F.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins_MAT.uasset'
+[2019.11.05-19.54.08:869][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Skins" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins.uasset" SILENT=true
+[2019.11.05-19.54.08:905][570]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/SkinsC706BB714DE7B79F21C0B98D4732790A.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins.uasset'
+[2019.11.05-19.54.53:866][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Aaron_AST" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/Aaron_AST.uasset" SILENT=true
+[2019.11.05-19.54.53:987][126]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Aaron_AST7A6E821F48F1B23700C827A6F1CFB54B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/Aaron_AST.uasset'
+[2019.11.05-19.54.54:593][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.54.54:688][126]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_403F3AAC4C14F0DDF836D5A68A4AC6F7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset'
+[2019.11.05-19.55.03:812][626]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-19.55.15:478][626]LogSlate: Window 'Submit Files' being destroyed
+[2019.11.05-19.55.16:849][626]LogSourceControl: commit successful: [master c7462b8] Renomage de ficher
+[2019.11.05-19.55.17:233][626]SourceControl: [master c7462b8] Renomage de ficher
+[2019.11.05-19.55.17:233][626]SourceControl:  25 files changed, 4 insertions(+), 3 deletions(-)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Bottes.uasset (100%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/BottesTop.uasset (100%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{BottesTop.uasset => BottesTop_MAT.uasset} (97%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{Bottes.uasset => Bottes_MAT.uasset} (98%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Eyes.uasset (99%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{Eyes.uasset => Eyes_MAT.uasset} (97%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Glass.uasset (99%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{Glass.uasset => Glass_MAT.uasset} (97%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Hair.uasset (100%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{Hair.uasset => Hair_MAT.uasset} (98%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Lips.uasset (100%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{Lips.uasset => Lips_MAT.uasset} (97%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Material.uasset (100%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{Material.uasset => Material_MAT.uasset} (97%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Pants.uasset (100%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{Pants.uasset => Pants_MAT.uasset} (98%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/PointEye.uasset (100%)
+[2019.11.05-19.55.17:233][626]SourceControl:  copy Content/Assets/Materials/{PointEye.uasset => PointEye_MAT.uasset} (98%)
+[2019.11.05-19.55.17:233][626]SourceControl:  rewrite Content/Assets/Materials/Shirt.uasset (100%)
+[2019.11.05-19.55.17:234][626]SourceControl:  copy Content/Assets/Materials/{Shirt.uasset => Shirt_MAT.uasset} (98%)
+[2019.11.05-19.55.17:234][626]SourceControl:  rewrite Content/Assets/Materials/Skins.uasset (100%)
+[2019.11.05-19.55.17:234][626]SourceControl:  copy Content/Assets/Materials/{Skins.uasset => Skins_MAT.uasset} (98%)
+[2019.11.05-19.55.17:234][626]SourceControl:  copy Content/Assets/Models/{CharacterAaron_1_.uasset => Aaron_AST.uasset} (97%)
+[2019.11.05-19.55.17:234][626]SourceControl:  rewrite Content/Assets/Models/CharacterAaron_1_.uasset (99%)
+[2019.11.05-19.55.17:248][626]SourceControl: Commited [master c7462b8] Renomage de ficher.
+[2019.11.05-19.57.49:290][916]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2019.11.05-19.58.03:248][916]LogSlate: Window 'Replace References?' being destroyed
+[2019.11.05-19.58.03:253][916]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.05-19.58.06:348][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.11.05-19.58.10:402][916]LogSlate: Window 'Save Content' being destroyed
+[2019.11.05-19.58.15:452][203]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-19.58.15:743][203]EditorErrors: Warning: No assets to check in!
+[2019.11.05-19.58.16:528][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.11.05-19.58.16:528][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Maps/BaseMap_MAP' took 0.029
+[2019.11.05-19.58.16:531][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Materials/test_default_MAT] ([1] browsable assets)...
+[2019.11.05-19.58.16:557][239]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Materials/test_default_MAT.Test_Default_MAT]
+[2019.11.05-19.58.16:557][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/test_default_MAT]
+[2019.11.05-19.58.16:586][239]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/test_default_MAT_Auto1ABA86A0943EBFA2EC67DDE9B8A02F70B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/Assets/Materials/test_default_MAT_Auto1.uasset'
+[2019.11.05-19.58.16:590][239]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/test_default_MAT] ([1] browsable assets)...
+[2019.11.05-19.58.16:590][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/test_default_MAT]
+[2019.11.05-19.58.16:590][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test_default_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/test_default_MAT_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.58.16:600][239]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/test_default_MAT_Auto1C064533C47C1F0E9AC0B1C886CFD97AA.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/test_default_MAT_Auto1.uasset'
+[2019.11.05-19.58.16:603][239]LogFileHelpers: Auto-saving content packages took 0.074
+[2019.11.05-20.01.14:481][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-20.01.42:657][331]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-20.01.42:690][331]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-20.01.42:693][331]LogObjectTools: Deleting 1 worlds: /Game/Maps/BaseMap_MAP.BaseMap_MAP
+[2019.11.05-20.01.42:693][331]LogObjectTools: Currently 3 active worlds: /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP, /Engine/Transient.World_0, /Engine/Transient.World_1
+[2019.11.05-20.01.42:723][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.11.05-20.01.45:982][331]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.05-20.01.46:340][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.11.05-20.01.46:376][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.05-20.01.46:411][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.05-20.01.46:438][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.11.05-20.01.46:862][331]SourceControl: Error: Updated 0 paths from the index
+[2019.11.05-20.01.47:165][331]SourceControl: rm 'Content/Maps/BaseMap_MAP.umap'
+[2019.11.05-20.01.47:165][331]SourceControl: rm 'Content/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-20.01.50:609][469]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-20.02.01:747][ 23]SourceControl: fatal: /Script: '/Script' is outside repository
+[2019.11.05-20.02.10:029][411]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-20.02.10:038][411]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-20.02.16:389][789]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-20.02.26:038][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maps/BaseMap_MAP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.05-20.02.26:097][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.11.05-20.02.26:307][333]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP8D88FE014505B1F0C654949E61B11E34.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap'
+[2019.11.05-20.02.26:502][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maps/BaseMap_MAP_BuiltData" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP_BuiltData.uasset" SILENT=true
+[2019.11.05-20.02.26:531][333]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP_BuiltDataFBC4F5904EC786E0AD64A395B6BFDCC2.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-20.03.19:827][682]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.11.05-20.03.30:755][682]LogSlate: Window 'Save Content' being destroyed
+[2019.11.05-20.03.30:855][682]LogSlate: Window 'Mythled - Unreal Editor' being destroyed
+[2019.11.05-20.03.31:075][683]Cmd: QUIT_EDITOR
+[2019.11.05-20.03.31:296][683]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.05-20.03.31:302][683]LogExit: Preparing to exit.
+[2019.11.05-20.03.31:815][683]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-20.03.31:821][683]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-20.03.31:866][683]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.11.05-20.03.31:876][683]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-20.03.31:876][683]LogExit: Editor shut down
+[2019.11.05-20.03.31:876][683]LogExit: Transaction tracking system shut down
+[2019.11.05-20.03.32:309][683]LogExit: Object subsystem successfully closed.
+[2019.11.05-20.03.32:332][683]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.05-20.03.32:369][683]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (676)
+[2019.11.05-20.03.32:369][683]LogModuleManager: Shutting down and abandoning module BlueprintGraph (674)
+[2019.11.05-20.03.32:369][683]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (672)
+[2019.11.05-20.03.32:369][683]LogModuleManager: Shutting down and abandoning module MeshBuilder (670)
+[2019.11.05-20.03.32:369][683]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (668)
+[2019.11.05-20.03.32:369][683]LogModuleManager: Shutting down and abandoning module SceneOutliner (666)
+[2019.11.05-20.03.32:369][683]LogModuleManager: Shutting down and abandoning module AddContentDialog (664)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module WidgetCarousel (663)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module EditorWidgets (660)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module CollectionManager (658)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module StatsViewer (656)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (654)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module FoliageEdit (652)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module LandscapeEditor (650)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module MeshPaintMode (648)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (646)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module ActorPickerMode (644)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module GeometryMode (642)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module TextureAlignMode (640)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module BspMode (638)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (636)
+[2019.11.05-20.03.32:370][683]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (634)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module AutomationWorker (632)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module OculusMR (630)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (628)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (626)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (624)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module PlacementMode (623)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MaterialEditor (622)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (618)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (616)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (614)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (612)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (610)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module WebMMedia (608)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (606)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (604)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module SequenceRecorder (603)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (600)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (598)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (596)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (594)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (592)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (590)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (588)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (586)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (584)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (582)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (580)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module CharacterAI (578)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module SmartSnapping (576)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module SessionServices (574)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module MeshPaint (572)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module ViewportSnapping (570)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module ViewportInteraction (568)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module ClothPainter (566)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (565)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module LogVisualizer (562)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module IntroTutorials (560)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (559)
+[2019.11.05-20.03.32:371][683]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (556)
+[2019.11.05-20.03.32:372][683]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (554)
+[2019.11.05-20.03.32:372][683]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (552)
+[2019.11.05-20.03.32:372][683]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (550)
+[2019.11.05-20.03.32:372][683]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (549)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (546)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (544)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (542)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (540)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (538)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module InputBindingEditor (536)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module MergeActors (534)
+[2019.11.05-20.03.32:985][683]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (532)
+[2019.11.05-20.03.32:986][683]LogModuleManager: Shutting down and abandoning module LocalizationService (531)
+[2019.11.05-20.03.32:986][683]LogModuleManager: Shutting down and abandoning module HardwareTargeting (528)
+[2019.11.05-20.03.32:986][683]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (526)
+[2019.11.05-20.03.32:986][683]LogModuleManager: Shutting down and abandoning module UndoHistory (524)
+[2019.11.05-20.03.32:986][683]LogModuleManager: Shutting down and abandoning module XmlParser (522)
+[2019.11.05-20.03.32:986][683]LogModuleManager: Shutting down and abandoning module Blutility (520)
+[2019.11.05-20.03.32:986][683]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (518)
+[2019.11.05-20.03.32:987][683]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (517)
+[2019.11.05-20.03.32:987][683]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (514)
+[2019.11.05-20.03.32:987][683]LogModuleManager: Shutting down and abandoning module SettingsEditor (512)
+[2019.11.05-20.03.32:988][683]LogModuleManager: Shutting down and abandoning module ProjectLauncher (510)
+[2019.11.05-20.03.32:988][683]LogModuleManager: Shutting down and abandoning module SessionFrontend (508)
+[2019.11.05-20.03.32:988][683]LogModuleManager: Shutting down and abandoning module ProfilerClient (506)
+[2019.11.05-20.03.32:988][683]LogModuleManager: Shutting down and abandoning module DeviceManager (504)
+[2019.11.05-20.03.32:988][683]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (503)
+[2019.11.05-20.03.33:033][683]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2019.11.05-20.03.33:033][683]LogModuleManager: Shutting down and abandoning module AutomationWindow (498)
+[2019.11.05-20.03.33:033][683]LogModuleManager: Shutting down and abandoning module Layers (496)
+[2019.11.05-20.03.33:033][683]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (494)
+[2019.11.05-20.03.33:033][683]LogModuleManager: Shutting down and abandoning module DetailCustomizations (492)
+[2019.11.05-20.03.33:033][683]LogModuleManager: Shutting down and abandoning module PackagesDialog (490)
+[2019.11.05-20.03.33:034][683]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (488)
+[2019.11.05-20.03.33:034][683]LogModuleManager: Shutting down and abandoning module Persona (486)
+[2019.11.05-20.03.33:034][683]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (485)
+[2019.11.05-20.03.33:035][683]LogModuleManager: Shutting down and abandoning module AnimGraph (483)
+[2019.11.05-20.03.33:035][683]LogModuleManager: Shutting down and abandoning module Kismet (480)
+[2019.11.05-20.03.33:050][683]LogModuleManager: Shutting down and abandoning module KismetWidgets (479)
+[2019.11.05-20.03.33:050][683]LogModuleManager: Shutting down and abandoning module GraphEditor (476)
+[2019.11.05-20.03.33:050][683]LogModuleManager: Shutting down and abandoning module StructViewer (474)
+[2019.11.05-20.03.33:050][683]LogModuleManager: Shutting down and abandoning module ClassViewer (472)
+[2019.11.05-20.03.33:055][683]LogModuleManager: Shutting down and abandoning module Toolbox (470)
+[2019.11.05-20.03.33:055][683]LogModuleManager: Shutting down and abandoning module ModuleUI (468)
+[2019.11.05-20.03.33:055][683]LogModuleManager: Shutting down and abandoning module MovieSceneTools (466)
+[2019.11.05-20.03.33:055][683]LogModuleManager: Shutting down and abandoning module OutputLog (464)
+[2019.11.05-20.03.33:056][683]LogModuleManager: Shutting down and abandoning module GammaUI (462)
+[2019.11.05-20.03.33:056][683]LogModuleManager: Shutting down and abandoning module Documentation (460)
+[2019.11.05-20.03.33:056][683]LogModuleManager: Shutting down and abandoning module LiveCoding (458)
+[2019.11.05-20.03.33:057][683]LogModuleManager: Shutting down and abandoning module LevelSequence (456)
+[2019.11.05-20.03.33:057][683]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (454)
+[2019.11.05-20.03.33:057][683]LogModuleManager: Shutting down and abandoning module MovieScene (452)
+[2019.11.05-20.03.33:057][683]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (450)
+[2019.11.05-20.03.33:057][683]LogModuleManager: Shutting down and abandoning module LauncherPlatform (448)
+[2019.11.05-20.03.33:057][683]LogModuleManager: Shutting down and abandoning module AnalyticsET (446)
+[2019.11.05-20.03.33:057][683]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2019.11.05-20.03.33:058][683]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2019.11.05-20.03.33:058][683]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2019.11.05-20.03.33:058][683]LogModuleManager: Shutting down and abandoning module AIModule (438)
+[2019.11.05-20.03.33:058][683]LogModuleManager: Shutting down and abandoning module GameplayDebugger (437)
+[2019.11.05-20.03.33:058][683]LogModuleManager: Shutting down and abandoning module AITestSuite (435)
+[2019.11.05-20.03.33:058][683]LogModuleManager: Shutting down and abandoning module NavigationSystem (433)
+[2019.11.05-20.03.33:059][683]LogModuleManager: Shutting down and abandoning module DesktopPlatform (430)
+[2019.11.05-20.03.33:059][683]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (428)
+[2019.11.05-20.03.33:069][683]LogModuleManager: Shutting down and abandoning module ProfilerService (426)
+[2019.11.05-20.03.33:295][683]LogModuleManager: Shutting down and abandoning module TaskGraph (424)
+[2019.11.05-20.03.33:295][683]LogModuleManager: Shutting down and abandoning module ScreenshotTools (422)
+[2019.11.05-20.03.33:295][683]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
+[2019.11.05-20.03.33:295][683]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module OculusInput (412)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module CableComponent (404)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
+[2019.11.05-20.03.33:296][683]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (398)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module AppleImageUtils (396)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module AndroidPermission (394)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (392)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (390)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module MediaCompositing (388)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module ImgMedia (386)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module HTML5Networking (378)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (376)
+[2019.11.05-20.03.33:297][683]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (374)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module BackChannel (372)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (370)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module AutomationUtils (368)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module AlembicImporter (366)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module AlembicLibrary (365)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module GeometryCache (364)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (363)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module VariantManagerContent (358)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (356)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (354)
+[2019.11.05-20.03.33:298][683]LogModuleManager: Shutting down and abandoning module PluginBrowser (352)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (350)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (348)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module CurveEditorTools (346)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module CurveEditor (345)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (342)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module CryptoKeys (340)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (338)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
+[2019.11.05-20.03.33:299][683]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (330)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module GitSourceControl (328)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module SourceControl (327)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (322)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (320)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (318)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (316)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (314)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (312)
+[2019.11.05-20.03.33:300][683]LogModuleManager: Shutting down and abandoning module Paper2DEditor (310)
+[2019.11.05-20.03.33:301][683]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2019.11.05-20.03.33:301][683]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2019.11.05-20.03.33:301][683]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2019.11.05-20.03.33:301][683]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2019.11.05-20.03.33:301][683]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2019.11.05-20.03.33:301][683]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2019.11.05-20.03.33:402][683]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2019.11.05-20.03.33:503][683]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2019.11.05-20.03.33:503][683]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2019.11.05-20.03.33:503][683]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2019.11.05-20.03.33:503][683]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2019.11.05-20.03.33:503][683]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2019.11.05-20.03.33:503][683]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.05-20.03.33:504][683]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2019.11.05-20.03.33:504][683]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2019.11.05-20.03.33:504][683]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.11.05-20.03.33:504][683]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.11.05-20.03.33:504][683]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.11.05-20.03.33:504][683]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.11.05-20.03.33:504][683]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.11.05-20.03.33:505][683]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.11.05-20.03.33:507][683]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.11.05-20.03.33:507][683]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.11.05-20.03.33:508][683]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.11.05-20.03.33:509][683]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.11.05-20.03.33:510][683]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.11.05-20.03.33:513][683]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.11.05-20.03.33:513][683]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2019.11.05-20.03.33:513][683]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.11.05-20.03.33:513][683]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.11.05-20.03.33:514][683]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.11.05-20.03.33:522][683]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.11.05-20.03.33:522][683]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2019.11.05-20.03.33:522][683]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2019.11.05-20.03.33:522][683]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2019.11.05-20.03.33:522][683]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2019.11.05-20.03.33:522][683]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2019.11.05-20.03.33:522][683]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2019.11.05-20.03.33:523][683]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2019.11.05-20.03.33:524][683]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2019.11.05-20.03.33:524][683]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2019.11.05-20.03.33:524][683]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2019.11.05-20.03.33:524][683]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2019.11.05-20.03.33:524][683]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2019.11.05-20.03.33:524][683]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.11.05-20.03.33:529][683]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2019.11.05-20.03.33:529][683]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.11.05-20.03.33:529][683]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.11.05-20.03.33:529][683]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.11.05-20.03.33:530][683]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2019.11.05-20.03.33:531][683]LogDerivedDataCache: Shutdown
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2019.11.05-20.03.33:531][683]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2019.11.05-20.03.33:532][683]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2019.11.05-20.03.33:532][683]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2019.11.05-20.03.33:532][683]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2019.11.05-20.03.33:532][683]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2019.11.05-20.03.33:532][683]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2019.11.05-20.03.33:532][683]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2019.11.05-20.03.33:533][683]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2019.11.05-20.03.33:533][683]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2019.11.05-20.03.33:533][683]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2019.11.05-20.03.33:533][683]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2019.11.05-20.03.33:533][683]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2019.11.05-20.03.33:533][683]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2019.11.05-20.03.33:539][683]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2019.11.05-20.03.33:540][683]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2019.11.05-20.03.33:540][683]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2019.11.05-20.03.33:540][683]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2019.11.05-20.03.33:540][683]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2019.11.05-20.03.33:547][683]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2019.11.05-20.03.33:547][683]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2019.11.05-20.03.33:552][683]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2019.11.05-20.03.33:552][683]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2019.11.05-20.03.33:579][683]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2019.11.05-20.03.33:580][683]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2019.11.05-20.03.33:580][683]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2019.11.05-20.03.33:581][683]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2019.11.05-20.03.33:581][683]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2019.11.05-20.03.33:606][683]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2019.11.05-20.03.33:606][683]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.05-20.03.33:606][683]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B897F521F-4F7A-F31B-C260-A1A97026C996%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=005e6b31420e4b7424f53ca262cd64d2%7Cdc4ea6c94623442da2fa81906ab5101d%7C471d2789-5586-44a5-b1e5-c6a630d6839b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.05-20.03.33:637][683]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2019.11.05-20.03.33:639][683]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2019.11.05-20.03.33:642][683]LogModuleManager: Shutting down and abandoning module Media (51)
+[2019.11.05-20.03.33:643][683]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2019.11.05-20.03.33:643][683]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2019.11.05-20.03.33:644][683]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2019.11.05-20.03.33:644][683]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2019.11.05-20.03.33:644][683]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2019.11.05-20.03.33:644][683]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.05-20.03.33:644][683]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.05-20.03.33:645][683]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.05-20.03.33:645][683]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.05-20.03.33:645][683]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.05-20.03.33:645][683]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.05-20.03.33:645][683]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.05-20.03.33:648][683]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.05-20.03.33:648][683]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.05-20.03.33:648][683]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.05-20.03.33:648][683]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.05-20.03.33:649][683]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.05-20.03.33:662][683]LogD3D11RHI: Shutdown
+[2019.11.05-20.03.33:662][683]LogD3D11RHI: CleanupD3DDevice
+[2019.11.05-20.03.33:663][683]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.05-20.03.33:663][683]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.05-20.03.33:663][683]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.05-20.03.33:812][683]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.05-20.03.33:817][683]LogExit: Exiting.
+[2019.11.05-20.03.33:836][683]Log file closed, 11/05/19 15:03:33
+>>>>>>> ba6b73491962b540ad429eb102bba1e33439cbdf
