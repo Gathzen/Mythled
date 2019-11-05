@@ -1,0 +1,6 @@
+
+*.log
+Intermediate/CachedAssetRegistry.bin
+*.bin
+*.log
+*.bin
