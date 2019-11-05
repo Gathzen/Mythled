@@ -844,3 +844,22 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-15.36.38:208][812]SourceControl:  rewrite Content/Maps/BaseMap_MAP.umap (99%)
 [2019.11.05-15.36.38:208][812]SourceControl:  rewrite Content/Maps/BaseMap_MAP_BuiltData.uasset (99%)
 [2019.11.05-15.36.38:222][812]SourceControl: Commited [Nathaniel 2aed719] addition de ma map et de mon mode de jeu.
+[2019.11.05-15.37.54:837][602]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-15.37.56:170][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.11.05-15.37.57:248][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.11.05-15.37.57:272][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.05-15.37.57:301][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2019.11.05-15.37.57:325][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.11.05-15.37.58:397][602]SourceControl: Error: Updated 0 paths from the index
+[2019.11.05-15.37.58:832][602]SourceControl: rm 'Content/Maps/BaseMap_MAP.umap'
+[2019.11.05-15.37.58:832][602]SourceControl: rm 'Content/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-15.39.46:643][  1]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-15.39.56:384][  1]LogSlate: Window 'Submit Files' being destroyed
+[2019.11.05-15.40.10:675][835]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-15.40.50:305][835]LogSlate: Window 'Submit Files' being destroyed
+[2019.11.05-15.40.51:169][835]LogSourceControl: commit successful: [Nathaniel 09b1c94] modif de structure
+[2019.11.05-15.40.51:482][835]SourceControl: [Nathaniel 09b1c94] modif de structure
+[2019.11.05-15.40.51:482][835]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2019.11.05-15.40.51:482][835]SourceControl:  delete mode 100644 Content/Maps/BaseMap_MAP.umap
+[2019.11.05-15.40.51:482][835]SourceControl:  delete mode 100644 Content/Maps/BaseMap_MAP_BuiltData.uasset
+[2019.11.05-15.40.51:497][835]SourceControl: Commited [Nathaniel 09b1c94] modif de structure.
