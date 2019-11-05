@@ -814,3 +814,27 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-19.58.16:590][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test_default_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/test_default_MAT_Auto1.uasset" SILENT=false AUTOSAVING=true
 [2019.11.05-19.58.16:600][239]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/test_default_MAT_Auto1C064533C47C1F0E9AC0B1C886CFD97AA.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/test_default_MAT_Auto1.uasset'
 [2019.11.05-19.58.16:603][239]LogFileHelpers: Auto-saving content packages took 0.074
+[2019.11.05-20.01.14:481][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-20.01.42:657][331]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-20.01.42:690][331]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-20.01.42:693][331]LogObjectTools: Deleting 1 worlds: /Game/Maps/BaseMap_MAP.BaseMap_MAP
+[2019.11.05-20.01.42:693][331]LogObjectTools: Currently 3 active worlds: /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP, /Engine/Transient.World_0, /Engine/Transient.World_1
+[2019.11.05-20.01.42:723][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.11.05-20.01.45:982][331]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.05-20.01.46:340][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.11.05-20.01.46:376][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.05-20.01.46:411][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.05-20.01.46:438][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.11.05-20.01.46:862][331]SourceControl: Error: Updated 0 paths from the index
+[2019.11.05-20.01.47:165][331]SourceControl: rm 'Content/Maps/BaseMap_MAP.umap'
+[2019.11.05-20.01.47:165][331]SourceControl: rm 'Content/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-20.01.50:609][469]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-20.02.01:747][ 23]SourceControl: fatal: /Script: '/Script' is outside repository
+[2019.11.05-20.02.10:029][411]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-20.02.10:038][411]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-20.02.16:389][789]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-20.02.26:038][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maps/BaseMap_MAP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.05-20.02.26:097][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.11.05-20.02.26:307][333]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP8D88FE014505B1F0C654949E61B11E34.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap'
+[2019.11.05-20.02.26:502][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maps/BaseMap_MAP_BuiltData" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP_BuiltData.uasset" SILENT=true
+[2019.11.05-20.02.26:531][333]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP_BuiltDataFBC4F5904EC786E0AD64A395B6BFDCC2.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP_BuiltData.uasset'
