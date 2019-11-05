@@ -548,3 +548,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-15.08.03:207][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
 [2019.11.05-15.08.03:207][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
 [2019.11.05-15.08.03:208][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.05-15.09.17:436][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
