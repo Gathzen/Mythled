@@ -796,3 +796,21 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-19.55.17:234][626]SourceControl:  copy Content/Assets/Models/{CharacterAaron_1_.uasset => Aaron_AST.uasset} (97%)
 [2019.11.05-19.55.17:234][626]SourceControl:  rewrite Content/Assets/Models/CharacterAaron_1_.uasset (99%)
 [2019.11.05-19.55.17:248][626]SourceControl: Commited [master c7462b8] Renomage de ficher.
+[2019.11.05-19.57.49:290][916]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2019.11.05-19.58.03:248][916]LogSlate: Window 'Replace References?' being destroyed
+[2019.11.05-19.58.03:253][916]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.05-19.58.06:348][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.11.05-19.58.10:402][916]LogSlate: Window 'Save Content' being destroyed
+[2019.11.05-19.58.15:452][203]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-19.58.15:743][203]EditorErrors: Warning: No assets to check in!
+[2019.11.05-19.58.16:528][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.11.05-19.58.16:528][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Maps/BaseMap_MAP' took 0.029
+[2019.11.05-19.58.16:531][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Materials/test_default_MAT] ([1] browsable assets)...
+[2019.11.05-19.58.16:557][239]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Materials/test_default_MAT.Test_Default_MAT]
+[2019.11.05-19.58.16:557][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/test_default_MAT]
+[2019.11.05-19.58.16:586][239]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/test_default_MAT_Auto1ABA86A0943EBFA2EC67DDE9B8A02F70B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/Assets/Materials/test_default_MAT_Auto1.uasset'
+[2019.11.05-19.58.16:590][239]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/test_default_MAT] ([1] browsable assets)...
+[2019.11.05-19.58.16:590][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/test_default_MAT]
+[2019.11.05-19.58.16:590][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test_default_MAT" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/test_default_MAT_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.58.16:600][239]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/test_default_MAT_Auto1C064533C47C1F0E9AC0B1C886CFD97AA.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Autosaves/Game/test_default_MAT_Auto1.uasset'
+[2019.11.05-19.58.16:603][239]LogFileHelpers: Auto-saving content packages took 0.074
