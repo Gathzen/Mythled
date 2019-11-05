@@ -586,3 +586,132 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-19.40.08:105][156]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
 [2019.11.05-19.42.00:397][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.11.05-19.42.00:685][881]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-19.45.35:235][832]LogSlate: Window 'Source Control Login' being destroyed
+[2019.11.05-19.45.50:748][754]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-19.45.51:049][754]EditorErrors: Warning: No assets to check in!
+[2019.11.05-19.46.04:701][563]LogSlate: Window 'Source Control Login' being destroyed
+[2019.11.05-19.47.11:224][235]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={3F30C568-44A3-AFA0-0A13-9FB3E24569FF}
+[2019.11.05-19.47.36:899][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.47.37:035][390]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_DBB639F94FBAF01F7C40B38800384505.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset'
+[2019.11.05-19.47.38:029][390]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.11.05-19.47.38:062][390]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.11.05-19.47.38:085][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.46:738][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Skins" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Skins.uasset" SILENT=true
+[2019.11.05-19.47.46:759][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Skins67B8A4D649A01B0701C5FC9EBE2AC411.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Skins.uasset'
+[2019.11.05-19.47.47:195][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bottes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Bottes.uasset" SILENT=true
+[2019.11.05-19.47.47:215][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Bottes63C0875241AECEAA3F7CA08B48439072.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Bottes.uasset'
+[2019.11.05-19.47.47:625][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BottesTop" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/BottesTop.uasset" SILENT=true
+[2019.11.05-19.47.47:651][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BottesTop2CF954CD4D74A9EC89B2CA972B08D0A9.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/BottesTop.uasset'
+[2019.11.05-19.47.48:114][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Eyes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Eyes.uasset" SILENT=true
+[2019.11.05-19.47.48:135][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Eyes2F2F991C427311564476CFA6018BA0C2.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Eyes.uasset'
+[2019.11.05-19.47.48:562][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Glass" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Glass.uasset" SILENT=true
+[2019.11.05-19.47.48:583][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Glass832F581847844C7AB068FFB099B5F667.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Glass.uasset'
+[2019.11.05-19.47.49:026][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Hair" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Hair.uasset" SILENT=true
+[2019.11.05-19.47.49:047][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Hair45A9DB8C4BB9E2BE93A5B2945A4B3F87.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Hair.uasset'
+[2019.11.05-19.47.49:467][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lips" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Lips.uasset" SILENT=true
+[2019.11.05-19.47.49:487][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Lips009A0B5D4601E120F017A5B04BEAE0D0.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Lips.uasset'
+[2019.11.05-19.47.49:943][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Material" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Material.uasset" SILENT=true
+[2019.11.05-19.47.49:965][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Material6E4AD6634C81CE382CEE46A46F496829.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Material.uasset'
+[2019.11.05-19.47.50:419][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Pants" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Pants.uasset" SILENT=true
+[2019.11.05-19.47.50:442][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Pants0EAE7AFB454808EBD00955A2024588A7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Pants.uasset'
+[2019.11.05-19.47.51:051][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PointEye" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/PointEye.uasset" SILENT=true
+[2019.11.05-19.47.51:074][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PointEyeCA5A9479441CB8CB43AC36AA427B73C0.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/PointEye.uasset'
+[2019.11.05-19.47.51:513][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Shirt" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Shirt.uasset" SILENT=true
+[2019.11.05-19.47.51:535][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/ShirtBE2A4A70459185420214BABAECBBD801.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Shirt.uasset'
+[2019.11.05-19.47.54:930][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.54:964][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.47.54:991][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.47.55:014][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.47.55:038][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.11.05-19.47.55:062][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.47.55:085][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.55:110][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.11.05-19.47.55:139][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.47.55:161][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.47.55:184][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.11.05-19.47.55:214][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.11.05-19.47.55:241][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.05-19.47.55:445][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.47.55:572][603]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_8BDEFE244E79B6226B7D97AD3EE62B6B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.04:293][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.48.04:412][899]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_1D1252AD4766BD752BCC03A4BEE6C7D8.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.05:780][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.05-19.48.05:818][899]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.11.05-19.48.05:843][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.48.06:200][899]SourceControl: rm 'Content/Assets/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.17:228][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Bottes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes.uasset" SILENT=true
+[2019.11.05-19.48.17:250][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Bottes01CD184148904FC0B89CC88D5FC14B93.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Bottes.uasset'
+[2019.11.05-19.48.17:784][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/BottesTop" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop.uasset" SILENT=true
+[2019.11.05-19.48.17:806][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BottesTop2C6399BA4A752006D41BF69E64798BAD.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/BottesTop.uasset'
+[2019.11.05-19.48.18:305][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Eyes" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes.uasset" SILENT=true
+[2019.11.05-19.48.18:326][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/EyesA27DB3FE41B2ECFE4742ADAD17909126.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Eyes.uasset'
+[2019.11.05-19.48.18:754][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Glass" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass.uasset" SILENT=true
+[2019.11.05-19.48.18:775][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GlassF41CDECD4215E4BB72161588958B7E3C.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Glass.uasset'
+[2019.11.05-19.48.19:241][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Hair" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair.uasset" SILENT=true
+[2019.11.05-19.48.19:262][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/HairDECBBDAF4D9B56E7D0F6AD801A82F56A.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Hair.uasset'
+[2019.11.05-19.48.19:742][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Lips" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips.uasset" SILENT=true
+[2019.11.05-19.48.19:762][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Lips264444C640688D7E5C23E88652FB5D4D.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Lips.uasset'
+[2019.11.05-19.48.20:308][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Material" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material.uasset" SILENT=true
+[2019.11.05-19.48.20:328][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Material2550301B4762F9CB22ABFDB591360156.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Material.uasset'
+[2019.11.05-19.48.20:820][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Pants" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants.uasset" SILENT=true
+[2019.11.05-19.48.20:839][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PantsDD03CF4148B9127B7EEC3C83C4045C99.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Pants.uasset'
+[2019.11.05-19.48.21:306][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/PointEye" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye.uasset" SILENT=true
+[2019.11.05-19.48.21:326][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/PointEyeB75AFCAD40255B3EF9EB719D6FB69D70.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/PointEye.uasset'
+[2019.11.05-19.48.21:793][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Shirt" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt.uasset" SILENT=true
+[2019.11.05-19.48.21:814][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/ShirtBC74FEA14E4813E4CEEBB281E99D14B7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Shirt.uasset'
+[2019.11.05-19.48.22:293][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Skins" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins.uasset" SILENT=true
+[2019.11.05-19.48.22:312][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Skins42CD9E474A4F85EE73A22DB03AEC2602.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Materials/Skins.uasset'
+[2019.11.05-19.48.27:455][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.05-19.48.27:486][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.11.05-19.48.27:512][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.48.27:534][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.05-19.48.27:559][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.48.27:584][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.48.27:606][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.11.05-19.48.27:629][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.05-19.48.27:657][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.05-19.48.27:682][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.05-19.48.27:707][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-19.48.27:740][196]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.11.05-19.48.27:765][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Bottes.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/BottesTop.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Eyes.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Glass.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Hair.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Lips.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Material.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Pants.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/PointEye.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Shirt.uasset'
+[2019.11.05-19.48.28:121][196]SourceControl: rm 'Content/Assets/Skins.uasset'
+[2019.11.05-19.48.28:325][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/CharacterAaron_1_" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset" SILENT=true
+[2019.11.05-19.48.28:435][196]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/CharacterAaron_1_5AC3A3FA4A63B593E9263D9EDD6AB8A6.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Assets/Models/CharacterAaron_1_.uasset'
+[2019.11.05-19.48.36:496][494]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.05-19.48.45:803][  3]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-19.48.47:953][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 121 classes and 0 folders.
+[2019.11.05-19.48.54:373][103]LogSlate: Window 'Aaron_BP' being destroyed
+[2019.11.05-19.48.56:696][225]LogSlate: Took 0.038567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.05-19.49.20:046][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-19.49.20:110][504]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Aaron_BP2146B2B341BD43E2C5EAB8AC87030C89.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-19.49.30:451][ 82]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-19.49.52:019][348]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-19.50.04:316][348]LogSlate: Window 'Submit Files' being destroyed
+[2019.11.05-19.50.06:167][348]LogSourceControl: commit successful: [master 849e5f7] aaron blueprint
+[2019.11.05-19.50.06:723][348]SourceControl: [master 849e5f7] aaron blueprint
+[2019.11.05-19.50.06:723][348]SourceControl:  14 files changed, 0 insertions(+), 0 deletions(-)
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Bottes.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/BottesTop.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Eyes.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Glass.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Hair.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Lips.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Material.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Pants.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/PointEye.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Shirt.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Materials/Skins.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Assets/Models/CharacterAaron_1_.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  create mode 100644 Content/Blueprints/Character/Aaron_BP.uasset
+[2019.11.05-19.50.06:723][348]SourceControl:  delete mode 100644 Content/CharacterAaron(1).fbx
+[2019.11.05-19.50.06:737][348]SourceControl: Commited [master 849e5f7] aaron blueprint.
