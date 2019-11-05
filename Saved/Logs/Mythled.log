@@ -896,3 +896,592 @@ Make sure 'Aaron_BP_C' has been compiled for  Get BaseTurnRate
 [2019.11.05-21.24.08:793][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
 [2019.11.05-21.24.08:819][227]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BP97575F5E41F3A493DF80CEA094EC48CA.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
 [2019.11.05-21.24.28:298][802]LogRenderer: Reallocating scene render targets to support 1204x580 Format 10 NumSamples 1 (Frame:5463).
+[2019.11.05-21.26.37:246][682]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.26.37:249][682]LogBlueprint: Warning: [Compiler Aaron_BP] Could not find a variable named "BaseLookUpRate" in 'Aaron_BP_C'.
+Make sure 'Aaron_BP_C' has been compiled for  Get BaseLookUpRate
+[2019.11.05-21.26.37:249][682]LogBlueprint: Warning: [Compiler Aaron_BP] Could not find a variable named "BaseTurnRate" in 'Aaron_BP_C'.
+Make sure 'Aaron_BP_C' has been compiled for  Get BaseTurnRate
+[2019.11.05-21.26.37:251][682]LogBlueprint: Error: [Compiler Aaron_BP] The property associated with  Base Turn Rate  could not be found in '/Game/Blueprints/Character/Aaron_BP.Aaron_BP_C'
+[2019.11.05-21.26.37:251][682]LogBlueprint: Error: [Compiler Aaron_BP] The property associated with  Base Look Up Rate  could not be found in '/Game/Blueprints/Character/Aaron_BP.Aaron_BP_C'
+[2019.11.05-21.26.37:399][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.11.05-21.26.38:439][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.26.38:469][787]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BP3BCAFAFD405D79B2F4DCAA81A6790EE4.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.26.54:603][904]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-21.27.08:593][322]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.27.11:997][672]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.27.12:002][672]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.27.15:623][ 94]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-21.29.09:903][732]LogSlate: Took 0.018826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.05-21.29.13:716][979]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.11.05-21.29.18:512][477]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.11.05-21.29.18:515][477]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.11.05-21.29.23:098][ 22]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.29.23:100][ 22]LogBlueprint: Warning: [Compiler Aaron_BP] Could not find a variable named "BaseLookUpRate" in 'Aaron_BP_C'.
+Make sure 'Aaron_BP_C' has been compiled for  Get BaseLookUpRate
+[2019.11.05-21.29.23:102][ 22]LogBlueprint: Error: [Compiler Aaron_BP] The property associated with  Base Look Up Rate  could not be found in '/Game/Blueprints/Character/Aaron_BP.Aaron_BP_C'
+[2019.11.05-21.29.23:331][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.11.05-21.29.51:723][391]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.29.51:730][391]LogClass: Warning: Type mismatch in BaseLookUpRate of Aaron_BP_C - Previous (BoolProperty) Current(FloatProperty) for package:  FObjectReader
+[2019.11.05-21.29.51:731][391]LogBlueprint: Warning: [Compiler Aaron_BP] Can't parse default value 'False' for  Base Look Up Rate . Property: BaseLookUpRate.
+[2019.11.05-21.29.51:928][391]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.11.05-21.29.56:637][945]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.29.56:784][945]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.11.05-21.29.58:202][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.29.58:239][ 96]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BPD43A717348A0F364ADD61083CE04BFBB.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.30.03:338][702]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.30.13:036][810]Cmd: DELETE
+[2019.11.05-21.30.13:036][810]Cmd: ACTOR DELETE
+[2019.11.05-21.30.13:119][810]LogEditorActor: Deleted Actor: Aaron_BP_C
+[2019.11.05-21.30.13:146][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.05-21.30.13:146][810]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2019.11.05-21.30.24:587][163]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.11.05-21.30.24:623][163]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.30.25:946][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.05-21.30.31:510][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.30.33:559][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.30.33:660][207]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.30.33:699][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.30.33:699][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.30.33:699][207]PIE: New page: PIE session: BaseMap_MAP (2019-11-05 11:30:33)
+[2019.11.05-21.30.33:700][207]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.05-21.30.33:701][207]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.30.33:703][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001928s)
+[2019.11.05-21.30.33:704][207]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-21.30.33:704][207]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2019.11.05-21.30.33:704][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP to /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP (0.003058s)
+[2019.11.05-21.30.33:731][207]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.11.05-21.30.33:736][207]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.30.33:750][207]LogInit: FAudioDevice initialized.
+[2019.11.05-21.30.33:756][207]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.30.33:757][207]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP up for play (max tick rate 0) at 2019.11.05-16.30.33
+[2019.11.05-21.30.33:757][207]LogWorld: Bringing up level for play took: 0.000458
+[2019.11.05-21.30.33:758][207]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.11.05-21.30.33:792][207]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2019.11.05-21.30.33:837][207]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP 0,414
+[2019.11.05-21.30.33:837][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.30.36:331][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.30.36:331][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.30.36:331][451]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.30.36:332][451]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.30.36:341][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.30.36:341][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.30.36:380][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.30.36:409][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.11.05-21.30.36:487][453]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.05-21.30.40:902][971]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.11.05-21.30.42:028][101]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.11.05-21.30.43:151][233]Cmd: DELETE
+[2019.11.05-21.30.43:151][233]Cmd: ACTOR DELETE
+[2019.11.05-21.30.43:151][233]LogEditorActor: Deleted Actor: PlayerStart
+[2019.11.05-21.30.43:196][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.11.05-21.30.43:196][233]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2019.11.05-21.30.44:452][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.32.28:472][697]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.32.29:930][864]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.32.30:689][864]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-21.32.56:400][485]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.32.56:408][485]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.33.00:234][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.33.00:413][940]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-21.33.09:932][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.33.18:548][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.33.21:352][129]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.33.21:526][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.05-21.33.22:080][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.33.22:111][171]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BP8A1158E241AC13A17A015C907BCD28E0.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.33.23:073][282]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.33.26:992][648]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-21.33.43:241][160]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-21.33.43:372][166]SourceControl: fatal: /Script: '/Script' is outside repository
+[2019.11.05-21.33.44:222][238]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-21.33.49:747][741]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.33.49:753][741]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.33.51:676][965]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.33.51:688][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.33.51:688][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.33.51:688][965]PIE: New page: PIE session: BaseMap_MAP (2019-11-05 11:33:51)
+[2019.11.05-21.33.51:688][965]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.33.51:690][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001876s)
+[2019.11.05-21.33.51:691][965]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-21.33.51:691][965]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2019.11.05-21.33.51:691][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP to /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP (0.003137s)
+[2019.11.05-21.33.51:719][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.11.05-21.33.51:724][965]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.33.51:737][965]LogInit: FAudioDevice initialized.
+[2019.11.05-21.33.51:743][965]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.33.51:744][965]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP up for play (max tick rate 0) at 2019.11.05-16.33.51
+[2019.11.05-21.33.51:744][965]LogWorld: Bringing up level for play took: 0.000424
+[2019.11.05-21.33.51:744][965]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.11.05-21.33.51:746][965]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP 0,323
+[2019.11.05-21.33.51:746][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.33.56:242][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.33.56:242][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.33.56:242][502]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.33.56:242][502]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.33.56:252][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.33.56:253][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.33.56:284][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.33.56:287][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.11.05-21.33.56:344][507]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.05-21.34.05:104][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.34.05:321][569]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-21.34.19:170][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.34.39:189][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.34.48:063][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.34.48:154][548]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.34.48:316][548]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.05-21.34.48:916][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.34.48:948][597]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BPD122CFB341C6C36D0E66EFAD294683AC.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.34.51:718][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.34.51:831][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.11.05-21.34.54:411][931]LogSlate: Window 'Save Content' being destroyed
+[2019.11.05-21.35.04:779][133]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.35.04:933][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.11.05-21.35.05:897][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.35.05:934][219]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BPC273AA5F43420C3217EAD8B40F77A4DD.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.35.08:955][565]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.35.11:151][822]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.35.11:164][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.35.11:164][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.35.11:164][822]PIE: New page: PIE session: BaseMap_MAP (2019-11-05 11:35:11)
+[2019.11.05-21.35.11:164][822]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.35.11:166][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001802s)
+[2019.11.05-21.35.11:167][822]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-21.35.11:167][822]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2019.11.05-21.35.11:167][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP to /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP (0.002814s)
+[2019.11.05-21.35.11:193][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.11.05-21.35.11:198][822]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.35.11:211][822]LogInit: FAudioDevice initialized.
+[2019.11.05-21.35.11:218][822]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.35.11:220][822]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP up for play (max tick rate 0) at 2019.11.05-16.35.11
+[2019.11.05-21.35.11:220][822]LogWorld: Bringing up level for play took: 0.000425
+[2019.11.05-21.35.11:220][822]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2019.11.05-21.35.11:222][822]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP -0,201
+[2019.11.05-21.35.11:222][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.35.17:399][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.35.17:399][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.35.17:399][561]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.35.17:399][561]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.35.17:407][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.35.17:407][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.35.17:439][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.35.17:442][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.11.05-21.35.17:498][566]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.05-21.35.20:158][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.35.20:349][890]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-21.35.32:181][193]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.05-21.35.33:277][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.35.40:672][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.35.50:525][258]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.05-21.35.54:460][712]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.35.54:662][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.11.05-21.35.55:236][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.35.55:289][756]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BP613FFE7040EFA8603B4CD79B2D683968.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.35.56:936][946]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.35.58:659][144]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.35.58:671][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.35.58:671][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.35.58:671][144]PIE: New page: PIE session: BaseMap_MAP (2019-11-05 11:35:58)
+[2019.11.05-21.35.58:671][144]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.35.58:673][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001779s)
+[2019.11.05-21.35.58:674][144]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-21.35.58:674][144]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2019.11.05-21.35.58:674][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP to /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP (0.002830s)
+[2019.11.05-21.35.58:699][144]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.11.05-21.35.58:704][144]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.35.58:717][144]LogInit: FAudioDevice initialized.
+[2019.11.05-21.35.58:725][144]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.35.58:726][144]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP up for play (max tick rate 0) at 2019.11.05-16.35.58
+[2019.11.05-21.35.58:726][144]LogWorld: Bringing up level for play took: 0.000411
+[2019.11.05-21.35.58:726][144]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2019.11.05-21.35.58:727][144]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP -0,695
+[2019.11.05-21.35.58:728][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.36.15:407][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.36.15:407][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.36.15:407][132]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.36.15:407][132]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.36.15:415][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.36.15:416][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.36.15:444][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.36.15:447][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.11.05-21.36.15:514][138]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.11.05-21.36.15:990][194]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.36.17:922][419]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.36.18:686][419]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-21.36.23:552][905]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-21.36.40:104][558]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-21.36.43:444][712]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-21.36.46:970][ 63]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.36.46:978][ 63]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.36.50:926][527]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.11.05-21.36.50:963][527]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.36.51:706][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.05-21.36.56:011][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.36.56:213][124]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-21.37.42:454][510]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.37.42:671][510]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.05-21.37.43:178][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.37.43:212][551]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BPFBC8808946F9B43C21673DA2C8C6C717.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.37.44:576][700]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.37.44:592][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.37.44:592][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.37.44:592][700]PIE: New page: PIE session: BaseMap_MAP (2019-11-05 11:37:44)
+[2019.11.05-21.37.44:592][700]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.37.44:594][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001880s)
+[2019.11.05-21.37.44:595][700]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-21.37.44:595][700]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2019.11.05-21.37.44:595][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP to /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP (0.002887s)
+[2019.11.05-21.37.44:624][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2019.11.05-21.37.44:628][700]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.37.44:642][700]LogInit: FAudioDevice initialized.
+[2019.11.05-21.37.44:649][700]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.37.44:650][700]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP.BaseMap_MAP up for play (max tick rate 0) at 2019.11.05-16.37.44
+[2019.11.05-21.37.44:650][700]LogWorld: Bringing up level for play took: 0.000419
+[2019.11.05-21.37.44:651][700]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2019.11.05-21.37.44:652][700]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP -0,77
+[2019.11.05-21.37.44:652][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.37.51:741][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.37.51:741][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.37.51:741][548]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_BaseMap_MAP
+[2019.11.05-21.37.51:742][548]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.37.51:748][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.37.51:748][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP' with GeneratedClass '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP'
+[2019.11.05-21.37.51:780][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.37.51:783][548]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.11.05-21.37.51:844][553]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.05-21.37.54:240][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.37.57:515][215]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Ronald_MAP.umap' failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:515][215]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Ronald_MAP.umap' failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:771][215]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Ronald_MAP.umap' failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:772][215]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Ronald_MAP.umap' failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:773][215]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:773][215]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:773][215]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:773][215]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:776][215]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Ronald_MAP.umap' failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:776][215]LoadErrors: Failed to load /Game/Levels/Maps/Test_Ronald_MAP_BuiltData.Test_Ronald_MAP_BuiltData Referenced by PersistentLevel
+[2019.11.05-21.37.57:776][215]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Ronald_MAP.umap' failed to load '/Game/Levels/Maps/Test_Ronald_MAP_BuiltData': Can't find file.
+[2019.11.05-21.37.57:777][215]LogStaticMesh: Building static mesh TutoPrototype_Cube_011...
+[2019.11.05-21.37.57:821][215]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/MapAssets/Map1/TutoPrototype_Cube_011.TutoPrototype_Cube_011
+[2019.11.05-21.37.57:839][215]LogStaticMesh: Building static mesh TutoPrototype_Cube_001...
+[2019.11.05-21.37.57:841][215]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Map1/TutoPrototype_Cube_001.TutoPrototype_Cube_001
+[2019.11.05-21.37.57:841][215]LogStaticMesh: Building static mesh TutoPrototype_Cube_010...
+[2019.11.05-21.37.57:842][215]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Map1/TutoPrototype_Cube_010.TutoPrototype_Cube_010
+[2019.11.05-21.37.57:851][215]LogStaticMesh: Building static mesh TutoPrototype_Cylinder_003...
+[2019.11.05-21.37.57:895][215]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/MapAssets/Map1/TutoPrototype_Cylinder_003.TutoPrototype_Cylinder_003
+[2019.11.05-21.37.57:904][215]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.05-21.37.57:965][215]LogStaticMesh: Building static mesh TutoPrototype_Cube...
+[2019.11.05-21.37.57:979][215]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2019.11.05-21.37.57:979][215]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2019.11.05-21.37.57:979][215]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2019.11.05-21.37.57:979][215]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2019.11.05-21.37.57:979][215]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Map1/TutoPrototype_Cube.TutoPrototype_Cube
+[2019.11.05-21.37.58:025][215]LogAIModule: Creating AISystem for world Test_Ronald_MAP
+[2019.11.05-21.37.58:090][215]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Maps/Test_Ronald_MAP.Test_Ronald_MAP
+[2019.11.05-21.37.58:150][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.11.05-21.38.01:142][215]LogSlate: Window 'Save Content' being destroyed
+[2019.11.05-21.38.02:457][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.38.04:160][512]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap' failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:161][512]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap' failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:162][512]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap' failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:162][512]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap' failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:162][512]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:163][512]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:163][512]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:163][512]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:199][512]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap' failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:199][512]LoadErrors: Failed to load /Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData.Test_Nathaneil_MAP_BuiltData Referenced by PersistentLevel
+[2019.11.05-21.38.04:199][512]LogLinker: Warning: While loading '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap' failed to load '/Game/Levels/Maps/Test_Nathaneil_MAP_BuiltData': Can't find file.
+[2019.11.05-21.38.04:202][512]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
+[2019.11.05-21.38.04:205][512]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP
+[2019.11.05-21.38.04:254][512]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2019.11.05-21.38.06:237][512]LogSlate: Window 'Save Content' being destroyed
+[2019.11.05-21.38.06:354][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/GameModes/Test_Nathaniel_GM" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/GameModes/Test_Nathaniel_GM.uasset" SILENT=true
+[2019.11.05-21.38.06:371][512]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaniel_GM420B7926429232C69C94DDA5E8E056A0.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/GameModes/Test_Nathaniel_GM.uasset'
+[2019.11.05-21.38.06:409][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.11.05-21.38.06:570][512]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/BaseMap_MAPF2043C0C45AA5E66AAEC408D954772DE.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap'
+[2019.11.05-21.38.06:595][512]LogFileHelpers: Saving map 'BaseMap_MAP' took 0.222
+[2019.11.05-21.38.06:624][512]Cmd: MAP LOAD FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-21.38.06:624][512]LightingResults: New page: Lighting Build
+[2019.11.05-21.38.06:625][512]LoadErrors: New page: Loading map: Test_Nathaneil_MAP.umap
+[2019.11.05-21.38.06:625][512]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.38.06:625][512]MapCheck: New page: Map Check
+[2019.11.05-21.38.06:625][512]LightingResults: New page: Lighting Build
+[2019.11.05-21.38.06:661][512]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.05-21.38.06:695][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.11.05-21.38.06:724][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.11.05-21.38.06:797][512]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-21.38.06:831][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.11.05-21.38.06:852][512]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-21.38.06:852][512]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,117ms to complete.
+[2019.11.05-21.38.06:852][512]LogFileHelpers: Loading map 'Test_Nathaneil_MAP' took 0.258
+[2019.11.05-21.38.06:893][512]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-21.38.10:711][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.38.10:803][938]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.38.10:820][938]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.10:820][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.38.10:820][938]PIE: New page: PIE session: Test_Nathaneil_MAP (2019-11-05 11:38:10)
+[2019.11.05-21.38.10:820][938]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.38.10:822][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001947s)
+[2019.11.05-21.38.10:823][938]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
+[2019.11.05-21.38.10:824][938]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2019.11.05-21.38.10:824][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.003291s)
+[2019.11.05-21.38.10:852][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.11.05-21.38.10:857][938]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.38.10:870][938]LogInit: FAudioDevice initialized.
+[2019.11.05-21.38.10:877][938]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.38.10:878][938]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 0) at 2019.11.05-16.38.10
+[2019.11.05-21.38.10:878][938]LogWorld: Bringing up level for play took: 0.000469
+[2019.11.05-21.38.10:878][938]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2019.11.05-21.38.10:880][938]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0,543
+[2019.11.05-21.38.10:880][938]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.18:628][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.18:629][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.38.18:629][860]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.38.18:629][860]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.38.18:639][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.38.18:639][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.18:674][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.38.18:677][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.11.05-21.38.18:729][864]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.05-21.38.21:120][146]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.38.23:265][376]MapCheck: New page: Map Check
+[2019.11.05-21.38.23:302][376]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.38.23:448][376]LightingResults: New page: Lighting Build - 2019-11-05 11:38:23
+[2019.11.05-21.38.24:016][376]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.05-21.38.24:397][376]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.05-21.38.24:631][376]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.05-21.38.27:242][376]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.05-21.38.27:242][376]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16444
+[2019.11.05-21.38.40:508][376]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.11.05-21.38.40:532][376]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.05-21.38.40:532][376]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.05-21.38.40:532][376]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.05-21.38.40:532][376]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.05-21.38.40:533][376]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.05-21.38.40:976][376]LogEditorBuildUtils: Build time 0:17
+[2019.11.05-21.38.41:123][376]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Test_Default_MAT, compiling. 
+[2019.11.05-21.38.41:174][376]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.11.05-21.38.41:174][376]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.11.05-21.38.41:174][376]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Test_Default_MAT, compiling. 
+[2019.11.05-21.38.41:232][376]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.11.05-21.38.41:232][376]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2019.11.05-21.38.41:887][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2019.11.05-21.38.45:510][530]Job is a success!
+[2019.11.05-21.38.45:873][531]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.38.46:017][531]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.038s
+[2019.11.05-21.38.46:017][531]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.11.05-21.38.46:017][531]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.11.05-21.38.46:017][531]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.05-21.38.46:017][531]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.11.05-21.38.46:017][531]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.11.05-21.38.46:017][531]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.11.05-21.38.46:304][531]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2019.11.05-21.38.46:304][531]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.11.05-21.38.46:304][531]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2019.11.05-21.38.46:304][531]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.11.05-21.38.46:304][531]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2019.11.05-21.38.46:304][531]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.11.05-21.38.52:520][531]Lightmass on LAPTOP-81QI7FGM: 2.23 sec total, 343 ms importing, 49 ms setup, 118 ms photons, 1.30 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 9.11 sec total, 209 ms processing.
+[2019.11.05-21.38.52:528][531]LogStaticLightingSystem: Test_Nathaneil_MAP_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2019.11.05-21.38.52:561][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.05-21.38.52:569][531]LogStaticLightingSystem: Illumination: 29.1 sec (89 ms encoding lightmaps, 85 ms encoding shadowmaps)
+[2019.11.05-21.38.52:569][531]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.11.05-21.38.52:569][531]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.11.05-21.38.53:085][531]DumpUnbuiltLightIteractions
+[2019.11.05-21.38.53:085][531]Lights with unbuilt interactions: 0
+[2019.11.05-21.38.53:085][531]
+[2019.11.05-21.38.53:085][531]Primitives with unbuilt interactions: 0
+[2019.11.05-21.38.53:104][531]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.38.53:267][532]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.05-21.38.53:267][532]MapCheck: New page: Test_Nathaneil_MAP - 2019-11-05 11:38:53
+[2019.11.05-21.38.53:330][532]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63,042ms to complete.
+[2019.11.05-21.38.57:095][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.38.57:186][977]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.38.57:202][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.57:202][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.38.57:202][977]PIE: New page: PIE session: Test_Nathaneil_MAP (2019-11-05 11:38:57)
+[2019.11.05-21.38.57:202][977]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.38.57:204][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001948s)
+[2019.11.05-21.38.57:205][977]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
+[2019.11.05-21.38.57:205][977]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2019.11.05-21.38.57:205][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.002991s)
+[2019.11.05-21.38.57:238][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.11.05-21.38.57:243][977]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.38.57:256][977]LogInit: FAudioDevice initialized.
+[2019.11.05-21.38.57:266][977]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.38.57:267][977]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 0) at 2019.11.05-16.38.57
+[2019.11.05-21.38.57:267][977]LogWorld: Bringing up level for play took: 0.000512
+[2019.11.05-21.38.57:267][977]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2019.11.05-21.38.57:269][977]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0,153
+[2019.11.05-21.38.57:269][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.59:563][249]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.59:563][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.38.59:563][249]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.38.59:563][249]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.38.59:576][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.38.59:576][249]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.38.59:612][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.38.59:615][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.05-21.38.59:668][253]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.05-21.39.22:202][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.41.43:686][232]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.11.05-21.41.51:955][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.43.27:955][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.43.28:045][543]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.43.28:065][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.43.28:065][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.43.28:065][543]PIE: New page: PIE session: Test_Nathaneil_MAP (2019-11-05 11:43:28)
+[2019.11.05-21.43.28:065][543]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.43.28:068][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002447s)
+[2019.11.05-21.43.28:068][543]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
+[2019.11.05-21.43.28:069][543]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2019.11.05-21.43.28:069][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.003686s)
+[2019.11.05-21.43.28:101][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.11.05-21.43.28:105][543]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.43.28:118][543]LogInit: FAudioDevice initialized.
+[2019.11.05-21.43.28:127][543]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.43.28:128][543]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 0) at 2019.11.05-16.43.28
+[2019.11.05-21.43.28:249][543]LogWorld: Bringing up level for play took: 0.120848
+[2019.11.05-21.43.28:249][543]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2019.11.05-21.43.28:251][543]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0,828
+[2019.11.05-21.43.28:251][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.44.35:126][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.44.35:127][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.44.35:127][526]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.44.35:128][526]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.44.35:141][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.44.35:141][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.44.35:174][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.44.35:178][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.11.05-21.44.35:229][530]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.05-21.44.36:022][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.44.50:859][358]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.44.52:022][489]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.44.52:802][489]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.05-21.45.35:013][696]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.45.35:020][696]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.05-21.45.35:986][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.45.36:179][821]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.45.36:223][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.05-21.45.36:401][821]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP723BD876454512EC9F0C75A07E079C6F.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
+[2019.11.05-21.45.36:500][821]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP_BuiltDataCE6334AE425D6EBC9EA782A2FAF57AA5.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP_BuiltData.uasset'
+[2019.11.05-21.45.36:606][821]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2019.11.05-21.45.36:606][821]SourceControl: Error: Content/Levels/Maps/Test_Nathaneil_MAP_BuiltData.uasset
+[2019.11.05-21.45.36:606][821]SourceControl: Error: Use -f if you really want to add them.
+[2019.11.05-21.45.56:466][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.46.07:197][366]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.46.14:586][222]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Levels/GameModes/Test_Nathaniel_GM.Test_Nathaniel_GM
+[2019.11.05-21.46.14:898][222]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2019.11.05-21.46.18:941][534]LogSlate: Window 'CompilerResults' being destroyed
+[2019.11.05-21.46.18:951][534]LogSlate: Window 'CompilerResults' being destroyed
+[2019.11.05-21.46.27:509][325]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-21.46.45:019][972]BlueprintLog: New page: Compile Test_Nathaniel_GM
+[2019.11.05-21.46.45:233][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.11.05-21.46.45:814][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.46.45:825][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/GameModes/Test_Nathaniel_GM" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/GameModes/Test_Nathaniel_GM.uasset" SILENT=true
+[2019.11.05-21.46.45:842][ 11]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaniel_GM241273F949371FF91C037FBBD33CFE69.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/GameModes/Test_Nathaniel_GM.uasset'
+[2019.11.05-21.46.46:413][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.46.46:554][ 73]LogSlate: Window 'Test_Nathaniel_GM' being destroyed
+[2019.11.05-21.46.46:562][ 73]LogSlate: Window 'Test_Nathaniel_GM' being destroyed
+[2019.11.05-21.46.46:581][ 73]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.46.48:394][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.46.48:511][290]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.46.48:523][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.46.48:523][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.46.48:523][290]PIE: New page: PIE session: Test_Nathaneil_MAP (2019-11-05 11:46:48)
+[2019.11.05-21.46.48:523][290]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.46.48:525][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002261s)
+[2019.11.05-21.46.48:526][290]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
+[2019.11.05-21.46.48:526][290]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2019.11.05-21.46.48:526][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.003254s)
+[2019.11.05-21.46.48:576][290]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.05-21.46.48:581][290]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.46.48:595][290]LogInit: FAudioDevice initialized.
+[2019.11.05-21.46.48:600][290]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.46.48:602][290]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 0) at 2019.11.05-16.46.48
+[2019.11.05-21.46.48:602][290]LogWorld: Bringing up level for play took: 0.001299
+[2019.11.05-21.46.48:602][290]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2019.11.05-21.46.48:604][290]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0,819
+[2019.11.05-21.46.48:604][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.46.50:900][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.46.50:900][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.46.50:901][563]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.46.50:901][563]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.46.50:908][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.46.50:908][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.46.50:938][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.46.50:942][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.05-21.46.51:001][568]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.11.05-21.46.55:911][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.47.01:607][834]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aaron_BP.Aaron_BP
+[2019.11.05-21.48.06:896][309]BlueprintLog: New page: Compile Aaron_BP
+[2019.11.05-21.48.07:088][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.11.05-21.48.07:628][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aaron_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset" SILENT=true
+[2019.11.05-21.48.07:665][351]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Aaron_BP571A4C4942ED5FFA4AEAE7AED4A6446C.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Character/Aaron_BP.uasset'
+[2019.11.05-21.48.09:534][566]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.48.21:751][995]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.05-21.51.23:002][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.51.24:906][839]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:70193).
+[2019.11.05-21.51.24:930][840]LogRenderer: Reallocating scene render targets to support 1212x580 Format 10 NumSamples 1 (Frame:70195).
+[2019.11.05-21.51.24:970][842]LogRenderer: Reallocating scene render targets to support 1220x580 Format 10 NumSamples 1 (Frame:70199).
+[2019.11.05-21.51.24:998][843]LogRenderer: Reallocating scene render targets to support 1224x580 Format 10 NumSamples 1 (Frame:70201).
+[2019.11.05-21.51.25:023][844]LogRenderer: Reallocating scene render targets to support 1236x580 Format 10 NumSamples 1 (Frame:70203).
+[2019.11.05-21.51.25:063][846]LogRenderer: Reallocating scene render targets to support 1240x580 Format 10 NumSamples 1 (Frame:70207).
+[2019.11.05-21.51.25:084][847]LogRenderer: Reallocating scene render targets to support 1244x580 Format 10 NumSamples 1 (Frame:70209).
+[2019.11.05-21.51.43:399][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.52.05:042][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.05-21.52.05:683][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.52.05:902][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.11.05-21.52.06:053][640]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP03F754F147094EF99F0A23A4A0E58051.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
+[2019.11.05-21.52.06:160][640]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP_BuiltData946A5C6B4EECCDBDFFE72EB144B8E885.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP_BuiltData.uasset'
+[2019.11.05-21.52.08:848][940]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-21.52.08:861][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.52.08:862][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-21.52.08:862][940]PIE: New page: PIE session: Test_Nathaneil_MAP (2019-11-05 11:52:08)
+[2019.11.05-21.52.08:862][940]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.52.08:864][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002151s)
+[2019.11.05-21.52.08:865][940]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
+[2019.11.05-21.52.08:865][940]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2019.11.05-21.52.08:865][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.003244s)
+[2019.11.05-21.52.08:891][940]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.05-21.52.08:897][940]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.05-21.52.08:911][940]LogInit: FAudioDevice initialized.
+[2019.11.05-21.52.08:917][940]LogLoad: Game class is 'GameModeBase'
+[2019.11.05-21.52.08:918][940]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 0) at 2019.11.05-16.52.08
+[2019.11.05-21.52.08:919][940]LogWorld: Bringing up level for play took: 0.001065
+[2019.11.05-21.52.08:919][940]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2019.11.05-21.52.08:920][940]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0,502
+[2019.11.05-21.52.08:920][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.52.12:427][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.52.12:427][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.52.12:427][358]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.11.05-21.52.12:428][358]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-21.52.12:434][358]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-21.52.12:435][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.11.05-21.52.12:465][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-21.52.12:468][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.11.05-21.52.12:528][363]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.11.05-21.52.45:862][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-21.53.49:096][144]Cmd: DELETE
+[2019.11.05-21.53.49:096][144]Cmd: ACTOR DELETE
+[2019.11.05-21.53.49:097][144]LogEditorActor: Deleted Actor: Aaron_BP_C
+[2019.11.05-21.53.49:128][144]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.11.05-21.53.49:128][144]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.11.05-21.54.41:732][451]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.54.46:191][984]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.54.46:266][984]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.54.46:308][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.05-21.54.46:453][984]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP661579E243C1537FAC313F9CE082D039.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
+[2019.11.05-21.54.46:478][984]LogFileHelpers: Saving map 'Test_Nathaneil_MAP' took 0.197
+[2019.11.05-21.54.48:485][210]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-21.54.50:756][468]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-21.54.50:859][468]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.54.58:317][468]LogSlate: Window 'Submit Files' being destroyed
+[2019.11.05-21.54.58:327][468]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.54.58:542][468]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-21.54.59:929][468]LogSourceControl: commit successful: [master 355eea6] Aron BP
+[2019.11.05-21.55.00:113][468]SourceControl: [master 355eea6] Aron BP
+[2019.11.05-21.55.00:113][468]SourceControl:  5 files changed, 3 insertions(+), 4 deletions(-)
+[2019.11.05-21.55.00:113][468]SourceControl:  rewrite Content/Blueprints/Character/Aaron_BP.uasset (93%)
+[2019.11.05-21.55.00:116][468]SourceControl: Commited [master 355eea6] Aron BP.
