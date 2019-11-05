@@ -626,3 +626,221 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-15.06.08:514][286]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP221105DB4E73BF839BBD88BE49B4D400.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP.umap'
 [2019.11.05-15.06.08:897][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap_MAP_BuiltData" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP_BuiltData.uasset" SILENT=true
 [2019.11.05-15.06.08:949][286]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP_BuiltDataFA52468E4ED596064A57FC8F9D360DCA.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-15.27.06:500][145]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2019.11.05-15.27.06:500][145]LogMetaData: Removing '/Game/Levels/Test_Nathaniel_MAP.SKEL_Test_Nathaniel_MAP_C' ref from Metadata '/Game/Maps/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.27.06:500][145]LogMetaData: Removing '/Game/Levels/Test_Nathaniel_MAP.Test_Nathaniel_MAP_C' ref from Metadata '/Game/Maps/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.27.06:500][145]LogMetaData: Removing '/Game/Levels/Test_Nathaniel_MAP.Test_Nathaniel_MAP:PersistentLevel.Test_Nathaniel_MAP.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Maps/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.27.06:500][145]LogMetaData: Removing '/Game/Levels/Test_Nathaniel_MAP.Test_Nathaniel_MAP:PersistentLevel.Test_Nathaniel_MAP.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Maps/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.27.06:635][145]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.11.05-15.27.06:636][145]LogMetaData: Removing '/Game/Levels/BaseMap_MAP.BaseMap_MAP_C' ref from Metadata '/Game/Maps/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.27.06:636][145]LogMetaData: Removing '/Game/Levels/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Maps/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.27.06:636][145]LogMetaData: Removing '/Game/Levels/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Maps/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.27.06:636][145]LogMetaData: Removing '/Game/Levels/BaseMap_MAP.SKEL_BaseMap_MAP_C' ref from Metadata '/Game/Maps/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.27.06:675][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BaseMap_MAP_BuiltData" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP_BuiltData.uasset" SILENT=true
+[2019.11.05-15.27.06:700][145]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP_BuiltData92C63B744F70D85FF20CA0B9B56512EB.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-15.27.07:395][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap_MAP_BuiltData" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP_BuiltData.uasset" SILENT=true
+[2019.11.05-15.27.07:413][145]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP_BuiltData82D9618449970898557A8DBC61A7AF52.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-15.27.07:458][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.11.05-15.27.07:568][145]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaniel_MAPE01F118142AECF27FB9CDB91102F5588.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Test_Nathaniel_MAP.umap'
+[2019.11.05-15.27.08:115][145]LogFileHelpers: Saving map 'Test_Nathaniel_MAP' took 0.688
+[2019.11.05-15.27.08:123][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BaseMap_MAP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.05-15.27.08:149][145]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.11.05-15.27.08:274][145]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAPED59C45A4AE2C53C3089F58E80F90C06.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP.umap'
+[2019.11.05-15.27.08:981][145]LogFileHelpers: Saving map 'BaseMap_MAP' took 0.859
+[2019.11.05-15.27.08:993][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap_MAP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP.umap" SILENT=true
+[2019.11.05-15.27.09:014][145]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAPD67514714DE9E854B50300BF61765C2C.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP.umap'
+[2019.11.05-15.27.10:485][145]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.11.05-15.27.10:523][145]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.11.05-15.27.10:553][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.11.05-15.27.40:357][900]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Test_Nathaniel_MAP.Test_Nathaniel_MAP
+[2019.11.05-15.27.40:383][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.05-15.27.40:384][900]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Test_Nathaniel_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-15.27.40:384][900]LightingResults: New page: Lighting Build
+[2019.11.05-15.27.40:385][900]LoadErrors: New page: Loading map: Test_Nathaniel_MAP.umap
+[2019.11.05-15.27.40:386][900]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-15.27.40:387][900]MapCheck: New page: Map Check
+[2019.11.05-15.27.40:387][900]LightingResults: New page: Lighting Build
+[2019.11.05-15.27.40:415][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.11.05-15.27.40:511][900]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-15.27.40:511][900]LogAIModule: Creating AISystem for world Test_Nathaniel_MAP
+[2019.11.05-15.27.40:549][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.11.05-15.27.40:580][900]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-15.27.40:581][900]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.167ms to complete.
+[2019.11.05-15.27.40:583][900]LogFileHelpers: Loading map 'Test_Nathaniel_MAP' took 0.199
+[2019.11.05-15.27.55:714][792]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-15.27.55:720][792]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/BaseMap_MAP.BaseMap_MAP
+[2019.11.05-15.27.55:746][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.11.05-15.27.55:747][792]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-15.27.55:748][792]LightingResults: New page: Lighting Build
+[2019.11.05-15.27.55:748][792]LoadErrors: New page: Loading map: BaseMap_MAP.umap
+[2019.11.05-15.27.55:748][792]LogWorld: UWorld::CleanupWorld for Test_Nathaniel_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-15.27.55:749][792]MapCheck: New page: Map Check
+[2019.11.05-15.27.55:749][792]LightingResults: New page: Lighting Build
+[2019.11.05-15.27.55:775][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.05-15.27.55:871][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-15.27.55:896][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.11.05-15.27.55:924][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-15.27.55:925][792]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.562ms to complete.
+[2019.11.05-15.27.55:926][792]LogFileHelpers: Loading map 'BaseMap_MAP' took 0.180
+[2019.11.05-15.28.00:882][ 80]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/BaseMap_MAP.BaseMap_MAP
+[2019.11.05-15.28.00:912][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.11.05-15.28.00:913][ 80]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-15.28.00:913][ 80]LightingResults: New page: Lighting Build
+[2019.11.05-15.28.00:914][ 80]LoadErrors: New page: Loading map: BaseMap_MAP.umap
+[2019.11.05-15.28.00:914][ 80]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-15.28.00:915][ 80]MapCheck: New page: Map Check
+[2019.11.05-15.28.00:915][ 80]LightingResults: New page: Lighting Build
+[2019.11.05-15.28.01:006][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2019.11.05-15.28.01:045][ 80]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-15.28.01:205][ 80]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-15.28.01:232][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.11.05-15.28.01:264][ 80]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-15.28.01:264][ 80]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.171ms to complete.
+[2019.11.05-15.28.01:265][ 80]LogFileHelpers: Loading map 'BaseMap_MAP' took 0.353
+[2019.11.05-15.28.17:504][ 44]LogAIModule: Creating AISystem for world Test_Nathaniel_MAP
+[2019.11.05-15.28.22:190][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.11.05-15.28.22:190][151]LogMetaData: Removing '/Game/Levels/Maps/Test_Nathaniel_MAP.Test_Nathaniel_MAP:PersistentLevel.Test_Nathaniel_MAP.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Levels/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.28.22:190][151]LogMetaData: Removing '/Game/Levels/Maps/Test_Nathaniel_MAP.Test_Nathaniel_MAP:PersistentLevel.Test_Nathaniel_MAP.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Levels/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.28.22:190][151]LogMetaData: Removing '/Game/Levels/Maps/Test_Nathaniel_MAP.Test_Nathaniel_MAP_C' ref from Metadata '/Game/Levels/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.28.22:190][151]LogMetaData: Removing '/Game/Levels/Maps/Test_Nathaniel_MAP.SKEL_Test_Nathaniel_MAP_C' ref from Metadata '/Game/Levels/Test_Nathaniel_MAP.PackageMetaData'
+[2019.11.05-15.28.22:311][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.05-15.28.22:311][151]LogMetaData: Removing '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Levels/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.28.22:311][151]LogMetaData: Removing '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP:PersistentLevel.BaseMap_MAP.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Levels/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.28.22:311][151]LogMetaData: Removing '/Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP_C' ref from Metadata '/Game/Levels/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.28.22:311][151]LogMetaData: Removing '/Game/Levels/Maps/BaseMap_MAP.SKEL_BaseMap_MAP_C' ref from Metadata '/Game/Levels/BaseMap_MAP.PackageMetaData'
+[2019.11.05-15.28.22:345][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maps/BaseMap_MAP_BuiltData" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP_BuiltData.uasset" SILENT=true
+[2019.11.05-15.28.22:369][151]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP_BuiltDataA9CD9F00466B64C2DEBD28912483984B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-15.28.23:038][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.11.05-15.28.23:153][151]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaniel_MAPD1672D3449B1C5C78E2AB29FDC46B3BC.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaniel_MAP.umap'
+[2019.11.05-15.28.23:675][151]LogFileHelpers: Saving map 'Test_Nathaniel_MAP' took 0.668
+[2019.11.05-15.28.23:679][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maps/BaseMap_MAP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.05-15.28.23:709][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.05-15.28.23:836][151]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP11EAB2CA42EF4EFA90B2EDA5EA6F5183.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap'
+[2019.11.05-15.28.24:567][151]LogFileHelpers: Saving map 'BaseMap_MAP' took 0.889
+[2019.11.05-15.28.24:578][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BaseMap_MAP" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP.umap" SILENT=true
+[2019.11.05-15.28.24:591][151]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP4DDED2F941E214382B266BB466008A79.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/BaseMap_MAP.umap'
+[2019.11.05-15.28.26:599][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.11.05-15.28.26:627][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.11.05-15.28.26:662][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.11.05-15.28.26:686][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.05-15.28.27:186][151]SourceControl: rm 'Content/Levels/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-15.28.27:186][151]SourceControl: rm 'Content/Levels/Test_Nathaniel_MAP.umap'
+[2019.11.05-15.28.27:451][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BaseMap_MAP_BuiltData" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP_BuiltData.uasset" SILENT=true
+[2019.11.05-15.28.27:462][151]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/BaseMap_MAP_BuiltDataBCCDDEB44F799AB9A911D69CCE274824.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Maps/BaseMap_MAP_BuiltData.uasset'
+[2019.11.05-15.28.53:469][448]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.05-15.29.16:561][803]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Maps/Test_Nathaniel_MAP.Test_Nathaniel_MAP
+[2019.11.05-15.29.16:584][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.11.05-15.29.19:454][803]LogSlate: Window 'Save Content' being destroyed
+[2019.11.05-15.29.19:721][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/GameModes/Test_Nathaniel_GM" FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/GameModes/Test_Nathaniel_GM.uasset" SILENT=true
+[2019.11.05-15.29.19:738][803]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaniel_GM6C321DB54958C6ABC05488A866E8CFC2.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/GameModes/Test_Nathaniel_GM.uasset'
+[2019.11.05-15.29.20:286][803]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaniel_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-15.29.20:286][803]LightingResults: New page: Lighting Build
+[2019.11.05-15.29.20:287][803]LoadErrors: New page: Loading map: Test_Nathaniel_MAP.umap
+[2019.11.05-15.29.20:288][803]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-15.29.20:288][803]MapCheck: New page: Map Check
+[2019.11.05-15.29.20:288][803]LightingResults: New page: Lighting Build
+[2019.11.05-15.29.20:314][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.11.05-15.29.20:432][803]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-15.29.20:453][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.11.05-15.29.20:489][803]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-15.29.20:489][803]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.222ms to complete.
+[2019.11.05-15.29.20:491][803]LogFileHelpers: Loading map 'Test_Nathaniel_MAP' took 0.209
+[2019.11.05-15.29.24:429][ 14]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.05-15.29.49:552][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.11.05-15.29.49:655][488]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaniel_MAP31D56B57457CFBAAFC6CF78793E0647C.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaniel_MAP.umap'
+[2019.11.05-15.30.06:599][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.30.10:346][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.30.12:565][776]LogActorFactory: Actor Factory created Cube
+[2019.11.05-15.30.13:005][785]LogActorFactory: Actor Factory created Cube
+[2019.11.05-15.30.20:966][227]Cmd: TRANSACTION UNDO
+[2019.11.05-15.30.20:966][227]LogEditorTransaction: Undo Create Actors
+[2019.11.05-15.30.21:335][229]Cmd: TRANSACTION UNDO
+[2019.11.05-15.30.21:336][229]LogEditorTransaction: Undo Create Actors
+[2019.11.05-15.30.21:909][258]Cmd: TRANSACTION UNDO
+[2019.11.05-15.30.21:909][258]LogEditorTransaction: Undo Move Actors
+[2019.11.05-15.30.22:408][287]Cmd: TRANSACTION UNDO
+[2019.11.05-15.30.22:409][287]LogEditorTransaction: Undo Create Actors
+[2019.11.05-15.30.24:940][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.30.25:092][445]LogAIModule: Creating AISystem for world BaseMap_MAP
+[2019.11.05-15.30.25:098][445]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Maps/BaseMap_MAP.BaseMap_MAP
+[2019.11.05-15.30.25:125][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.11.05-15.30.25:126][445]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/BaseMap_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-15.30.25:126][445]LightingResults: New page: Lighting Build
+[2019.11.05-15.30.25:126][445]LoadErrors: New page: Loading map: BaseMap_MAP.umap
+[2019.11.05-15.30.25:127][445]LogWorld: UWorld::CleanupWorld for Test_Nathaniel_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-15.30.25:127][445]MapCheck: New page: Map Check
+[2019.11.05-15.30.25:127][445]LightingResults: New page: Lighting Build
+[2019.11.05-15.30.25:150][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.11.05-15.30.25:214][445]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-15.30.25:241][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.11.05-15.30.25:266][445]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-15.30.25:266][445]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.16ms to complete.
+[2019.11.05-15.30.25:266][445]LogFileHelpers: Loading map 'BaseMap_MAP' took 0.142
+[2019.11.05-15.30.34:072][967]LogAIModule: Creating AISystem for world Test_Nathaniel_MAP
+[2019.11.05-15.30.34:075][967]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Maps/Test_Nathaniel_MAP.Test_Nathaniel_MAP
+[2019.11.05-15.30.34:099][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.11.05-15.30.34:100][967]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaniel_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-15.30.34:100][967]LightingResults: New page: Lighting Build
+[2019.11.05-15.30.34:101][967]LoadErrors: New page: Loading map: Test_Nathaniel_MAP.umap
+[2019.11.05-15.30.34:101][967]LogWorld: UWorld::CleanupWorld for BaseMap_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-15.30.34:101][967]MapCheck: New page: Map Check
+[2019.11.05-15.30.34:101][967]LightingResults: New page: Lighting Build
+[2019.11.05-15.30.34:127][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.05-15.30.34:183][967]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-15.30.34:208][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.11.05-15.30.34:236][967]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-15.30.34:236][967]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.16ms to complete.
+[2019.11.05-15.30.34:236][967]LogFileHelpers: Loading map 'Test_Nathaniel_MAP' took 0.136
+[2019.11.05-15.30.45:032][584]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.11.05-15.30.45:748][625]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.11.05-15.30.46:659][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.31.12:672][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.31.15:200][363]Cmd: TRANSACTION UNDO
+[2019.11.05-15.31.15:200][363]LogEditorTransaction: Undo Create Actors
+[2019.11.05-15.31.16:291][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.31.18:063][526]LogActorFactory: Actor Factory created Cube
+[2019.11.05-15.31.18:456][549]LogActorFactory: Actor Factory created Cube
+[2019.11.05-15.31.20:312][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.31.30:016][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.31.34:748][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.11.05-15.31.44:198][ 58]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.11.05-15.31.48:063][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.31.57:417][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.11.05-15.32.01:367][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.32.23:409][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.32.33:242][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.32.41:977][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.33.14:812][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.33.15:267][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.11.05-15.33.15:385][864]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaniel_MAP9F5714FA460083B347EA368BFC80C19A.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaniel_MAP.umap'
+[2019.11.05-15.33.35:806][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.11.05-15.33.37:614][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-15.33.43:166][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.33.45:782][588]Cmd: DELETE
+[2019.11.05-15.33.45:782][588]Cmd: ACTOR DELETE
+[2019.11.05-15.33.46:108][588]LogEditorActor: Deleted Actor: DirectionalLight
+[2019.11.05-15.33.46:178][588]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.11.05-15.33.46:178][588]LogEditorActor: Deleted 1 Actors (0.128 secs)
+[2019.11.05-15.33.47:848][682]Cmd: TRANSACTION UNDO
+[2019.11.05-15.33.47:848][682]LogEditorTransaction: Undo Delete Actors
+[2019.11.05-15.34.28:902][134]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.11.05-15.34.34:274][454]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.11.05-15.34.35:144][504]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2019.11.05-15.34.36:804][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.34.58:876][902]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.05-15.34.58:917][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.11.05-15.34.59:046][902]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaniel_MAPD32C503A4390EB1C7BB7B294D430DB14.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaniel_MAP.umap'
+[2019.11.05-15.35.34:363][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-15.35.59:667][812]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
+[2019.11.05-15.36.35:264][812]LogSlate: Window 'Submit Files' being destroyed
+[2019.11.05-15.36.36:910][812]LogSourceControl: commit successful: [Nathaniel 2aed719] addition de ma map et de mon mode de jeu
+[2019.11.05-15.36.38:208][812]SourceControl: [Nathaniel 2aed719] addition de ma map et de mon mode de jeu
+[2019.11.05-15.36.38:208][812]SourceControl:  7 files changed, 0 insertions(+), 0 deletions(-)
+[2019.11.05-15.36.38:208][812]SourceControl:  create mode 100644 Content/Levels/BaseMap_MAP.umap
+[2019.11.05-15.36.38:208][812]SourceControl:  create mode 100644 Content/Levels/GameModes/Test_Nathaniel_GM.uasset
+[2019.11.05-15.36.38:208][812]SourceControl:  copy Content/{ => Levels}/Maps/BaseMap_MAP.umap (95%)
+[2019.11.05-15.36.38:208][812]SourceControl:  copy Content/{ => Levels}/Maps/BaseMap_MAP_BuiltData.uasset (99%)
+[2019.11.05-15.36.38:208][812]SourceControl:  create mode 100644 Content/Levels/Maps/Test_Nathaniel_MAP.umap
+[2019.11.05-15.36.38:208][812]SourceControl:  rewrite Content/Maps/BaseMap_MAP.umap (99%)
+[2019.11.05-15.36.38:208][812]SourceControl:  rewrite Content/Maps/BaseMap_MAP_BuiltData.uasset (99%)
+[2019.11.05-15.36.38:222][812]SourceControl: Commited [Nathaniel 2aed719] addition de ma map et de mon mode de jeu.
