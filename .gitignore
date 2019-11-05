@@ -75,3 +75,6 @@ DerivedDataCache/*
 Saved/Config/Windows/EditorPerProjectUserSettings.ini
 Intermediate/CachedAssetRegistry.bin
 Saved/Logs/Mythled.log
+*.bin
+*.ini
+*.log
