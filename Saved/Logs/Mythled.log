@@ -650,3 +650,66 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-19.51.21:893][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BottesTop" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/BottesTop_Auto1.uasset" SILENT=false AUTOSAVING=true
 [2019.11.05-19.51.21:905][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/BottesTop_Auto1CC20C4B64FFA28AFCDCCF89A1BF771FB.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/BottesTop_Auto1.uasset'
 [2019.11.05-19.51.21:906][447]LogFileHelpers: Auto-saving content packages took 0.473
+[2019.11.05-19.52.23:222][701]AssetReimport: New page: Outstanding source content changes 09:52:23
+[2019.11.05-19.52.26:234][882]AssetReimport: Warning: Can't move /Game/CharacterAaron_1_ to /Game/Assets/Models/CharacterAaron_1_ - one already exists.
+[2019.11.05-19.55.02:789][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.05-19.55.03:810][232]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.05-19.59.43:985][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-20.12.28:082][ 22]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.28:585][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.29:084][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.29:585][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.30:084][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.30:585][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.31:084][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.31:584][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.32:085][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.32:586][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.11.05-20.12.37:584][ 23]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s)
+[2019.11.05-20.12.42:585][ 23]LogD3D11RHI: GetQueryData is taking a very long time (10.0 s)
+[2019.11.05-20.12.47:584][ 23]LogD3D11RHI: GetQueryData is taking a very long time (15.0 s)
+[2019.11.05-20.12.52:586][ 23]LogD3D11RHI: GetQueryData is taking a very long time (20.0 s)
+[2019.11.05-20.12.57:584][ 23]LogD3D11RHI: GetQueryData is taking a very long time (25.0 s)
+[2019.11.05-20.13.02:585][ 23]LogD3D11RHI: GetQueryData is taking a very long time (30.0 s)
+[2019.11.05-20.13.02:585][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (30.0 s) (ErrorCode 00000001)
+[2019.11.05-20.13.02:743][ 23]LogWindows: Windows GetLastError: L’opération a réussi. (0)
+[2019.11.05-20.13.16:216][ 23]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.11.05-20.13.16:216][ 23]LogWindows: Windows GetLastError: L’opération a réussi. (0)
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: === Critical error: ===
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp] [Line: 836] 
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: Rendering thread exception:
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: Assertion failed: GD3D11RHI->GetQueryData(Query->Resource, &Query->Result, sizeof(Query->Result), Query->QueryType, true, false) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp] [Line: 45] 
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: [Callstack] 0x00007ffdeb6ca839 KERNELBASE.dll!UnknownFunction []
+[2019.11.05-20.13.16:268][ 23]LogWindows: Error: [Callstack] 0x00007ffd8aa09ef7 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8aa0c754 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8a801afa UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8a7567c3 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8a756ed0 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd77e6fb8d UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd77e7f5a9 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd9675caf7 UE4Editor-RHI.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd79c99990 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd7a11b229 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd7a0f7301 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8a5d4e4a UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8a5d51f3 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd970f0021 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd970f85b4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8aa29a8f UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffd8aa1ffe1 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffdec567bd4 KERNEL32.DLL!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: [Callstack] 0x00007ffdee50ced1 ntdll.dll!UnknownFunction []
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:269][ 23]LogWindows: Error: 
+[2019.11.05-20.13.16:333][ 23]LogExit: Executing StaticShutdownAfterError
+[2019.11.05-20.13.16:358][ 23]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.11.05-20.13.16:404][ 23]Log file closed, 11/05/19 15:13:16
