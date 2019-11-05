@@ -592,3 +592,61 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.05-19.42.56:345][612]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
 [2019.11.05-19.43.03:347][ 32]LogSlate: Window 'Message Log' being destroyed
 [2019.11.05-19.43.03:351][ 32]LogSlate: Window 'Message Log' being destroyed
+[2019.11.05-19.51.21:431][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.11.05-19.51.21:431][447]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BaseMap_MAP' took 0.022
+[2019.11.05-19.51.21:433][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Shirt] ([1] browsable assets)...
+[2019.11.05-19.51.21:500][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Shirt.Shirt]
+[2019.11.05-19.51.21:500][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Shirt]
+[2019.11.05-19.51.21:500][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shirt" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Shirt_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:515][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Shirt_Auto12F658460454E357597A0F492E8553799.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Shirt_Auto1.uasset'
+[2019.11.05-19.51.21:516][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skins] ([1] browsable assets)...
+[2019.11.05-19.51.21:544][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Skins.Skins]
+[2019.11.05-19.51.21:544][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skins]
+[2019.11.05-19.51.21:544][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skins" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Skins_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:557][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Skins_Auto19099DA8C48994B4B59EA6F99FC4E91E0.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Skins_Auto1.uasset'
+[2019.11.05-19.51.21:558][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material] ([1] browsable assets)...
+[2019.11.05-19.51.21:585][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material.Material]
+[2019.11.05-19.51.21:585][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material]
+[2019.11.05-19.51.21:585][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Material_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:599][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Material_Auto195A054F044D68653ECDA519B20C3C5F9.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Material_Auto1.uasset'
+[2019.11.05-19.51.21:600][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hair] ([1] browsable assets)...
+[2019.11.05-19.51.21:627][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Hair.Hair]
+[2019.11.05-19.51.21:627][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hair]
+[2019.11.05-19.51.21:627][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hair" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Hair_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:643][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Hair_Auto16736E3514E1AAADBB47B9794D658531F.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Hair_Auto1.uasset'
+[2019.11.05-19.51.21:644][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Glass] ([1] browsable assets)...
+[2019.11.05-19.51.21:672][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Glass.Glass]
+[2019.11.05-19.51.21:672][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Glass]
+[2019.11.05-19.51.21:672][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Glass" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Glass_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:685][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Glass_Auto1284A3C4C4AC33EC5F4E36A95144EF507.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Glass_Auto1.uasset'
+[2019.11.05-19.51.21:686][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Eyes] ([1] browsable assets)...
+[2019.11.05-19.51.21:714][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Eyes.Eyes]
+[2019.11.05-19.51.21:714][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Eyes]
+[2019.11.05-19.51.21:714][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Eyes" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Eyes_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:727][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Eyes_Auto1D5A533514C5D2B3454F78DA4CCB6E800.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Eyes_Auto1.uasset'
+[2019.11.05-19.51.21:727][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PointEye] ([1] browsable assets)...
+[2019.11.05-19.51.21:754][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PointEye.PointEye]
+[2019.11.05-19.51.21:755][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/PointEye]
+[2019.11.05-19.51.21:755][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PointEye" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/PointEye_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:768][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/PointEye_Auto1A00EE0A641E80B7A8592B39E332FB9B2.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/PointEye_Auto1.uasset'
+[2019.11.05-19.51.21:769][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Lips] ([1] browsable assets)...
+[2019.11.05-19.51.21:782][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Lips.Lips]
+[2019.11.05-19.51.21:782][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Lips]
+[2019.11.05-19.51.21:782][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lips" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Lips_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:795][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Lips_Auto16926FFF8491DCC615B1444BE12DDA185.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Lips_Auto1.uasset'
+[2019.11.05-19.51.21:796][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Pants] ([1] browsable assets)...
+[2019.11.05-19.51.21:809][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Pants.Pants]
+[2019.11.05-19.51.21:809][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pants]
+[2019.11.05-19.51.21:809][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pants" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Pants_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:849][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Pants_Auto1B25334BA44A5D26925CAA69C068D81E0.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Pants_Auto1.uasset'
+[2019.11.05-19.51.21:851][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bottes] ([1] browsable assets)...
+[2019.11.05-19.51.21:866][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Bottes.Bottes]
+[2019.11.05-19.51.21:866][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bottes]
+[2019.11.05-19.51.21:866][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bottes" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Bottes_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:879][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Bottes_Auto1298AE69D4EE2F3260913929F48FCD9CE.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/Bottes_Auto1.uasset'
+[2019.11.05-19.51.21:880][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BottesTop] ([1] browsable assets)...
+[2019.11.05-19.51.21:893][447]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BottesTop.BottesTop]
+[2019.11.05-19.51.21:893][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/BottesTop]
+[2019.11.05-19.51.21:893][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BottesTop" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/BottesTop_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.05-19.51.21:905][447]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/BottesTop_Auto1CC20C4B64FFA28AFCDCCF89A1BF771FB.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Autosaves/Game/BottesTop_Auto1.uasset'
+[2019.11.05-19.51.21:906][447]LogFileHelpers: Auto-saving content packages took 0.473
