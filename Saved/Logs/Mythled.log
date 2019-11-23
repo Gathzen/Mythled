@@ -127,7 +127,7 @@ LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -403,7 +403,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.22-14.57.50:091][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
 [2019.11.22-14.57.50:091][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
 [2019.11.22-14.57.50:091][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.11.22-14.57.50:091][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.22-14.57.50:091][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0
 [2019.11.22-14.57.50:091][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
 [2019.11.22-14.57.50:091][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
 [2019.11.22-14.57.50:092][  0]LogD3D11RHI:      Driver Date: Unknown
@@ -721,14 +721,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.22-15.01.10:545][549]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.22-15.01.10:559][549]LogWorld: UWorld::CleanupWorld for Map_proto, bSessionEnded=true, bCleanupResources=false
 [2019.11.22-15.01.10:925][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2019.11.22-15.01.10:954][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.22-15.01.10:967][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.22-15.01.10:954][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.22-15.01.10:967][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.22-15.01.10:977][549]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.22-15.01.10:977][549]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.11.22-15.01.10:977][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.22-15.01.10:977][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.22-15.01.10:987][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
-[2019.11.22-15.01.11:023][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.22-15.01.11:032][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.22-15.01.11:023][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.22-15.01.11:032][549]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.22-15.01.17:586][549]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 46
 [2019.11.22-15.01.17:586][549]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 45
 [2019.11.22-15.01.17:586][549]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 44
