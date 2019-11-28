@@ -127,7 +127,7 @@ LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -396,7 +396,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-18.23.57:223][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
 [2019.11.28-18.23.57:223][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
 [2019.11.28-18.23.57:224][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.11.28-18.23.57:224][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.28-18.23.57:224][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0
 [2019.11.28-18.23.57:224][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
 [2019.11.28-18.23.57:224][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
 [2019.11.28-18.23.57:224][  0]LogD3D11RHI:      Driver Date: Unknown
@@ -678,7 +678,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-18.41.19:399][814]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Proto_MAP.umap' failed to load '/Game/Levels/Maps/Test_Proto_MAP_BuiltData': Can't find file.
 [2019.11.28-18.41.19:399][814]LoadErrors: Failed to load /Game/Levels/Maps/Test_Proto_MAP_BuiltData.Test_Proto_MAP_BuiltData Referenced by PersistentLevel
 [2019.11.28-18.41.19:399][814]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Proto_MAP.umap' failed to load '/Game/Levels/Maps/Test_Proto_MAP_BuiltData': Can't find file.
-[2019.11.28-18.41.19:453][814]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.28-18.41.19:453][814]LogMaterial: Display: Missing cached shader map for material Material, compiling.
 [2019.11.28-18.41.19:600][814]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
 [2019.11.28-18.41.19:600][814]LogStaticMesh: Building static mesh MapProto_Join_Pyramide...
 [2019.11.28-18.41.19:707][814]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
@@ -774,7 +774,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-18.41.21:262][814]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_024.MapProto_Join_Cube_024
 [2019.11.28-18.41.21:263][814]LogStaticMesh: Building static mesh MapProto_Join_Cube_023...
 [2019.11.28-18.41.21:284][814]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_023.MapProto_Join_Cube_023
-[2019.11.28-18.41.21:294][814]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2019.11.28-18.41.21:294][814]LogMaterial: Display: Missing cached shader map for material Material_003, compiling.
 [2019.11.28-18.41.21:324][814]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-18.41.21:347][814]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_022.MapProto_Join_Cube_022
 [2019.11.28-18.41.21:351][814]LogStaticMesh: Building static mesh MapProto_Join_Cube_020...
@@ -811,7 +811,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-18.41.21:708][814]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_000.MapProto_Join_Cube_000
 [2019.11.28-18.41.21:710][814]LogStaticMesh: Building static mesh MapProto_Join_Cube...
 [2019.11.28-18.41.21:722][814]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube.MapProto_Join_Cube
-[2019.11.28-18.41.21:732][814]LogMaterial: Display: Missing cached shader map for material Eyes, compiling. 
+[2019.11.28-18.41.21:732][814]LogMaterial: Display: Missing cached shader map for material Eyes, compiling.
 [2019.11.28-18.41.21:855][814]LogAIModule: Creating AISystem for world Test_Proto_MAP
 [2019.11.28-18.41.21:866][814]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Maps/Test_Proto_MAP.Test_Proto_MAP
 [2019.11.28-18.41.24:896][814]LogUObjectHash: Compacting FUObjectHashTables data took  15.37ms
