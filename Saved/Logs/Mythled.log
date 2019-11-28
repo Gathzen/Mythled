@@ -127,7 +127,7 @@ LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -403,7 +403,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.13.16:084][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
 [2019.11.28-14.13.16:084][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
 [2019.11.28-14.13.16:084][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.11.28-14.13.16:085][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.28-14.13.16:085][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0
 [2019.11.28-14.13.16:085][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
 [2019.11.28-14.13.16:085][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
 [2019.11.28-14.13.16:085][  0]LogD3D11RHI:      Driver Date: Unknown
@@ -1145,7 +1145,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.31.11:901][544]LogFbx: Display: Triangulating static mesh Cube.014
 [2019.11.28-14.31.11:905][544]LogStaticMesh: Building static mesh MapProto_Join_Cube_014...
 [2019.11.28-14.31.11:906][544]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Protype_Final/Maps/MapProto_Join_Cube_014.MapProto_Join_Cube_014
-[2019.11.28-14.31.12:147][544]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.28-14.31.12:147][544]LogMaterial: Display: Missing cached shader map for material Material, compiling.
 [2019.11.28-14.31.12:210][544]LogFbx: Display: Triangulating static mesh Pyramide
 [2019.11.28-14.31.12:227][544]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
 [2019.11.28-14.31.12:227][544]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
@@ -1179,7 +1179,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.31.12:486][544]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Protype_Final/Maps/MapProto_Join_Cube_020.MapProto_Join_Cube_020
 [2019.11.28-14.31.12:486][544]LogStaticMesh: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.31.12:486][544]LogStaticMesh: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.31.12:505][544]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2019.11.28-14.31.12:505][544]LogMaterial: Display: Missing cached shader map for material Material_003, compiling.
 [2019.11.28-14.31.12:521][544]LogFbx: Display: Triangulating static mesh Cube.022
 [2019.11.28-14.31.12:532][544]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-14.31.12:538][544]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Protype_Final/Maps/MapProto_Join_Cube_022.MapProto_Join_Cube_022
@@ -1369,88 +1369,88 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.31.18:163][544]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/MapAssets/Protype_Final/Maps/MapProto_Join_Cube_072.MapProto_Join_Cube_072
 [2019.11.28-14.31.18:165][544]LogStaticMesh: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.31.18:165][544]LogStaticMesh: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.31.18:960][544]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.11.28-14.31.18:960][544]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:961][544]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:962][544]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:963][544]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:964][544]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.31.18:965][544]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
 [2019.11.28-14.31.20:900][584]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
 [2019.11.28-14.31.22:247][662]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
 [2019.11.28-14.31.23:598][739]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
@@ -2537,7 +2537,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.44.05:215][930]LogFbx: Display: Triangulating static mesh Cube.014
 [2019.11.28-14.44.05:216][930]LogStaticMesh: Building static mesh MapProto_Join_Cube_014...
 [2019.11.28-14.44.05:217][930]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_014.MapProto_Join_Cube_014
-[2019.11.28-14.44.05:251][930]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.28-14.44.05:251][930]LogMaterial: Display: Missing cached shader map for material Material, compiling.
 [2019.11.28-14.44.05:266][930]LogFbx: Display: Triangulating static mesh Pyramide
 [2019.11.28-14.44.05:287][930]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
 [2019.11.28-14.44.05:287][930]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
@@ -2571,7 +2571,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.44.05:584][930]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_020.MapProto_Join_Cube_020
 [2019.11.28-14.44.05:597][930]LogStaticMesh: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.44.05:597][930]LogStaticMesh: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.44.05:814][930]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2019.11.28-14.44.05:814][930]LogMaterial: Display: Missing cached shader map for material Material_003, compiling.
 [2019.11.28-14.44.05:833][930]LogFbx: Display: Triangulating static mesh Cube.022
 [2019.11.28-14.44.05:845][930]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-14.44.05:851][930]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_022.MapProto_Join_Cube_022
@@ -2761,88 +2761,88 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.44.11:065][930]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_072.MapProto_Join_Cube_072
 [2019.11.28-14.44.11:066][930]LogStaticMesh: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.44.11:066][930]LogStaticMesh: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.44.12:131][930]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.11.28-14.44.12:131][930]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.11.28-14.44.12:131][930]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2019.11.28-14.44.12:131][930]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:132][930]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:133][930]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:134][930]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.44.12:135][930]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
 [2019.11.28-14.44.14:063][971]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
 [2019.11.28-14.44.15:825][ 71]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
 [2019.11.28-14.44.15:995][ 83]LogSlate: Window 'Message Log' being destroyed
@@ -3112,7 +3112,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.46.18:924][357]LogFbx: Display: Triangulating static mesh Cube.014
 [2019.11.28-14.46.18:925][357]LogStaticMesh: Building static mesh MapProto_Join_Cube_014...
 [2019.11.28-14.46.18:926][357]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_014.MapProto_Join_Cube_014
-[2019.11.28-14.46.18:960][357]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.28-14.46.18:960][357]LogMaterial: Display: Missing cached shader map for material Material, compiling.
 [2019.11.28-14.46.18:977][357]LogFbx: Display: Triangulating static mesh Pyramide
 [2019.11.28-14.46.18:999][357]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
 [2019.11.28-14.46.18:999][357]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
@@ -3146,7 +3146,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.46.19:392][357]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_020.MapProto_Join_Cube_020
 [2019.11.28-14.46.19:419][357]LogStaticMesh: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.46.19:419][357]LogStaticMesh: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.46.19:443][357]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2019.11.28-14.46.19:443][357]LogMaterial: Display: Missing cached shader map for material Material_003, compiling.
 [2019.11.28-14.46.19:471][357]LogFbx: Display: Triangulating static mesh Cube.022
 [2019.11.28-14.46.19:500][357]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-14.46.19:507][357]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_022.MapProto_Join_Cube_022
@@ -3336,88 +3336,88 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.46.23:869][357]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_072.MapProto_Join_Cube_072
 [2019.11.28-14.46.23:870][357]LogStaticMesh: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.46.23:871][357]LogStaticMesh: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:884][357]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:898][357]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:899][357]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:900][357]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.46.24:901][357]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
 [2019.11.28-14.46.27:383][483]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
 [2019.11.28-14.46.30:261][688]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
 [2019.11.28-14.46.31:575][787]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
@@ -3703,7 +3703,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.53.31:705][843]LogFbx: Display: Triangulating static mesh Cube.014
 [2019.11.28-14.53.31:707][843]LogStaticMesh: Building static mesh MapProto_Join_Cube_014...
 [2019.11.28-14.53.31:708][843]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_014.MapProto_Join_Cube_014
-[2019.11.28-14.53.31:755][843]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.28-14.53.31:755][843]LogMaterial: Display: Missing cached shader map for material Material, compiling.
 [2019.11.28-14.53.31:771][843]LogFbx: Display: Triangulating static mesh Pyramide
 [2019.11.28-14.53.31:785][843]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
 [2019.11.28-14.53.31:785][843]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
@@ -3737,7 +3737,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.53.31:975][843]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_020.MapProto_Join_Cube_020
 [2019.11.28-14.53.31:976][843]LogStaticMesh: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.53.31:976][843]LogStaticMesh: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.53.31:998][843]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2019.11.28-14.53.31:998][843]LogMaterial: Display: Missing cached shader map for material Material_003, compiling.
 [2019.11.28-14.53.32:019][843]LogFbx: Display: Triangulating static mesh Cube.022
 [2019.11.28-14.53.32:036][843]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-14.53.32:042][843]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_022.MapProto_Join_Cube_022
@@ -3926,88 +3926,88 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.53.36:219][843]LogStaticMesh: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.53.36:219][843]LogStaticMesh: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
 [2019.11.28-14.53.36:624][843]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
-[2019.11.28-14.53.37:023][843]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.11.28-14.53.37:023][843]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:023][843]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:023][843]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.11.28-14.53.37:023][843]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2019.11.28-14.53.37:023][843]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:023][843]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:023][843]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:024][843]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:025][843]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:026][843]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:027][843]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.53.37:028][843]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
 [2019.11.28-14.53.37:311][845]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
 [2019.11.28-14.53.42:687][194]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
 [2019.11.28-14.53.44:755][354]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
@@ -4087,7 +4087,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.56.35:402][224]LogFbx: Display: Triangulating static mesh Cube.014
 [2019.11.28-14.56.35:403][224]LogStaticMesh: Building static mesh MapProto_Join_Cube_014...
 [2019.11.28-14.56.35:404][224]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_014.MapProto_Join_Cube_014
-[2019.11.28-14.56.35:422][224]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.11.28-14.56.35:422][224]LogMaterial: Display: Missing cached shader map for material Material, compiling.
 [2019.11.28-14.56.35:439][224]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
 [2019.11.28-14.56.35:439][224]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
 [2019.11.28-14.56.35:439][224]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
@@ -4121,7 +4121,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.56.35:669][224]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_020.MapProto_Join_Cube_020
 [2019.11.28-14.56.35:670][224]LogStaticMesh: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.56.35:670][224]LogStaticMesh: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2019.11.28-14.56.35:694][224]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2019.11.28-14.56.35:694][224]LogMaterial: Display: Missing cached shader map for material Material_003, compiling.
 [2019.11.28-14.56.35:716][224]LogFbx: Display: Triangulating static mesh Cube.022
 [2019.11.28-14.56.35:738][224]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-14.56.35:745][224]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Final/MapProto_Join_Cube_022.MapProto_Join_Cube_022
@@ -4311,88 +4311,88 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-14.56.40:056][224]LogStaticMesh: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
 [2019.11.28-14.56.40:056][224]LogStaticMesh: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
 [2019.11.28-14.56.40:777][224]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_001 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_004 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_005 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_005 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:919][224]FBXImport: Warning: MapProto_Join_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_006 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_007 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cylinder_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cylinder_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cylinder_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Pyramide has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Pyramide has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_016 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_017 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_018 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_019 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:920][224]FBXImport: Warning: MapProto_Join_Cube_020 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_022 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_023 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_024 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_000 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_000 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_027 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_029 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_031 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_039 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_040 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_041 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube_042 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:921][224]FBXImport: Warning: MapProto_Join_Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_047 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_052 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_052 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_054 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_054 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_055 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_055 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cylinder_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cylinder_030 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_062 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_062 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_063 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_063 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_064 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_064 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_065 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_065 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_066 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_066 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_067 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_067 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_068 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:922][224]FBXImport: Warning: MapProto_Join_Cube_068 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_070 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_070 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_072 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.11.28-14.56.40:923][224]FBXImport: Warning: MapProto_Join_Cube_072 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
 [2019.11.28-14.56.45:361][467]LogSlate: Window 'Message Log' being destroyed
 [2019.11.28-14.56.45:368][467]LogSlate: Window 'Message Log' being destroyed
 [2019.11.28-14.56.45:729][497]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
