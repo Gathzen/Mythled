@@ -1,4 +1,4 @@
-﻿Log file open, 11/28/19 11:36:09
+﻿Log file open, 11/28/19 13:25:38
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: Mythled
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.121970
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.168790
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -122,12 +122,12 @@ LogInit: Build: ++UE4+Release-4.23-CL-8386587
 LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Net CL: 8386587
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4200H CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line:
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -158,1137 +158,422 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
-[2019.11.28-16.36.10:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.11.28-16.36.10:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
-[2019.11.28-16.36.10:189][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
-[2019.11.28-16.36.10:193][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.28-16.36.10:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.28-16.36.10:194][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.28-16.36.10:194][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.28-16.36.10:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.11.28-16.36.10:198][  0]LogHAL: Display: Platform has ~ 8 GB [8507314176 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.11.28-16.36.10:198][  0]LogInit: Going up to parent DeviceProfile []
-[2019.11.28-16.36.10:198][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.28-16.36.10:198][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.11.28-16.36.10:199][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nat/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
-[2019.11.28-16.36.10:199][  0]LogInit: Computer: NAT-LAPTOP-2017
-[2019.11.28-16.36.10:199][  0]LogInit: User: nat
-[2019.11.28-16.36.10:199][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.11.28-16.36.10:199][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.11.28-16.36.10:200][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.11.28-16.36.10:200][  0]LogMemory: Platform Memory Stats for Windows
-[2019.11.28-16.36.10:200][  0]LogMemory: Process Physical Memory: 100.70 MB used, 100.70 MB peak
-[2019.11.28-16.36.10:200][  0]LogMemory: Process Virtual Memory: 99.58 MB used, 99.58 MB peak
-[2019.11.28-16.36.10:200][  0]LogMemory: Physical Memory: 4614.89 MB used,  3498.32 MB free, 8113.21 MB total
-[2019.11.28-16.36.10:200][  0]LogMemory: Virtual Memory: 4637.26 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2019.11.28-16.36.10:204][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.11.28-16.36.10:247][  0]LogInit: Using OS detected language (en-US).
-[2019.11.28-16.36.10:247][  0]LogInit: Using OS detected locale (en-US).
-[2019.11.28-16.36.10:249][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.11.28-16.36.10:437][  0]LogInit: Setting process to per monitor DPI aware
-[2019.11.28-16.36.10:493][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.11.28-16.36.10:493][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.11.28-16.36.10:757][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.28-16.36.10:757][  0]LogD3D11RHI: D3D11 adapters:
-[2019.11.28-16.36.10:832][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2019.11.28-16.36.10:832][  0]LogD3D11RHI:       2010/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.11.28-16.36.10:840][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2019.11.28-16.36.10:840][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.11.28-16.36.10:843][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.11.28-16.36.10:843][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.11.28-16.36.10:843][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.11.28-16.36.10:872][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.11.28-16.36.10:872][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2019.11.28-16.36.10:872][  0]LogWindows: EnumDisplayDevices:
-[2019.11.28-16.36.10:873][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2019.11.28-16.36.10:873][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.11.28-16.36.10:874][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.11.28-16.36.10:874][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0
-[2019.11.28-16.36.10:874][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2019.11.28-16.36.10:874][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.11.28-16.36.10:874][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.11.28-16.36.10:874][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2019.11.28-16.36.10:924][  0]LogD3D11RHI: Async texture creation enabled
-[2019.11.28-16.36.10:936][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.11.28-16.36.11:389][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.11.28-16.36.11:403][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.11.28-16.36.11:416][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.11.28-16.36.11:430][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.11.28-16.36.11:444][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.11.28-16.36.11:457][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.11.28-16.36.11:471][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.11.28-16.36.11:484][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.11.28-16.36.11:492][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.11.28-16.36.11:528][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.11.28-16.36.11:528][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.11.28-16.36.11:528][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.11.28-16.36.11:528][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.11.28-16.36.11:528][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.11.28-16.36.11:528][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.11.28-16.36.11:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.11.28-16.36.11:531][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.11.28-16.36.11:555][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.11.28-16.36.11:555][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.11.28-16.36.11:572][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.11.28-16.36.11:572][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.11.28-16.36.11:580][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.11.28-16.36.11:589][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.11.28-16.36.11:597][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.11.28-16.36.11:606][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.11.28-16.36.11:636][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.11.28-16.36.11:636][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.11.28-16.36.11:636][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.11.28-16.36.11:653][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.11.28-16.36.11:757][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/nat/Documents/GitHub/Mythled/Intermediate/Shaders/WorkingDirectory/11784/).
-[2019.11.28-16.36.11:758][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nat/AppData/Local/Temp/UnrealShaderWorkingDir/F88E528E45A01363A1CFFDAB38C0007A/'.
-[2019.11.28-16.36.11:763][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.11.28-16.36.11:764][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.11.28-16.36.11:764][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.11.28-16.36.12:459][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.11.28-16.36.12:527][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/nat/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.28-16.36.12:527][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nat/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.11.28-16.36.12:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nat/Documents/GitHub/Mythled/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.11.28-16.36.12:527][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.11.28-16.36.12:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nat/Documents/GitHub/Mythled/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.28-16.36.12:527][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.11.28-16.36.12:540][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.11.28-16.36.12:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.28-16.36.12:540][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.11.28-16.36.12:542][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.11.28-16.36.12:542][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.11.28-16.36.12:542][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.11.28-16.36.12:566][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.11.28-16.36.12:569][  0]LogSlate: Using FreeType 2.6.0
-[2019.11.28-16.36.12:569][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.11.28-16.36.12:651][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
-[2019.11.28-16.36.13:000][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.28-16.36.13:182][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.11.28-16.36.13:182][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.11.28-16.36.13:182][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.11.28-16.36.13:182][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.11.28-16.36.13:182][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.11.28-16.36.13:193][  0]LogNetVersion: Mythled 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1487724216)
-[2019.11.28-16.36.13:661][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.045552 seconds
-[2019.11.28-16.36.13:669][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.11.28-16.36.13:669][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.11.28-16.36.13:669][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.11.28-16.36.14:884][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.11.28-16.36.14:888][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.11.28-16.36.14:971][  0]SourceControl: Source control is disabled
-[2019.11.28-16.36.15:825][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.11.28-16.36.15:967][  0]LogOcInput: OculusInput pre-init called
-[2019.11.28-16.36.15:975][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.11.28-16.36.15:975][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.11.28-16.36.16:068][  0]LogEngine: Initializing Engine...
-[2019.11.28-16.36.16:069][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.28-16.36.16:070][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.11.28-16.36.16:334][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.11.28-16.36.16:372][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.11.28-16.36.16:387][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.36.16:635][  0]LogInit: FAudioDevice initialized.
-[2019.11.28-16.36.16:635][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.11.28-16.36.16:935][  0]LogDerivedDataCache: Saved boot cache 0.30s 73MB C:/Users/nat/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.28-16.36.16:938][  0]LogInit: Texture streaming: Enabled
-[2019.11.28-16.36.16:983][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.11.28-16.36.16:983][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.11.28-16.36.16:992][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.11.28-16.36.17:057][  0]LogInit: Transaction tracking system initialized
-[2019.11.28-16.36.17:130][  0]BlueprintLog: New page: Editor Load
-[2019.11.28-16.36.17:306][  0]LocalizationService: Localization service is disabled
-[2019.11.28-16.36.17:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/' took 0.01s
-[2019.11.28-16.36.17:699][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.11.28-16.36.17:699][  0]LogCook: Display: Mobile HDR setting 1
-[2019.11.28-16.36.18:037][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.28-16.36.18:037][  0]LightingResults: New page: Lighting Build
-[2019.11.28-16.36.18:046][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.36.18:046][  0]MapCheck: New page: Map Check
-[2019.11.28-16.36.18:046][  0]LightingResults: New page: Lighting Build
-[2019.11.28-16.36.18:089][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
-[2019.11.28-16.36.18:345][  0]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap' failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:345][  0]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap' failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:355][  0]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap' failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:355][  0]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap' failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:356][  0]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:356][  0]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:357][  0]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:357][  0]LogLinker: Warning: Failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:378][  0]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap' failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:378][  0]LoadErrors: Failed to load /Game/Levels/Maps/Map_proto_BuiltData.Map_proto_BuiltData Referenced by PersistentLevel
-[2019.11.28-16.36.18:378][  0]LogLinker: Warning: While loading '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap' failed to load '/Game/Levels/Maps/Map_proto_BuiltData': Can't find file.
-[2019.11.28-16.36.18:378][  0]LoadErrors: Failed to load /Game/Levels/Maps/Map_proto_BuiltData.Map_proto_BuiltData Referenced by PersistentLevel
-[2019.11.28-16.36.18:520][  0]LogAIModule: Creating AISystem for world Map_proto
-[2019.11.28-16.36.18:530][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.28-16.36.18:560][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
-[2019.11.28-16.36.18:560][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.28-16.36.18:561][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.19ms to complete.
-[2019.11.28-16.36.18:561][  0]LogFileHelpers: Loading map 'Map_proto' took 0.524
-[2019.11.28-16.36.18:687][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.36.18:702][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.36.18:716][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.36.18:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.36.18:752][  0]LogCollectionManager: Loaded 0 collections in 0.007614 seconds
-[2019.11.28-16.36.18:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Saved/Collections/' took 0.00s
-[2019.11.28-16.36.18:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/Developers/nat/Collections/' took 0.00s
-[2019.11.28-16.36.18:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/Collections/' took 0.00s
-[2019.11.28-16.36.18:764][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.11.28-16.36.18:780][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2872 classes and 685 folders.
-[2019.11.28-16.36.18:798][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.28-16.36.18:939][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.11.28-16.36.18:955][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.11.28-16.36.19:083][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.11.28-16.36.19:087][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.11.28-16.36.19:097][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.11.28-16.36.19:219][  0]LogRenderer: Reallocating scene render targets to support 916x460 Format 10 NumSamples 1 (Frame:1).
-[2019.11.28-16.36.19:394][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.28-16.36.19:394][  0]LogLoad: (Engine Initialization) Total time: 12.21 seconds
-[2019.11.28-16.36.19:394][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.11.28-16.36.19:468][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.11.28-16.36.19:471][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.28-16.36.19:578][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.28-16.36.19:595][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/nat/Documents/GitHub/Mythled/Content/' took 0.18s
-[2019.11.28-16.36.19:645][  1]LogAssetRegistry: Asset discovery search completed in 6.9945 seconds
-[2019.11.28-16.36.19:655][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2019.11.28-16.36.19:655][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000149 seconds (updated 0 objects)
-[2019.11.28-16.36.22:538][143]LogSlate: Window 'Message Log' being destroyed
-[2019.11.28-16.36.22:543][143]LogSlate: Window 'Message Log' being destroyed
-[2019.11.28-16.36.25:124][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.28-16.36.28:848][518]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.28-16.36.28:915][518]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.36.28:926][518]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP
-[2019.11.28-16.36.28:951][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
-[2019.11.28-16.36.28:952][518]Cmd: MAP LOAD FILE="../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.28-16.36.28:952][518]LightingResults: New page: Lighting Build
-[2019.11.28-16.36.28:953][518]LoadErrors: New page: Loading map: Test_Nathaneil_MAP.umap
-[2019.11.28-16.36.28:953][518]LogWorld: UWorld::CleanupWorld for Map_proto, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.36.28:954][518]MapCheck: New page: Map Check
-[2019.11.28-16.36.28:954][518]LightingResults: New page: Lighting Build
-[2019.11.28-16.36.28:976][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
-[2019.11.28-16.36.29:062][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.28-16.36.29:086][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
-[2019.11.28-16.36.29:108][518]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.28-16.36.29:109][518]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
-[2019.11.28-16.36.29:109][518]LogFileHelpers: Loading map 'Test_Nathaneil_MAP' took 0.157
-[2019.11.28-16.36.34:335][762]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Guardian_BP.Guardian_BP
-[2019.11.28-16.36.34:589][762]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
-[2019.11.28-16.36.35:538][762]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.11.28-16.36.35:655][763]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.11.28-16.38.00:567][839]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.38.00:580][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.38.00:580][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.38.00:581][839]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:38:00 AM)
-[2019.11.28-16.38.00:582][839]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.11.28-16.38.00:584][839]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.38.00:588][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004446s)
-[2019.11.28-16.38.00:590][839]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.38.00:590][839]LogPlayLevel: PIE: World Init took: (0.001724s)
-[2019.11.28-16.38.00:590][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.006627s)
-[2019.11.28-16.38.00:633][839]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
-[2019.11.28-16.38.00:642][839]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.38.00:743][839]LogInit: FAudioDevice initialized.
-[2019.11.28-16.38.00:758][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.38.00:760][839]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.38.00:763][839]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.38.00
-[2019.11.28-16.38.00:764][839]LogWorld: Bringing up level for play took: 0.002390
-[2019.11.28-16.38.00:764][839]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2019.11.28-16.38.00:782][839]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.11.28-16.38.00:788][839]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0.009
-[2019.11.28-16.38.00:790][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.38.00:943][840]LogRenderer: Reallocating scene render targets to support 1280x716 Format 10 NumSamples 1 (Frame:1).
-[2019.11.28-16.38.10:292][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.38.10:293][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.38.10:293][368]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.38.10:311][368]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.38.10:316][368]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.38.10:342][368]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.38.10:342][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.38.10:432][368]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
-[2019.11.28-16.38.10:446][369]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.11.28-16.38.12:161][446]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Objects/GuardianProjectile_BP.GuardianProjectile_BP
-[2019.11.28-16.38.29:144][389]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP7BD2A6164802C3DBC95440A4E7639FD8.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.39.10:371][850]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.39.10:664][850]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
-[2019.11.28-16.39.11:437][874]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BPFB4EBFD940560907A48784BF3787324B.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.39.12:860][957]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.39.12:879][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.12:879][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.39.12:879][957]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:39:12 AM)
-[2019.11.28-16.39.12:880][957]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.39.12:884][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004451s)
-[2019.11.28-16.39.12:886][957]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.39.12:886][957]LogPlayLevel: PIE: World Init took: (0.001694s)
-[2019.11.28-16.39.12:886][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.006665s)
-[2019.11.28-16.39.12:935][957]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
-[2019.11.28-16.39.12:944][957]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.39.13:057][957]LogInit: FAudioDevice initialized.
-[2019.11.28-16.39.13:074][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.39.13:074][957]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.39.13:076][957]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.39.13
-[2019.11.28-16.39.13:077][957]LogWorld: Bringing up level for play took: 0.001799
-[2019.11.28-16.39.13:077][957]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2019.11.28-16.39.13:086][957]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0.289
-[2019.11.28-16.39.13:086][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.21:345][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.21:346][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.39.21:346][434]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.39.21:363][434]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.39.21:370][434]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.39.21:380][434]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.39.21:380][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.21:446][434]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
-[2019.11.28-16.39.21:460][435]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.11.28-16.39.22:851][508]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.39.22:869][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.22:869][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.39.22:869][508]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:39:22 AM)
-[2019.11.28-16.39.22:869][508]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.39.22:873][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003756s)
-[2019.11.28-16.39.22:875][508]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.39.22:875][508]LogPlayLevel: PIE: World Init took: (0.002236s)
-[2019.11.28-16.39.22:875][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.006237s)
-[2019.11.28-16.39.22:922][508]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
-[2019.11.28-16.39.22:930][508]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.39.23:046][508]LogInit: FAudioDevice initialized.
-[2019.11.28-16.39.23:063][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.39.23:063][508]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.39.23:066][508]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.39.23
-[2019.11.28-16.39.23:066][508]LogWorld: Bringing up level for play took: 0.001972
-[2019.11.28-16.39.23:066][508]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2019.11.28-16.39.23:077][508]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0.28
-[2019.11.28-16.39.23:078][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.33:528][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.33:531][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.39.33:531][114]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.39.33:551][114]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.39.33:556][114]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.39.33:573][114]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.39.33:574][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.33:639][114]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
-[2019.11.28-16.39.33:654][115]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.11.28-16.39.48:991][  9]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP02E4E4B5461513C7F6B51E91CC3C55B7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.39.49:610][ 42]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.39.49:893][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
-[2019.11.28-16.39.50:577][ 63]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BPB7E965FF49D29546A0A53F82E6ED506C.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.39.51:860][138]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.39.51:878][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.39.51:878][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.39.51:878][138]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:39:51 AM)
-[2019.11.28-16.39.51:878][138]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.39.51:882][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003750s)
-[2019.11.28-16.39.51:884][138]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.39.51:884][138]LogPlayLevel: PIE: World Init took: (0.001673s)
-[2019.11.28-16.39.51:884][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.005658s)
-[2019.11.28-16.39.51:933][138]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
-[2019.11.28-16.39.51:941][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.39.52:054][138]LogInit: FAudioDevice initialized.
-[2019.11.28-16.39.52:071][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.39.52:071][138]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.39.52:074][138]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.39.52
-[2019.11.28-16.39.52:074][138]LogWorld: Bringing up level for play took: 0.002195
-[2019.11.28-16.39.52:075][138]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2019.11.28-16.39.52:085][138]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0.712
-[2019.11.28-16.39.52:086][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.40.15:253][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.40.15:254][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.40.15:254][509]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.40.15:271][509]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.40.15:276][509]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.40.15:289][509]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.40.15:290][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.40.15:354][509]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
-[2019.11.28-16.40.15:368][510]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.11.28-16.40.22:844][933]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP71CACB594E45F187F8657DA6B51D4EBA.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.40.23:862][991]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.40.24:129][991]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
-[2019.11.28-16.40.24:736][  8]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP66728F944D30FA4501652D8FF0989729.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.40.26:474][110]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.40.26:492][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.40.26:492][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.40.26:492][110]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:40:26 AM)
-[2019.11.28-16.40.26:492][110]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.40.26:496][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003344s)
-[2019.11.28-16.40.26:498][110]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.40.26:498][110]LogPlayLevel: PIE: World Init took: (0.002152s)
-[2019.11.28-16.40.26:498][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.005748s)
-[2019.11.28-16.40.26:557][110]LogUObjectHash: Compacting FUObjectHashTables data took   8.83ms
-[2019.11.28-16.40.26:567][110]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.40.26:689][110]LogInit: FAudioDevice initialized.
-[2019.11.28-16.40.26:704][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.40.26:704][110]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.40.26:706][110]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.40.26
-[2019.11.28-16.40.26:707][110]LogWorld: Bringing up level for play took: 0.001535
-[2019.11.28-16.40.26:707][110]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2019.11.28-16.40.26:714][110]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0.083
-[2019.11.28-16.40.26:714][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.40.53:548][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.40.53:548][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.40.53:548][701]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.40.53:569][701]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.40.53:577][701]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.40.53:591][701]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.40.53:591][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.40.53:668][701]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
-[2019.11.28-16.40.53:691][702]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.11.28-16.40.56:631][861]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2019.11.28-16.41.02:973][230]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2019.11.28-16.41.29:509][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.28-16.43.19:526][374]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={77EFEFC3-4D7C-E090-22D8-72A772039E50}
-[2019.11.28-16.43.49:121][126]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP44C36E38407B730AC5915EBA12413A37.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.43.50:766][222]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.43.51:054][222]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
-[2019.11.28-16.43.51:791][246]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BPA69702B24A4505F959AB3DB16616F072.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.43.53:104][322]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.43.53:127][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.43.53:127][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.43.53:127][322]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:43:53 AM)
-[2019.11.28-16.43.53:128][322]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.43.53:134][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006337s)
-[2019.11.28-16.43.53:136][322]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.43.53:137][322]LogPlayLevel: PIE: World Init took: (0.002455s)
-[2019.11.28-16.43.53:137][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.009239s)
-[2019.11.28-16.43.53:191][322]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
-[2019.11.28-16.43.53:199][322]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.43.53:297][322]LogInit: FAudioDevice initialized.
-[2019.11.28-16.43.53:312][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.43.53:312][322]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.43.53:314][322]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.43.53
-[2019.11.28-16.43.53:315][322]LogWorld: Bringing up level for play took: 0.001712
-[2019.11.28-16.43.53:315][322]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2019.11.28-16.43.53:323][322]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0.526
-[2019.11.28-16.43.53:324][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.44.07:263][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.44.07:263][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.44.07:263][149]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.44.07:281][149]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.44.07:288][149]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.44.07:305][149]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.44.07:305][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.44.07:375][149]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
-[2019.11.28-16.44.07:390][150]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.11.28-16.44.12:894][470]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.44.13:167][470]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
-[2019.11.28-16.44.13:907][491]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP7298D5284B78E25051426F8046B8AEFF.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.44.47:447][492]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.44.47:719][492]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
-[2019.11.28-16.44.48:715][543]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.44.48:732][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.44.48:732][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.44.48:732][543]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:44:48 AM)
-[2019.11.28-16.44.48:732][543]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.44.48:736][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003351s)
-[2019.11.28-16.44.48:737][543]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.44.48:737][543]LogPlayLevel: PIE: World Init took: (0.001568s)
-[2019.11.28-16.44.48:737][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.005221s)
-[2019.11.28-16.44.48:783][543]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
-[2019.11.28-16.44.48:791][543]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.44.48:886][543]LogInit: FAudioDevice initialized.
-[2019.11.28-16.44.48:903][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.44.48:904][543]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.44.48:906][543]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.44.48
-[2019.11.28-16.44.48:906][543]LogWorld: Bringing up level for play took: 0.001847
-[2019.11.28-16.44.48:907][543]LogOnline: OSS: Creating online subsystem instance for: :Context_13
-[2019.11.28-16.44.48:916][543]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0.12
-[2019.11.28-16.44.48:917][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.45.05:022][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.45.05:023][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.45.05:023][431]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.45.05:042][431]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.45.05:048][431]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.45.05:065][431]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.45.05:066][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.45.05:137][431]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
-[2019.11.28-16.45.05:150][432]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.11.28-16.45.30:740][965]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.45.31:010][965]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
-[2019.11.28-16.45.31:783][990]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP9638055E4776272BEE54E69EA3C5FAAC.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.45.33:203][ 73]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.45.33:221][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.45.33:221][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.45.33:221][ 73]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:45:33 AM)
-[2019.11.28-16.45.33:222][ 73]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.45.33:225][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003419s)
-[2019.11.28-16.45.33:226][ 73]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.45.33:227][ 73]LogPlayLevel: PIE: World Init took: (0.001546s)
-[2019.11.28-16.45.33:227][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.005170s)
-[2019.11.28-16.45.33:278][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
-[2019.11.28-16.45.33:287][ 73]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.45.33:391][ 73]LogInit: FAudioDevice initialized.
-[2019.11.28-16.45.33:406][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.45.33:407][ 73]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.45.33:408][ 73]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.45.33
-[2019.11.28-16.45.33:409][ 73]LogWorld: Bringing up level for play took: 0.001624
-[2019.11.28-16.45.33:409][ 73]LogOnline: OSS: Creating online subsystem instance for: :Context_14
-[2019.11.28-16.45.33:419][ 73]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0.623
-[2019.11.28-16.45.33:420][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.45.39:632][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.45.39:632][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.45.39:632][433]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.45.39:650][433]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.45.39:655][433]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.45.39:672][433]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.45.39:672][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.45.39:746][433]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
-[2019.11.28-16.45.39:762][434]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.11.28-16.45.50:224][ 31]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BPC7EE04034A47247072CA4E94EE93838D.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.45.51:265][ 90]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.45.51:550][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
-[2019.11.28-16.45.52:376][117]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BP63CC9C6C4D1C1E3151FB769A72EFA4DC.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.46.19:557][735]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={88EAB938-47FC-4514-64F5-CAAC9C3B9C11}
-[2019.11.28-16.46.56:177][912]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BPD2C7BFF440564EDE58A60DBD725AF7B7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.46.58:037][ 21]BlueprintLog: New page: Compile GuardianProjectile_BP
-[2019.11.28-16.46.58:291][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   6.44ms
-[2019.11.28-16.46.58:924][ 39]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/GuardianProjectile_BPC9F03A3E48403DD2B0EA7DA0E49E3EB7.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Blueprints/Objects/GuardianProjectile_BP.uasset'
-[2019.11.28-16.46.59:808][ 91]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.46.59:824][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.46.59:824][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.46.59:825][ 91]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:46:59 AM)
-[2019.11.28-16.46.59:825][ 91]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.46.59:828][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003408s)
-[2019.11.28-16.46.59:830][ 91]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.46.59:831][ 91]LogPlayLevel: PIE: World Init took: (0.002413s)
-[2019.11.28-16.46.59:831][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.006053s)
-[2019.11.28-16.46.59:878][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
-[2019.11.28-16.46.59:885][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.46.59:987][ 91]LogInit: FAudioDevice initialized.
-[2019.11.28-16.47.00:005][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.47.00:005][ 91]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.47.00:008][ 91]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.47.00
-[2019.11.28-16.47.00:008][ 91]LogWorld: Bringing up level for play took: 0.002518
-[2019.11.28-16.47.00:009][ 91]LogOnline: OSS: Creating online subsystem instance for: :Context_15
-[2019.11.28-16.47.00:016][ 91]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0.781
-[2019.11.28-16.47.00:016][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.47.48:283][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.47.48:284][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.47.48:284][762]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.47.48:305][762]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.47.48:314][762]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.47.48:325][762]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.47.48:326][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.47.48:416][762]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
-[2019.11.28-16.47.48:431][763]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.11.28-16.48.44:457][119]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.48.44:482][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.48.44:483][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.48.44:483][119]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:48:44 AM)
-[2019.11.28-16.48.44:483][119]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.48.44:487][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003830s)
-[2019.11.28-16.48.44:489][119]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.48.44:489][119]LogPlayLevel: PIE: World Init took: (0.002462s)
-[2019.11.28-16.48.44:489][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.006526s)
-[2019.11.28-16.48.44:536][119]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
-[2019.11.28-16.48.44:543][119]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.48.44:642][119]LogInit: FAudioDevice initialized.
-[2019.11.28-16.48.44:658][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.48.44:659][119]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.48.44:661][119]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.48.44
-[2019.11.28-16.48.44:663][119]LogWorld: Bringing up level for play took: 0.002813
-[2019.11.28-16.48.44:663][119]LogOnline: OSS: Creating online subsystem instance for: :Context_16
-[2019.11.28-16.48.44:670][119]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP -0.127
-[2019.11.28-16.48.44:671][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.51.38:879][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.51.38:879][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.51.38:879][893]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.51.38:913][893]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.51.38:921][893]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.51.38:944][893]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.51.38:946][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.51.39:035][893]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
-[2019.11.28-16.51.39:052][894]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.11.28-16.51.41:245][ 25]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.11.28-16.51.41:269][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.51.41:270][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.28-16.51.41:270][ 25]PIE: New page: PIE session: Test_Nathaneil_MAP (Nov 28, 2019, 6:51:41 AM)
-[2019.11.28-16.51.41:270][ 25]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.51.41:275][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004862s)
-[2019.11.28-16.51.41:278][ 25]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
-[2019.11.28-16.51.41:278][ 25]LogPlayLevel: PIE: World Init took: (0.003198s)
-[2019.11.28-16.51.41:278][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.008352s)
-[2019.11.28-16.51.41:345][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
-[2019.11.28-16.51.41:358][ 25]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.28-16.51.41:501][ 25]LogInit: FAudioDevice initialized.
-[2019.11.28-16.51.41:520][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.51.41:521][ 25]LogLoad: Game class is 'Test_Nathaniel_GM_C'
-[2019.11.28-16.51.41:524][ 25]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.11.28-11.51.41
-[2019.11.28-16.51.41:525][ 25]LogWorld: Bringing up level for play took: 0.002780
-[2019.11.28-16.51.41:525][ 25]LogOnline: OSS: Creating online subsystem instance for: :Context_17
-[2019.11.28-16.51.41:536][ 25]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0.739
-[2019.11.28-16.51.41:536][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.54.10:429][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.28-16.54.10:430][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.54.10:430][162]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
-[2019.11.28-16.54.10:457][162]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.28-16.54.10:464][162]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.10:490][162]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.28-16.54.10:490][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.11.28-16.54.10:592][162]LogUObjectHash: Compacting FUObjectHashTables data took   7.55ms
-[2019.11.28-16.54.10:612][163]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.11.28-16.54.13:471][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
-[2019.11.28-16.54.13:851][335]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP6DE4612E4964F10DD483CCA3C519B039.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
-[2019.11.28-16.54.14:159][335]LogSavePackage: Moving '../../../../../../Users/nat/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP_BuiltData570045F84A9D696EFEE70384ED6F6C2D.tmp' to '../../../../../../Users/nat/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP_BuiltData.uasset'
-[2019.11.28-16.54.15:019][380]LogUObjectHash: Compacting FUObjectHashTables data took   8.37ms
-[2019.11.28-16.54.15:131][380]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.15:197][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2019.11.28-16.54.15:197][380]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.15:245][380]LogSlate: Window 'Mythled - Unreal Editor' being destroyed
-[2019.11.28-16.54.15:412][381]Cmd: QUIT_EDITOR
-[2019.11.28-16.54.15:725][381]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.11.28-16.54.15:739][381]LogExit: Preparing to exit.
-[2019.11.28-16.54.16:758][381]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.16:763][381]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.16:767][381]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.16:771][381]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.16:829][381]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2019.11.28-16.54.16:839][381]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2019.11.28-16.54.16:839][381]LogExit: Editor shut down
-[2019.11.28-16.54.16:839][381]LogExit: Transaction tracking system shut down
-[2019.11.28-16.54.17:325][381]LogExit: Object subsystem successfully closed.
-[2019.11.28-16.54.17:345][381]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (678)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module Voice (676)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module BlueprintGraph (674)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (672)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module SceneOutliner (670)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module AddContentDialog (668)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module WidgetCarousel (667)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module EditorWidgets (664)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module CollectionManager (662)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module StatsViewer (660)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (658)
-[2019.11.28-16.54.17:391][381]LogModuleManager: Shutting down and abandoning module FoliageEdit (656)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module LandscapeEditor (654)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module MeshPaintMode (652)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (650)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module ActorPickerMode (648)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module GeometryMode (646)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module TextureAlignMode (644)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module BspMode (642)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (640)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (638)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module AutomationWorker (636)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module OculusMR (634)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (632)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (630)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (628)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module PlacementMode (627)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module MaterialEditor (626)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (622)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (620)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (618)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (616)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (614)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module WebMMedia (612)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (610)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (608)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module SequenceRecorder (607)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (604)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (602)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (600)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (598)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (596)
-[2019.11.28-16.54.17:392][381]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (594)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (592)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (590)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (588)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (586)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (584)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module CharacterAI (582)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module SmartSnapping (580)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module SessionServices (578)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module MeshPaint (576)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module ViewportSnapping (574)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module ViewportInteraction (572)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module ClothPainter (570)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (569)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module LogVisualizer (566)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module IntroTutorials (564)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (563)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (560)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (558)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (556)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (554)
-[2019.11.28-16.54.17:393][381]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (553)
-[2019.11.28-16.54.17:971][381]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (550)
-[2019.11.28-16.54.17:971][381]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (548)
-[2019.11.28-16.54.17:971][381]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (546)
-[2019.11.28-16.54.17:971][381]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (544)
-[2019.11.28-16.54.17:971][381]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (542)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module InputBindingEditor (540)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module MergeActors (538)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (536)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module LocalizationService (535)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module HardwareTargeting (532)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (530)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module UndoHistory (528)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module XmlParser (526)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module Blutility (524)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (522)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (521)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (518)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module SettingsEditor (516)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module ProjectLauncher (514)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module SessionFrontend (512)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module ProfilerClient (510)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module DeviceManager (508)
-[2019.11.28-16.54.17:972][381]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (507)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module AutomationController (504)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module AutomationWindow (502)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module Layers (500)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (498)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module DetailCustomizations (496)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module PackagesDialog (494)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (492)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module Persona (490)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (489)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module AnimGraph (487)
-[2019.11.28-16.54.18:016][381]LogModuleManager: Shutting down and abandoning module Kismet (484)
-[2019.11.28-16.54.18:025][381]LogModuleManager: Shutting down and abandoning module KismetWidgets (483)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module GraphEditor (480)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module StructViewer (478)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module ClassViewer (476)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module Toolbox (474)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module ModuleUI (472)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module MovieSceneTools (470)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module OutputLog (468)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module GammaUI (466)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module Documentation (464)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module LiveCoding (462)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module LevelSequence (460)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (458)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module MovieScene (456)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (454)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module LauncherPlatform (452)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module AnalyticsET (450)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module PortalServices (448)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module PortalRpc (446)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module MessagingRpc (444)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module AIModule (442)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module GameplayDebugger (441)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module AITestSuite (439)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module NavigationSystem (437)
-[2019.11.28-16.54.18:026][381]LogModuleManager: Shutting down and abandoning module DesktopPlatform (434)
-[2019.11.28-16.54.18:027][381]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (432)
-[2019.11.28-16.54.18:030][381]LogModuleManager: Shutting down and abandoning module ProfilerService (430)
-[2019.11.28-16.54.18:249][381]LogModuleManager: Shutting down and abandoning module TaskGraph (428)
-[2019.11.28-16.54.18:249][381]LogModuleManager: Shutting down and abandoning module ScreenshotTools (426)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module SteamVRController (424)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (422)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (420)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module OculusEditor (418)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module OculusInput (416)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (414)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module EditableMesh (412)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (410)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module CableComponent (408)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module AudioCapture (406)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (404)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (402)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module AppleImageUtils (400)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module AndroidPermission (398)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (396)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (394)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (388)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (386)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (384)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module HTML5Networking (382)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (380)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (378)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module BackChannel (376)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (374)
-[2019.11.28-16.54.18:250][381]LogModuleManager: Shutting down and abandoning module AutomationUtils (372)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module AlembicImporter (370)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module AlembicLibrary (369)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module GeometryCache (368)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (367)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module VariantManagerContent (362)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (360)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (358)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module PluginBrowser (356)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (354)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (352)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module CurveEditorTools (350)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module CurveEditor (349)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (346)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module CryptoKeys (344)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (340)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module UObjectPlugin (338)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (336)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (334)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module GitSourceControl (332)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module SourceControl (331)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (328)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (326)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (324)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (320)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (318)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (316)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module Paper2DEditor (314)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module SignificanceManager (312)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (310)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (308)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (304)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (302)
-[2019.11.28-16.54.18:251][381]LogModuleManager: Shutting down and abandoning module ApexDestruction (300)
-[2019.11.28-16.54.18:252][381]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
-[2019.11.28-16.54.18:252][381]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
-[2019.11.28-16.54.18:352][381]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
-[2019.11.28-16.54.18:452][381]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module DataValidation (272)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
-[2019.11.28-16.54.18:452][381]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2019.11.28-16.54.18:453][381]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2019.11.28-16.54.18:453][381]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
-[2019.11.28-16.54.18:453][381]LogModuleManager: Shutting down and abandoning module MainFrame (264)
-[2019.11.28-16.54.18:453][381]LogModuleManager: Shutting down and abandoning module HotReload (263)
-[2019.11.28-16.54.18:454][381]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
-[2019.11.28-16.54.18:454][381]LogModuleManager: Shutting down and abandoning module TreeMap (257)
-[2019.11.28-16.54.18:455][381]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
-[2019.11.28-16.54.18:455][381]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.11.28-16.54.18:455][381]LogModuleManager: Shutting down and abandoning module Paper2D (250)
-[2019.11.28-16.54.18:455][381]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module Overlay (234)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module VREditor (230)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module UMG (216)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module Sequencer (214)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module MessageLog (211)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module Slate (204)
-[2019.11.28-16.54.18:457][381]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
-[2019.11.28-16.54.18:458][381]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
-[2019.11.28-16.54.18:459][381]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
-[2019.11.28-16.54.18:461][381]LogDerivedDataCache: Shutdown
-[2019.11.28-16.54.18:461][381]LogModuleManager: Shutting down and abandoning module XGEController (162)
-[2019.11.28-16.54.18:461][381]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
-[2019.11.28-16.54.18:461][381]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
-[2019.11.28-16.54.18:462][381]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2019.11.28-16.54.18:463][381]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
-[2019.11.28-16.54.18:463][381]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
-[2019.11.28-16.54.18:463][381]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
-[2019.11.28-16.54.18:463][381]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
-[2019.11.28-16.54.18:463][381]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
-[2019.11.28-16.54.18:464][381]LogModuleManager: Shutting down and abandoning module Messaging (117)
-[2019.11.28-16.54.18:464][381]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
-[2019.11.28-16.54.18:464][381]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
-[2019.11.28-16.54.18:464][381]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module InputCore (90)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module Settings (88)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
-[2019.11.28-16.54.18:471][381]LogModuleManager: Shutting down and abandoning module SteamVR (78)
-[2019.11.28-16.54.18:472][381]LogHMD: Freeing OpenVRDLLHandle.
-[2019.11.28-16.54.18:472][381]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
-[2019.11.28-16.54.18:472][381]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
-[2019.11.28-16.54.18:472][381]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
-[2019.11.28-16.54.18:472][381]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2019.11.28-16.54.18:472][381]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
-[2019.11.28-16.54.18:472][381]LogModuleManager: Shutting down and abandoning module XMPP (61)
-[2019.11.28-16.54.18:472][381]LogModuleManager: Shutting down and abandoning module WebSockets (60)
-[2019.11.28-16.54.18:486][381]LogModuleManager: Shutting down and abandoning module HTTP (57)
-[2019.11.28-16.54.18:486][381]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.11.28-16.54.18:487][381]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC034BFB3-4222-4874-38E9-1DAA78B2041E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=005e6b31420e4b7424f53ca262cd64d2%7Cdc4ea6c94623442da2fa81906ab5101d%7C471d2789-5586-44a5-b1e5-c6a630d6839b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.11.28-16.54.18:493][381]LogModuleManager: Shutting down and abandoning module SSL (56)
-[2019.11.28-16.54.18:494][381]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
-[2019.11.28-16.54.18:496][381]LogModuleManager: Shutting down and abandoning module Media (51)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2019.11.28-16.54.18:497][381]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2019.11.28-16.54.18:498][381]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2019.11.28-16.54.18:498][381]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2019.11.28-16.54.18:498][381]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2019.11.28-16.54.18:498][381]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2019.11.28-16.54.18:499][381]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2019.11.28-16.54.18:500][381]LogD3D11RHI: Shutdown
-[2019.11.28-16.54.18:500][381]LogD3D11RHI: CleanupD3DDevice
-[2019.11.28-16.54.18:500][381]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.11.28-16.54.18:500][381]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.11.28-16.54.18:500][381]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.11.28-16.54.18:661][381]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.11.28-16.54.18:668][381]LogExit: Exiting.
-[2019.11.28-16.54.18:732][381]Log file closed, 11/28/19 11:54:18
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.28-18.25.39:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.28-18.25.39:856][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.28-18.25.39:857][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.28-18.25.39:857][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.28-18.25.39:860][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.28-18.25.39:860][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.28-18.25.39:861][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.28-18.25.39:861][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.28-18.25.39:861][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.28-18.25.39:861][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.28-18.25.39:861][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:861][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.28-18.25.39:861][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.28-18.25.39:861][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.28-18.25.39:861][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.28-18.25.39:892][  0]LogHAL: Display: Platform has ~ 8 GB [8424574976 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.28-18.25.39:892][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.28-18.25.39:892][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.28-18.25.39:892][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Scalability.ini]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.28-18.25.39:893][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.28-18.25.39:922][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.28-18.25.39:922][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.28-18.25.39:922][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Camille/Documents/GitHub/Mythled/Saved/Config/Windows/Engine.ini]
+[2019.11.28-18.25.39:922][  0]LogInit: Computer: LAPTOP-81QI7FGM
+[2019.11.28-18.25.39:922][  0]LogInit: User: Camille
+[2019.11.28-18.25.39:922][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.28-18.25.39:922][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.28-18.25.39:923][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2019.11.28-18.25.39:923][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.28-18.25.39:923][  0]LogMemory: Process Physical Memory: 102.19 MB used, 102.20 MB peak
+[2019.11.28-18.25.39:923][  0]LogMemory: Process Virtual Memory: 99.16 MB used, 99.16 MB peak
+[2019.11.28-18.25.39:923][  0]LogMemory: Physical Memory: 4554.48 MB used,  3479.82 MB free, 8034.30 MB total
+[2019.11.28-18.25.39:923][  0]LogMemory: Virtual Memory: 4666.74 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.11.28-18.25.39:930][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.28-18.25.40:568][  0]LogInit: Using OS detected language (fr-CA).
+[2019.11.28-18.25.40:568][  0]LogInit: Using OS detected locale (fr-CA).
+[2019.11.28-18.25.40:612][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
+[2019.11.28-18.25.40:612][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2019.11.28-18.25.40:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2019.11.28-18.25.40:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2019.11.28-18.25.40:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2019.11.28-18.25.40:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2019.11.28-18.25.40:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2019.11.28-18.25.40:613][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2019.11.28-18.25.40:675][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.28-18.25.40:851][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.28-18.25.40:851][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.28-18.25.45:430][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.28-18.25.45:430][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.28-18.25.45:491][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.11.28-18.25.45:491][  0]LogD3D11RHI:       4019/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.28-18.25.45:508][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.11.28-18.25.45:508][  0]LogD3D11RHI:       128/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.28-18.25.45:510][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.28-18.25.45:510][  0]LogD3D11RHI:       0/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.28-18.25.45:510][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.28-18.25.45:538][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.28-18.25.45:539][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.11.28-18.25.45:539][  0]LogWindows: EnumDisplayDevices:
+[2019.11.28-18.25.45:539][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.11.28-18.25.45:539][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.28-18.25.45:539][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.28-18.25.45:539][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.11.28-18.25.45:540][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.11.28-18.25.45:540][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.11.28-18.25.45:540][  0]LogD3D11RHI:   Driver Version: 436.48 (internal:26.21.14.3648, unified:436.48)
+[2019.11.28-18.25.45:540][  0]LogD3D11RHI:      Driver Date: 9-26-2019
+[2019.11.28-18.25.45:540][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2019.11.28-18.25.45:579][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.28-18.25.45:590][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.28-18.25.46:821][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.28-18.25.46:829][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.28-18.25.46:838][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.28-18.25.46:845][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.28-18.25.47:014][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.28-18.25.47:024][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.28-18.25.47:032][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.28-18.25.47:041][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.28-18.25.47:045][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.28-18.25.47:193][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.28-18.25.47:195][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.28-18.25.47:338][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.28-18.25.47:338][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.28-18.25.47:352][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.28-18.25.47:352][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.28-18.25.47:358][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.28-18.25.47:365][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.28-18.25.47:372][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.28-18.25.47:580][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.28-18.25.47:642][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.28-18.25.47:642][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.28-18.25.47:642][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.28-18.25.47:980][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.28-18.25.48:449][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Camille/Documents/GitHub/Mythled/Intermediate/Shaders/WorkingDirectory/10464/).
+[2019.11.28-18.25.48:450][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Camille/AppData/Local/Temp/UnrealShaderWorkingDir/1D4D063947E1878D921B0CBD18878D7A/'.
+[2019.11.28-18.25.48:452][  0]LogXGEController: Cleaning working directory: C:/Users/Camille/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.28-18.25.48:452][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.28-18.25.48:452][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.28-18.25.48:452][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.28-18.26.04:137][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.28-18.26.05:345][  0]LogDerivedDataCache: Loaded boot cache 1.21s 73MB C:/Users/Camille/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.28-18.26.05:345][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Camille/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.28-18.26.05:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Camille/Documents/GitHub/Mythled/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.28-18.26.05:345][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.28-18.26.05:346][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Camille/Documents/GitHub/Mythled/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.28-18.26.05:346][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.28-18.26.05:424][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.28-18.26.05:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.28-18.26.05:425][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.28-18.26.05:426][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Camille/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.28-18.26.05:426][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.28-18.26.05:426][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.28-18.26.05:446][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.28-18.26.05:449][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.28-18.26.05:519][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.28-18.26.09:709][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2019.11.28-18.26.10:017][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.28-18.26.12:823][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.28-18.26.12:823][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.28-18.26.12:823][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.28-18.26.12:823][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.28-18.26.12:823][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.28-18.26.13:340][  0]LogNetVersion: Mythled 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1487724216)
+[2019.11.28-18.26.24:474][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.111858 seconds
+[2019.11.28-18.26.24:480][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.28-18.26.24:480][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.28-18.26.24:480][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.28-18.27.42:333][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.28-18.27.42:395][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.28-18.27.44:685][  0]SourceControl: Source control is disabled
+[2019.11.28-18.27.52:452][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.28-18.27.54:261][  0]LogOcInput: OculusInput pre-init called
+[2019.11.28-18.27.54:445][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.28-18.27.54:445][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.28-18.28.00:398][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 4.14s
+[2019.11.28-18.28.00:704][  0]LogEngine: Initializing Engine...
+[2019.11.28-18.28.00:882][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.28-18.28.01:186][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.085 s
+[2019.11.28-18.28.02:298][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.28-18.28.04:549][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.28-18.28.05:638][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.28-18.28.06:676][  0]LogInit: FAudioDevice initialized.
+[2019.11.28-18.28.06:743][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.28-18.28.07:166][  0]LogDerivedDataCache: Saved boot cache 0.42s 73MB C:/Users/Camille/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.28-18.28.07:342][  0]LogInit: Texture streaming: Enabled
+[2019.11.28-18.28.07:961][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.28-18.28.08:811][  0]LogInit: Transaction tracking system initialized
+[2019.11.28-18.28.10:582][  0]BlueprintLog: New page: Editor Load
+[2019.11.28-18.28.13:005][  0]LocalizationService: Localization service is disabled
+[2019.11.28-18.28.17:053][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Camille/Documents/GitHub/Mythled/Content/' took 0.23s
+[2019.11.28-18.28.17:053][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.28-18.28.17:053][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.28-18.28.24:027][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Map_proto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.28-18.28.24:076][  0]LightingResults: New page: Lighting Build
+[2019.11.28-18.28.24:487][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.28-18.28.24:722][  0]MapCheck: New page: Map Check
+[2019.11.28-18.28.24:722][  0]LightingResults: New page: Lighting Build
+[2019.11.28-18.28.25:696][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.11.28-18.28.29:892][  0]LogStaticMesh: Building static mesh Statue3_Final_Cylinder_001...
+[2019.11.28-18.28.30:181][  0]LogStaticMesh: Built static mesh [0.35s] /Game/Assets/Models/Statue3_Final_Cylinder_001.Statue3_Final_Cylinder_001
+[2019.11.28-18.28.30:825][  0]LogMaterial: Display: Missing cached shader map for material Material_MAT, compiling. 
+[2019.11.28-18.28.31:763][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2019.11.28-18.28.31:763][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2019.11.28-18.28.31:763][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2019.11.28-18.28.31:763][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2019.11.28-18.28.31:763][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 20
+[2019.11.28-18.28.31:763][  0]LogMaterial: Display: Missing cached shader map for material BottesTop_MAT, compiling. 
+[2019.11.28-18.28.32:573][  0]LogStaticMesh: Building static mesh Statue3_Final_Cube...
+[2019.11.28-18.28.32:578][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Models/Statue3_Final_Cube.Statue3_Final_Cube
+[2019.11.28-18.28.32:792][  0]LogStaticMesh: Building static mesh Statue3_Final_Cube_001...
+[2019.11.28-18.28.32:834][  0]LogStaticMesh: Built static mesh [0.18s] /Game/Assets/Models/Statue3_Final_Cube_001.Statue3_Final_Cube_001
+[2019.11.28-18.28.35:099][  0]LogAIModule: Creating AISystem for world Map_proto
+[2019.11.28-18.28.37:642][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.28-18.28.37:997][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.11.28-18.28.37:997][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.28-18.28.37:998][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,771ms to complete.
+[2019.11.28-18.28.37:998][  0]LogFileHelpers: Loading map 'Map_proto' took 13.972
+[2019.11.28-18.28.40:213][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 79
+[2019.11.28-18.28.40:213][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 69
+[2019.11.28-18.28.40:214][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2019.11.28-18.28.40:294][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 49
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 24
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 8
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.11.28-18.28.48:540][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2019.11.28-18.28.48:540][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.28.48:899][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.28.48:905][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.28.48:913][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.28-18.28.49:205][  0]LogCollectionManager: Loaded 0 collections in 0.002033 seconds
+[2019.11.28-18.28.49:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Camille/Documents/GitHub/Mythled/Saved/Collections/' took 0.00s
+[2019.11.28-18.28.49:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Camille/Documents/GitHub/Mythled/Content/Developers/Camille/Collections/' took 0.00s
+[2019.11.28-18.28.49:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Camille/Documents/GitHub/Mythled/Content/Collections/' took 0.00s
+[2019.11.28-18.28.49:522][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.11.28-18.28.49:643][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2872 classes and 685 folders.
+[2019.11.28-18.28.50:044][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.11.28-18.28.53:338][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.11.28-18.28.53:546][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.28-18.28.55:194][  0]LogSlate: Took 0.048330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.28-18.28.55:245][  0]LogSlate: Took 0.031834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.28-18.28.55:339][  0]LogSlate: Took 0.033947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.28-18.28.56:228][  0]LogRenderer: Reallocating scene render targets to support 932x464 Format 10 NumSamples 1 (Frame:1).
+[2019.11.28-18.28.57:366][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.28-18.28.57:366][  0]LogLoad: (Engine Initialization) Total time: 220.85 seconds
+[2019.11.28-18.28.57:366][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.28-18.28.58:181][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.28-18.28.58:453][  0]LogSlate: Took 0.028484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.28-18.28.58:703][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Camille/Documents/GitHub/Mythled/Content/' took 0.95s
+[2019.11.28-18.28.59:163][  2]LogAssetRegistry: Asset discovery search completed in 169.4547 seconds
+[2019.11.28-18.28.59:195][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.11.28-18.28.59:195][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2019.11.28-18.39.11:839][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
