@@ -1131,3 +1131,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-20.24.29:217][496]LogSlate: Window 'Message Log' being destroyed
 [2019.11.28-20.24.29:246][496]LogSlate: Window 'Message Log' being destroyed
 [2019.11.28-20.24.43:238][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.28-20.32.02:497][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.11.28-20.32.02:943][ 94]LogSavePackage: Moving '../../../../../../Users/Thibaut_2/Documents/GitHub/Mythled/Saved/Map_proto_Auto15AE441CC4BBD9A19C38531A4E9DEEEED.tmp' to '../../../../../../Users/Thibaut_2/Documents/GitHub/Mythled/Saved/Autosaves/Game/Levels/Maps/Map_proto_Auto1.umap'
+[2019.11.28-20.32.02:957][ 94]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Maps/Map_proto' took 0.509
+[2019.11.28-20.32.02:957][ 94]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.509
+[2019.11.28-20.32.02:961][ 94]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/pierre2_Jaune] ([1] browsable assets)...
+[2019.11.28-20.32.02:984][ 94]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/pierre2_Jaune.pierre2_Jaune]
+[2019.11.28-20.32.02:984][ 94]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/pierre2_Jaune]
+[2019.11.28-20.32.03:005][ 94]LogSavePackage: Moving '../../../../../../Users/Thibaut_2/Documents/GitHub/Mythled/Saved/pierre2_Jaune_Auto1CAF41D6747230CC57CF9B3950827D882.tmp' to '../../../../../../Users/Thibaut_2/Documents/GitHub/Mythled/Saved/Autosaves/Game/Assets/Textures/pierre2_Jaune_Auto1.uasset'
+[2019.11.28-20.32.03:022][ 94]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Materials/Pierre2_Jaune] ([1] browsable assets)...
+[2019.11.28-20.32.03:022][ 94]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/Pierre2_Jaune]
+[2019.11.28-20.32.03:093][ 94]LogSavePackage: Moving '../../../../../../Users/Thibaut_2/Documents/GitHub/Mythled/Saved/Pierre2_Jaune_Auto1DF3EF285475E1C4841E61DB5F62F8F47.tmp' to '../../../../../../Users/Thibaut_2/Documents/GitHub/Mythled/Saved/Autosaves/Game/Assets/Materials/Pierre2_Jaune_Auto1.uasset'
+[2019.11.28-20.32.03:099][ 94]LogFileHelpers: Auto-saving content packages took 0.139
