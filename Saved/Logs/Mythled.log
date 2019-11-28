@@ -127,7 +127,7 @@ LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -403,7 +403,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.07.05:515][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
 [2019.11.28-16.07.05:515][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
 [2019.11.28-16.07.05:515][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.11.28-16.07.05:515][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.28-16.07.05:515][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0
 [2019.11.28-16.07.05:516][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
 [2019.11.28-16.07.05:516][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
 [2019.11.28-16.07.05:516][  0]LogD3D11RHI:      Driver Date: Unknown
@@ -754,7 +754,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.15.24:279][224]LogStaticMesh: Building static mesh MapProto_Join_Cube_025...
 [2019.11.28-16.15.24:306][224]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_025.MapProto_Join_Cube_025
 [2019.11.28-16.15.24:334][224]LogEditorFactories: -- imported successfully
-[2019.11.28-16.15.24:343][224]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.15.24:343][224]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.15.28:273][457]LogSlate: Window 'MapProto_Join_Cube_025' being destroyed
 [2019.11.28-16.15.28:309][457]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
 [2019.11.28-16.15.29:693][576]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
@@ -806,14 +806,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.16.16:139][156]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.16.16:147][156]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.16.16:186][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
-[2019.11.28-16.16.16:240][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.16.16:254][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.16.16:240][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.16.16:254][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.16.16:265][156]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.28-16.16.16:265][156]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
 [2019.11.28-16.16.16:265][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.11.28-16.16.16:320][156]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.11.28-16.16.16:320][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.16.16:334][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.16.16:320][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.16.16:334][156]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.16.21:413][156]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
 [2019.11.28-16.16.21:413][156]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
 [2019.11.28-16.16.21:413][156]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
@@ -952,7 +952,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.19.47:774][166]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-16.19.47:778][166]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_022.MapProto_Join_Cube_022
 [2019.11.28-16.19.47:792][166]LogEditorFactories: -- imported successfully
-[2019.11.28-16.19.47:799][166]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.19.47:799][166]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.19.49:826][269]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0224790EE1D4193BD1F06A8929B5FC7A791.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_022.uasset'
 [2019.11.28-16.19.50:690][322]LogSlate: Window 'MapProto_Join_Cube_022' being destroyed
 [2019.11.28-16.19.50:727][322]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
@@ -966,7 +966,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.19.54:570][572]LogStaticMesh: Building static mesh MapProto_Join_Cube_023...
 [2019.11.28-16.19.54:575][572]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_023.MapProto_Join_Cube_023
 [2019.11.28-16.19.54:588][572]LogEditorFactories: -- imported successfully
-[2019.11.28-16.19.54:596][572]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.19.54:596][572]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.19.55:959][650]LogSlate: Window 'MapProto_Join_Cube_023' being destroyed
 [2019.11.28-16.19.55:994][650]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
 [2019.11.28-16.20.03:393][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapProto_Join_Cube_063)
@@ -979,7 +979,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.20.06:755][514]LogStaticMesh: Building static mesh MapProto_Join_Cube_063...
 [2019.11.28-16.20.06:759][514]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_063.MapProto_Join_Cube_063
 [2019.11.28-16.20.06:779][514]LogEditorFactories: -- imported successfully
-[2019.11.28-16.20.06:785][514]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.20.06:785][514]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.20.08:575][598]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0639F5B7AEF49232FC1D4791E8B4A15E3ED.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_063.uasset'
 [2019.11.28-16.20.09:144][629]LogSlate: Window 'MapProto_Join_Cube_063' being destroyed
 [2019.11.28-16.20.09:189][629]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
@@ -993,7 +993,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.20.22:221][732]LogStaticMesh: Building static mesh MapProto_Join_Cube_064...
 [2019.11.28-16.20.22:225][732]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_064.MapProto_Join_Cube_064
 [2019.11.28-16.20.22:244][732]LogEditorFactories: -- imported successfully
-[2019.11.28-16.20.22:252][732]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.20.22:252][732]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.20.23:435][778]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_06477FFBB6D489695C21E6D15BE6C00320C.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_064.uasset'
 [2019.11.28-16.20.24:003][812]LogSlate: Window 'MapProto_Join_Cube_064' being destroyed
 [2019.11.28-16.20.24:038][812]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
@@ -1008,7 +1008,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.20.28:821][ 88]LogStaticMesh: Building static mesh MapProto_Join_Cube_066...
 [2019.11.28-16.20.28:825][ 88]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_066.MapProto_Join_Cube_066
 [2019.11.28-16.20.28:839][ 88]LogEditorFactories: -- imported successfully
-[2019.11.28-16.20.28:846][ 88]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.20.28:846][ 88]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.20.29:745][121]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_066E04C65EF4BF1AE75023172AC6E20E37D.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_066.uasset'
 [2019.11.28-16.20.30:428][162]LogSlate: Window 'MapProto_Join_Cube_066' being destroyed
 [2019.11.28-16.20.30:462][162]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
@@ -1022,7 +1022,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.20.34:588][419]LogStaticMesh: Building static mesh MapProto_Join_Cube_068...
 [2019.11.28-16.20.34:592][419]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_068.MapProto_Join_Cube_068
 [2019.11.28-16.20.34:610][419]LogEditorFactories: -- imported successfully
-[2019.11.28-16.20.34:618][419]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.20.34:618][419]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.20.35:409][442]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_06817D9F83341A6129D3933C693730CBC6B.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_068.uasset'
 [2019.11.28-16.20.35:990][476]LogSlate: Window 'MapProto_Join_Cube_068' being destroyed
 [2019.11.28-16.20.36:037][476]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
@@ -1036,7 +1036,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.20.39:264][673]LogStaticMesh: Building static mesh MapProto_Join_Cube_067...
 [2019.11.28-16.20.39:268][673]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_067.MapProto_Join_Cube_067
 [2019.11.28-16.20.39:286][673]LogEditorFactories: -- imported successfully
-[2019.11.28-16.20.39:295][673]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.20.39:295][673]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.20.40:248][712]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_06751C53E5644E38D5549A228A56CCF750F.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_067.uasset'
 [2019.11.28-16.20.41:209][770]LogSlate: Window 'MapProto_Join_Cube_067' being destroyed
 [2019.11.28-16.20.41:243][770]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
@@ -1051,7 +1051,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.20.45:420][ 14]LogStaticMesh: Building static mesh MapProto_Join_Cube_065...
 [2019.11.28-16.20.45:424][ 14]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_065.MapProto_Join_Cube_065
 [2019.11.28-16.20.45:436][ 14]LogEditorFactories: -- imported successfully
-[2019.11.28-16.20.45:443][ 14]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.20.45:443][ 14]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.20.46:729][ 74]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0658E66CFC2438F2637BAC91599773D70EB.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_065.uasset'
 [2019.11.28-16.20.48:142][152]LogSlate: Window 'MapProto_Join_Cube_065' being destroyed
 [2019.11.28-16.20.48:177][152]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
@@ -1075,7 +1075,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.21.22:762][327]LogStaticMesh: Building static mesh MapProto_Join_Cube_028...
 [2019.11.28-16.21.22:788][327]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_028.MapProto_Join_Cube_028
 [2019.11.28-16.21.22:811][327]LogEditorFactories: -- imported successfully
-[2019.11.28-16.21.22:819][327]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.21.22:819][327]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.21.23:903][370]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0286DE2198F45A9E247186A4D92C81037EF.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_028.uasset'
 [2019.11.28-16.21.24:790][425]LogSlate: Window 'MapProto_Join_Cube_028' being destroyed
 [2019.11.28-16.21.24:830][425]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
@@ -1089,7 +1089,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.21.29:930][767]LogStaticMesh: Building static mesh MapProto_Join_Cube_026...
 [2019.11.28-16.21.29:958][767]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_026.MapProto_Join_Cube_026
 [2019.11.28-16.21.29:979][767]LogEditorFactories: -- imported successfully
-[2019.11.28-16.21.29:986][767]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.21.29:986][767]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.21.30:977][806]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_026DD3D3DF44E85BB42087FC3B9342100DF.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_026.uasset'
 [2019.11.28-16.21.31:515][838]LogSlate: Window 'MapProto_Join_Cube_026' being destroyed
 [2019.11.28-16.21.31:550][838]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
@@ -1104,7 +1104,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.21.36:231][103]LogStaticMesh: Building static mesh MapProto_Join_Cube_032...
 [2019.11.28-16.21.36:260][103]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_032.MapProto_Join_Cube_032
 [2019.11.28-16.21.36:283][103]LogEditorFactories: -- imported successfully
-[2019.11.28-16.21.36:290][103]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.21.36:290][103]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.21.37:121][129]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0328AA894584A82443BCA7B80AD5CD72D56.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_032.uasset'
 [2019.11.28-16.21.37:748][167]LogSlate: Window 'MapProto_Join_Cube_032' being destroyed
 [2019.11.28-16.21.37:783][167]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
@@ -1249,7 +1249,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.23.25:061][439]LogStaticMesh: Building static mesh MapProto_Join_Cube_064...
 [2019.11.28-16.23.25:066][439]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_064.MapProto_Join_Cube_064
 [2019.11.28-16.23.25:077][439]LogEditorFactories: -- imported successfully
-[2019.11.28-16.23.25:086][439]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.23.25:086][439]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.23.29:917][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.11.28-16.23.29:978][744]LogEditorFactories: Performing atomic reimport of [C:/Users/Marylène/Desktop/Kodeo Project/MapProto_Join.fbx]
 [2019.11.28-16.23.30:021][744]LogFbx: Loading FBX Scene from C:/Users/Marylène/Desktop/Kodeo Project/MapProto_Join.fbx
@@ -1258,7 +1258,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.23.30:082][744]LogStaticMesh: Building static mesh MapProto_Join_Cube_064...
 [2019.11.28-16.23.30:086][744]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_064.MapProto_Join_Cube_064
 [2019.11.28-16.23.30:101][744]LogEditorFactories: -- imported successfully
-[2019.11.28-16.23.30:106][744]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.23.30:106][744]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.23.31:121][790]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_064886844494EE86FE0B05961BB83EC5ECB.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_064.uasset'
 [2019.11.28-16.23.31:826][833]LogSlate: Window 'MapProto_Join_Cube_064' being destroyed
 [2019.11.28-16.23.31:869][833]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
@@ -1273,14 +1273,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.24.00:033][538]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.24.00:038][538]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.24.00:074][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
-[2019.11.28-16.24.00:121][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.24.00:121][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.24.00:131][538]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.28-16.24.00:131][538]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.11.28-16.24.00:131][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.24.00:131][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.24.00:143][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.11.28-16.24.00:174][538]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.11.28-16.24.00:174][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.24.00:188][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.24.00:174][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.24.00:188][538]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.24.05:352][538]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
 [2019.11.28-16.24.05:352][538]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
 [2019.11.28-16.24.05:352][538]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
@@ -1423,7 +1423,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.25.15:813][230]LogStaticMesh: Building static mesh MapProto_Join_Cube_066...
 [2019.11.28-16.25.15:823][230]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_066.MapProto_Join_Cube_066
 [2019.11.28-16.25.15:836][230]LogEditorFactories: -- imported successfully
-[2019.11.28-16.25.15:844][230]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.25.15:844][230]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.25.20:890][496]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_06618CE4600441D7D741A87708A881F77DF.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_066.uasset'
 [2019.11.28-16.25.21:917][555]LogSlate: Window 'MapProto_Join_Cube_066' being destroyed
 [2019.11.28-16.25.21:947][555]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
@@ -1442,7 +1442,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.26.07:665][177]LogStaticMesh: Building static mesh MapProto_Join_Cube_068...
 [2019.11.28-16.26.07:676][177]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_068.MapProto_Join_Cube_068
 [2019.11.28-16.26.07:688][177]LogEditorFactories: -- imported successfully
-[2019.11.28-16.26.07:697][177]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.26.07:697][177]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.26.09:094][237]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_068336778D54E2C5F85B9322E80BB64E20F.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_068.uasset'
 [2019.11.28-16.26.09:649][267]LogSlate: Window 'MapProto_Join_Cube_068' being destroyed
 [2019.11.28-16.26.09:679][267]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
@@ -1456,7 +1456,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.26.17:956][712]LogStaticMesh: Building static mesh MapProto_Join_Cube_064...
 [2019.11.28-16.26.17:966][712]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_064.MapProto_Join_Cube_064
 [2019.11.28-16.26.17:978][712]LogEditorFactories: -- imported successfully
-[2019.11.28-16.26.17:986][712]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.26.17:986][712]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.26.20:870][858]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_064124B75934A603324F912C98FD8C8DC6D.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_064.uasset'
 [2019.11.28-16.26.21:480][891]LogSlate: Window 'MapProto_Join_Cube_064' being destroyed
 [2019.11.28-16.26.21:511][891]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
@@ -1470,7 +1470,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.26.25:375][ 68]LogStaticMesh: Building static mesh MapProto_Join_Cube_063...
 [2019.11.28-16.26.25:385][ 68]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_063.MapProto_Join_Cube_063
 [2019.11.28-16.26.25:397][ 68]LogEditorFactories: -- imported successfully
-[2019.11.28-16.26.25:405][ 68]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.26.25:405][ 68]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.26.27:822][194]LogSlate: Window 'MapProto_Join_Cube_063' being destroyed
 [2019.11.28-16.26.27:851][194]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
 [2019.11.28-16.26.28:948][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapProto_Join_Cube_065)
@@ -1483,7 +1483,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.26.34:921][561]LogStaticMesh: Building static mesh MapProto_Join_Cube_065...
 [2019.11.28-16.26.34:931][561]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_065.MapProto_Join_Cube_065
 [2019.11.28-16.26.34:943][561]LogEditorFactories: -- imported successfully
-[2019.11.28-16.26.34:950][561]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.26.34:950][561]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.26.37:994][717]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_06530453FB04366C4FFD0CAE08B402B57E5.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_065.uasset'
 [2019.11.28-16.26.38:690][755]LogSlate: Window 'MapProto_Join_Cube_065' being destroyed
 [2019.11.28-16.26.38:722][755]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
@@ -1497,7 +1497,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.26.42:903][974]LogStaticMesh: Building static mesh MapProto_Join_Cube_067...
 [2019.11.28-16.26.42:913][974]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_067.MapProto_Join_Cube_067
 [2019.11.28-16.26.42:925][974]LogEditorFactories: -- imported successfully
-[2019.11.28-16.26.42:933][974]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.26.42:933][974]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.26.44:337][ 51]LogSlate: Window 'MapProto_Join_Cube_067' being destroyed
 [2019.11.28-16.26.44:367][ 51]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
 [2019.11.28-16.26.45:224][ 92]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
@@ -1513,14 +1513,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.26.48:637][234]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.26.48:642][234]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.26.48:677][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
-[2019.11.28-16.26.48:724][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.26.48:733][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.26.48:724][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.26.48:733][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.26.48:743][234]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
 [2019.11.28-16.26.48:743][234]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
 [2019.11.28-16.26.48:743][234]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
 [2019.11.28-16.26.48:743][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
-[2019.11.28-16.26.48:766][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.26.48:781][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.26.48:766][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.26.48:781][234]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.26.54:042][234]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
 [2019.11.28-16.26.54:042][234]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
 [2019.11.28-16.26.54:042][234]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
@@ -1644,7 +1644,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.27.48:958][632]LogStaticMesh: Building static mesh MapProto_Join_Cube_023...
 [2019.11.28-16.27.48:969][632]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_023.MapProto_Join_Cube_023
 [2019.11.28-16.27.48:980][632]LogEditorFactories: -- imported successfully
-[2019.11.28-16.27.48:988][632]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.27.48:988][632]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.27.52:292][803]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_023644DA3414A123F74C0829592C7CA7B4B.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_023.uasset'
 [2019.11.28-16.27.52:718][826]LogSlate: Window 'MapProto_Join_Cube_023' being destroyed
 [2019.11.28-16.27.52:747][826]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
@@ -1658,7 +1658,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.27.55:726][970]LogStaticMesh: Building static mesh MapProto_Join_Cube_022...
 [2019.11.28-16.27.55:736][970]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_022.MapProto_Join_Cube_022
 [2019.11.28-16.27.55:748][970]LogEditorFactories: -- imported successfully
-[2019.11.28-16.27.55:756][970]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.27.55:756][970]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.27.56:701][  8]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_022769D49114C2C8F2F5F8045909E8C4A78.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_022.uasset'
 [2019.11.28-16.27.57:967][ 81]LogSlate: Window 'MapProto_Join_Cube_022' being destroyed
 [2019.11.28-16.27.57:999][ 81]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
@@ -1681,7 +1681,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.28.42:228][509]LogStaticMesh: Building static mesh MapProto_Join_Cube_030...
 [2019.11.28-16.28.42:275][509]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_030.MapProto_Join_Cube_030
 [2019.11.28-16.28.42:295][509]LogEditorFactories: -- imported successfully
-[2019.11.28-16.28.42:301][509]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.28.42:301][509]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.28.44:954][647]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0307D02FD4E440EEA581CA50ABAF860C43E.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_030.uasset'
 [2019.11.28-16.28.46:829][756]LogSlate: Window 'MapProto_Join_Cube_030' being destroyed
 [2019.11.28-16.28.46:860][756]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
@@ -1695,7 +1695,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.28.50:493][910]LogStaticMesh: Building static mesh MapProto_Join_Cube_032...
 [2019.11.28-16.28.50:556][910]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_032.MapProto_Join_Cube_032
 [2019.11.28-16.28.50:578][910]LogEditorFactories: -- imported successfully
-[2019.11.28-16.28.50:587][910]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.28.50:587][910]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.28.52:751][ 14]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_032F9491F0748D2BA0C217A86B62D623426.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_032.uasset'
 [2019.11.28-16.28.53:454][ 53]LogSlate: Window 'MapProto_Join_Cube_032' being destroyed
 [2019.11.28-16.28.53:484][ 53]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
@@ -1709,7 +1709,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.28.58:884][332]LogStaticMesh: Building static mesh MapProto_Join_Cube_026...
 [2019.11.28-16.28.58:931][332]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_026.MapProto_Join_Cube_026
 [2019.11.28-16.28.58:953][332]LogEditorFactories: -- imported successfully
-[2019.11.28-16.28.58:961][332]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.28.58:961][332]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.28.59:814][366]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_026CA3B98AA47520904BBC3F1AAD5F8C393.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_026.uasset'
 [2019.11.28-16.29.00:333][395]LogSlate: Window 'MapProto_Join_Cube_026' being destroyed
 [2019.11.28-16.29.00:363][395]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
@@ -1723,7 +1723,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.29.04:044][561]LogStaticMesh: Building static mesh MapProto_Join_Cube_028...
 [2019.11.28-16.29.04:091][561]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_028.MapProto_Join_Cube_028
 [2019.11.28-16.29.04:115][561]LogEditorFactories: -- imported successfully
-[2019.11.28-16.29.04:121][561]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.29.04:121][561]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.29.04:925][588]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0280723C45F4FC8CAD21D987BA3E8404CF8.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_028.uasset'
 [2019.11.28-16.29.05:693][627]LogSlate: Window 'MapProto_Join_Cube_028' being destroyed
 [2019.11.28-16.29.05:724][627]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
@@ -1734,14 +1734,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.29.09:408][837]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.29.09:413][837]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.29.09:450][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
-[2019.11.28-16.29.09:497][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.29.09:507][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.29.09:497][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.29.09:507][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.29.09:519][837]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.28-16.29.09:519][837]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
 [2019.11.28-16.29.09:519][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.11.28-16.29.09:549][837]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.11.28-16.29.09:549][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.29.09:565][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.29.09:549][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.29.09:565][837]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.29.14:775][837]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
 [2019.11.28-16.29.14:775][837]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
 [2019.11.28-16.29.14:775][837]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
@@ -1852,7 +1852,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.30.10:098][160]LogStaticMesh: Building static mesh MapProto_Join_Cube_025...
 [2019.11.28-16.30.10:126][160]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_025.MapProto_Join_Cube_025
 [2019.11.28-16.30.10:149][160]LogEditorFactories: -- imported successfully
-[2019.11.28-16.30.10:156][160]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.30.10:156][160]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.30.15:738][459]LogSlate: Window 'MapProto_Join_Cube_025' being destroyed
 [2019.11.28-16.30.15:774][459]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
 [2019.11.28-16.30.24:989][942]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
@@ -1872,7 +1872,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.30.46:732][ 89]LogStaticMesh: Building static mesh MapProto_Join_Cube_025...
 [2019.11.28-16.30.46:759][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_025.MapProto_Join_Cube_025
 [2019.11.28-16.30.46:784][ 89]LogEditorFactories: -- imported successfully
-[2019.11.28-16.30.46:792][ 89]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.30.46:792][ 89]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.30.49:934][248]LogSlate: Window 'MapProto_Join_Cube_025' being destroyed
 [2019.11.28-16.30.49:976][248]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
 [2019.11.28-16.30.52:158][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
@@ -1889,7 +1889,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.33.52:453][247]LogStaticMesh: Building static mesh MapProto_Join_Cube_024...
 [2019.11.28-16.33.52:459][247]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_024.MapProto_Join_Cube_024
 [2019.11.28-16.33.52:473][247]LogEditorFactories: -- imported successfully
-[2019.11.28-16.33.52:481][247]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.33.52:481][247]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.33.54:204][330]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_024DC79C8154506DBC5CAAF0CB85B3A8A3E.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_024.uasset'
 [2019.11.28-16.33.56:989][493]LogSlate: Window 'MapProto_Join_Cube_024' being destroyed
 [2019.11.28-16.33.57:019][493]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
@@ -1905,7 +1905,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.34.04:549][870]LogStaticMesh: Building static mesh MapProto_Join_Cylinder_009...
 [2019.11.28-16.34.04:563][870]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_009.MapProto_Join_Cylinder_009
 [2019.11.28-16.34.04:583][870]LogEditorFactories: -- imported successfully
-[2019.11.28-16.34.04:591][870]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.34.04:591][870]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.34.05:823][916]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cylinder_009BC7F8FE34057089C63BA79B10F99DABC.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_009.uasset'
 [2019.11.28-16.34.06:694][965]LogSlate: Window 'MapProto_Join_Cylinder_009' being destroyed
 [2019.11.28-16.34.06:724][965]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
@@ -1919,7 +1919,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.34.22:590][856]LogStaticMesh: Building static mesh MapProto_Join_Cube_027...
 [2019.11.28-16.34.22:595][856]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_027.MapProto_Join_Cube_027
 [2019.11.28-16.34.22:608][856]LogEditorFactories: -- imported successfully
-[2019.11.28-16.34.22:616][856]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.34.22:616][856]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.34.23:856][911]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_027EF76F2604971DCF9D41786BBCD0E8F6B.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_027.uasset'
 [2019.11.28-16.34.24:588][952]LogSlate: Window 'MapProto_Join_Cube_027' being destroyed
 [2019.11.28-16.34.24:620][952]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
@@ -1934,7 +1934,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.34.29:232][181]LogStaticMesh: Building static mesh MapProto_Join_Cube_029...
 [2019.11.28-16.34.29:238][181]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_029.MapProto_Join_Cube_029
 [2019.11.28-16.34.29:251][181]LogEditorFactories: -- imported successfully
-[2019.11.28-16.34.29:259][181]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.34.29:259][181]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.34.30:300][224]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_029BC57E6414A5190B7593D30B40EE634C5.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_029.uasset'
 [2019.11.28-16.34.30:949][260]LogSlate: Window 'MapProto_Join_Cube_029' being destroyed
 [2019.11.28-16.34.30:979][260]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
@@ -1949,7 +1949,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.34.35:992][510]LogStaticMesh: Building static mesh MapProto_Join_Cube_031...
 [2019.11.28-16.34.35:997][510]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_031.MapProto_Join_Cube_031
 [2019.11.28-16.34.36:014][510]LogEditorFactories: -- imported successfully
-[2019.11.28-16.34.36:021][510]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.34.36:021][510]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.34.36:913][545]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0312D8E8574455574233D7EECAD6E9BE6A1.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_031.uasset'
 [2019.11.28-16.34.38:689][648]LogSlate: Window 'MapProto_Join_Cube_031' being destroyed
 [2019.11.28-16.34.38:719][648]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
@@ -1963,7 +1963,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.34.43:492][893]LogStaticMesh: Building static mesh MapProto_Join_Cube_000...
 [2019.11.28-16.34.43:498][893]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_000.MapProto_Join_Cube_000
 [2019.11.28-16.34.43:510][893]LogEditorFactories: -- imported successfully
-[2019.11.28-16.34.43:518][893]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.34.43:518][893]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.34.44:425][928]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_000919EDA57429B7EC0D32524B9B9F712A3.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_000.uasset'
 [2019.11.28-16.34.44:953][957]LogSlate: Window 'MapProto_Join_Cube_000' being destroyed
 [2019.11.28-16.34.44:983][957]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
@@ -1991,7 +1991,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.43.38:412][164]LogStaticMesh: Building static mesh MapProto_Join_Cube_072...
 [2019.11.28-16.43.38:443][164]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_072.MapProto_Join_Cube_072
 [2019.11.28-16.43.38:460][164]LogEditorFactories: -- imported successfully
-[2019.11.28-16.43.38:470][164]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.43.38:470][164]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.43.42:436][358]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0725F69CE524DD50D1F6762E5BEFFFDDFFA.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_072.uasset'
 [2019.11.28-16.43.43:220][401]LogSlate: Window 'MapProto_Join_Cube_072' being destroyed
 [2019.11.28-16.43.43:250][401]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
@@ -2005,7 +2005,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.43.48:525][668]LogStaticMesh: Building static mesh MapProto_Join_Cube_002...
 [2019.11.28-16.43.48:531][668]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_002.MapProto_Join_Cube_002
 [2019.11.28-16.43.48:544][668]LogEditorFactories: -- imported successfully
-[2019.11.28-16.43.48:552][668]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.43.48:552][668]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.43.50:271][752]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_002C8D858D042888C04ACC01B886AD1EF05.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_002.uasset'
 [2019.11.28-16.43.51:115][800]LogSlate: Window 'MapProto_Join_Cube_002' being destroyed
 [2019.11.28-16.43.51:144][800]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
@@ -2026,7 +2026,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.03:642][432]LogStaticMesh: Building static mesh MapProto_Join_Cube_006...
 [2019.11.28-16.44.03:646][432]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_006.MapProto_Join_Cube_006
 [2019.11.28-16.44.03:656][432]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.03:664][432]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.03:664][432]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.44.04:663][473]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_006D59AF2BB4892FC9F0D3C72B14FFF6D3F.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_006.uasset'
 [2019.11.28-16.44.05:190][502]LogSlate: Window 'MapProto_Join_Cube_006' being destroyed
 [2019.11.28-16.44.05:219][502]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
@@ -2041,7 +2041,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.10:459][776]LogStaticMesh: Building static mesh MapProto_Join_Cube_007...
 [2019.11.28-16.44.10:462][776]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_007.MapProto_Join_Cube_007
 [2019.11.28-16.44.10:474][776]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.10:483][776]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.10:483][776]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.44.11:491][818]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0074EC58EE54353CAF8EB656EA211A1D3DA.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_007.uasset'
 [2019.11.28-16.44.12:076][851]LogSlate: Window 'MapProto_Join_Cube_007' being destroyed
 [2019.11.28-16.44.12:107][851]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
@@ -2056,7 +2056,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.17:139][ 92]LogStaticMesh: Building static mesh MapProto_Join_Cube_004...
 [2019.11.28-16.44.17:142][ 92]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_004.MapProto_Join_Cube_004
 [2019.11.28-16.44.17:154][ 92]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.17:163][ 92]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.17:163][ 92]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.44.17:929][118]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0040B98FDBF4C6F9B63B1EB6AA579D22B3D.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_004.uasset'
 [2019.11.28-16.44.18:442][146]LogSlate: Window 'MapProto_Join_Cube_004' being destroyed
 [2019.11.28-16.44.18:474][146]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
@@ -2070,7 +2070,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.23:327][383]LogStaticMesh: Building static mesh MapProto_Join_Cube_003...
 [2019.11.28-16.44.23:330][383]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_003.MapProto_Join_Cube_003
 [2019.11.28-16.44.23:342][383]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.23:350][383]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.23:350][383]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.44.24:100][409]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_003FC0F5E484F0168D990BDB5B179868357.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_003.uasset'
 [2019.11.28-16.44.24:847][451]LogSlate: Window 'MapProto_Join_Cube_003' being destroyed
 [2019.11.28-16.44.24:877][451]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
@@ -2085,7 +2085,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.38:683][236]LogStaticMesh: Building static mesh MapProto_Join_Cube_005...
 [2019.11.28-16.44.38:689][236]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_005.MapProto_Join_Cube_005
 [2019.11.28-16.44.38:700][236]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.38:708][236]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.38:708][236]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.44.39:973][303]LogEditorFactories: Performing atomic reimport of [C:/Users/Marylène/Desktop/Kodeo Project/MapProto_Join.fbx]
 [2019.11.28-16.44.40:006][303]LogFbx: Loading FBX Scene from C:/Users/Marylène/Desktop/Kodeo Project/MapProto_Join.fbx
 [2019.11.28-16.44.40:046][303]LogFbx: FBX Scene Loaded Succesfully
@@ -2093,7 +2093,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.40:065][303]LogStaticMesh: Building static mesh MapProto_Join_Cube_005...
 [2019.11.28-16.44.40:071][303]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_005.MapProto_Join_Cube_005
 [2019.11.28-16.44.40:085][303]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.40:094][303]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.40:094][303]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.44.41:371][359]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_005F028C10541253E4476B0FDA3900931B3.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_005.uasset'
 [2019.11.28-16.44.42:044][396]LogSlate: Window 'MapProto_Join_Cube_005' being destroyed
 [2019.11.28-16.44.42:075][396]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
@@ -2108,7 +2108,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.47:855][680]LogStaticMesh: Building static mesh MapProto_Join_Cube_002...
 [2019.11.28-16.44.47:861][680]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_002.MapProto_Join_Cube_002
 [2019.11.28-16.44.47:873][680]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.47:881][680]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.47:881][680]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.44.48:564][703]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_002C0A440B14B87AB8E29E75C89E09CF86B.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_002.uasset'
 [2019.11.28-16.44.49:177][737]LogSlate: Window 'MapProto_Join_Cube_002' being destroyed
 [2019.11.28-16.44.49:206][737]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
@@ -2123,7 +2123,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.44.56:164][ 83]LogStaticMesh: Building static mesh MapProto_Join_Cylinder_003...
 [2019.11.28-16.44.56:224][ 83]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_003.MapProto_Join_Cylinder_003
 [2019.11.28-16.44.56:252][ 83]LogEditorFactories: -- imported successfully
-[2019.11.28-16.44.56:260][ 83]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.44.56:260][ 83]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.45.00:135][299]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cylinder_003F73BCAA144E2DE5E19107686F481BB3D.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_003.uasset'
 [2019.11.28-16.45.01:082][352]LogSlate: Window 'MapProto_Join_Cylinder_003' being destroyed
 [2019.11.28-16.45.01:114][352]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
@@ -2137,7 +2137,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.45.10:117][831]LogStaticMesh: Building static mesh MapProto_Join_Cube...
 [2019.11.28-16.45.10:121][831]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube.MapProto_Join_Cube
 [2019.11.28-16.45.10:133][831]LogEditorFactories: -- imported successfully
-[2019.11.28-16.45.10:140][831]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.45.10:140][831]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.45.12:744][968]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube46835F7546006E1B05257DAF581BFC27.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube.uasset'
 [2019.11.28-16.45.13:758][ 26]LogSlate: Window 'MapProto_Join_Cube' being destroyed
 [2019.11.28-16.45.13:788][ 26]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
@@ -2151,7 +2151,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.45.17:616][210]LogStaticMesh: Building static mesh MapProto_Join_Cylinder_001...
 [2019.11.28-16.45.17:623][210]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_001.MapProto_Join_Cylinder_001
 [2019.11.28-16.45.17:635][210]LogEditorFactories: -- imported successfully
-[2019.11.28-16.45.17:643][210]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.45.17:643][210]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.45.20:080][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.11.28-16.45.20:325][339]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cylinder_00101ABECF648822D9DD3ADACB6C1AAB5DB.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_001.uasset'
 [2019.11.28-16.45.21:152][386]LogSlate: Window 'MapProto_Join_Cylinder_001' being destroyed
@@ -2166,7 +2166,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.45.28:761][780]LogStaticMesh: Building static mesh MapProto_Join_Cube_072...
 [2019.11.28-16.45.28:787][780]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_072.MapProto_Join_Cube_072
 [2019.11.28-16.45.28:801][780]LogEditorFactories: -- imported successfully
-[2019.11.28-16.45.28:808][780]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.45.28:808][780]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.45.32:010][942]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_07278C51A444A6D204868336DB14BC50787.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_072.uasset'
 [2019.11.28-16.45.32:826][987]LogSlate: Window 'MapProto_Join_Cube_072' being destroyed
 [2019.11.28-16.45.32:857][987]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
@@ -2180,7 +2180,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.45.39:319][296]LogStaticMesh: Building static mesh MapProto_Join_Cylinder_019...
 [2019.11.28-16.45.39:378][296]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_019.MapProto_Join_Cylinder_019
 [2019.11.28-16.45.39:407][296]LogEditorFactories: -- imported successfully
-[2019.11.28-16.45.39:415][296]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.45.39:415][296]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.45.40:530][346]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cylinder_019F1029D33488C0DFEA31D86AC49308F47.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_019.uasset'
 [2019.11.28-16.45.41:076][376]LogSlate: Window 'MapProto_Join_Cylinder_019' being destroyed
 [2019.11.28-16.45.41:106][376]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
@@ -2195,7 +2195,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.45.47:316][687]LogStaticMesh: Building static mesh MapProto_Join_Cylinder_025...
 [2019.11.28-16.45.47:376][687]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_025.MapProto_Join_Cylinder_025
 [2019.11.28-16.45.47:406][687]LogEditorFactories: -- imported successfully
-[2019.11.28-16.45.47:412][687]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.45.47:412][687]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.45.48:074][710]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cylinder_0251983BE43485B50CAA1537E87A5746E91.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_025.uasset'
 [2019.11.28-16.45.48:719][747]LogSlate: Window 'MapProto_Join_Cylinder_025' being destroyed
 [2019.11.28-16.45.48:751][747]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
@@ -2209,7 +2209,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.46.03:006][533]LogStaticMesh: Building static mesh MapProto_Join_Cube_020...
 [2019.11.28-16.46.03:016][533]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_020.MapProto_Join_Cube_020
 [2019.11.28-16.46.03:026][533]LogEditorFactories: -- imported successfully
-[2019.11.28-16.46.03:033][533]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.46.03:033][533]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.46.04:536][604]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_02011F1DF014A7C4DAFE56B76A4121BA2ED.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_020.uasset'
 [2019.11.28-16.46.04:965][627]LogSlate: Window 'MapProto_Join_Cube_020' being destroyed
 [2019.11.28-16.46.04:993][627]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
@@ -2225,7 +2225,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.46.09:705][860]LogStaticMesh: Building static mesh MapProto_Join_Cylinder_030...
 [2019.11.28-16.46.09:736][860]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_030.MapProto_Join_Cylinder_030
 [2019.11.28-16.46.09:758][860]LogEditorFactories: -- imported successfully
-[2019.11.28-16.46.09:764][860]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.46.09:764][860]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.46.10:818][896]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cylinder_030839201CD4CCCEEC4D8F19F8725A2BAF8.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cylinder_030.uasset'
 [2019.11.28-16.46.11:766][949]LogSlate: Window 'MapProto_Join_Cylinder_030' being destroyed
 [2019.11.28-16.46.11:796][949]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
@@ -2239,7 +2239,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.46.16:708][192]LogStaticMesh: Building static mesh MapProto_Join_Cube_070...
 [2019.11.28-16.46.16:718][192]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_070.MapProto_Join_Cube_070
 [2019.11.28-16.46.16:731][192]LogEditorFactories: -- imported successfully
-[2019.11.28-16.46.16:739][192]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.46.16:739][192]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.46.18:017][246]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_070B2109207433464FA8519F5838355B6C9.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_070.uasset'
 [2019.11.28-16.46.18:801][290]LogSlate: Window 'MapProto_Join_Cube_070' being destroyed
 [2019.11.28-16.46.18:832][290]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
@@ -2253,7 +2253,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.46.25:985][670]LogStaticMesh: Building static mesh MapProto_Join_Cube_042...
 [2019.11.28-16.46.25:987][670]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_042.MapProto_Join_Cube_042
 [2019.11.28-16.46.25:999][670]LogEditorFactories: -- imported successfully
-[2019.11.28-16.46.26:008][670]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.46.26:008][670]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.46.27:260][725]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_04296A5A8FC45690EDDEF5E1EA6FDE06261.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_042.uasset'
 [2019.11.28-16.46.27:984][765]LogSlate: Window 'MapProto_Join_Cube_042' being destroyed
 [2019.11.28-16.46.28:013][765]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
@@ -2267,7 +2267,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.46.32:763][  6]LogStaticMesh: Building static mesh MapProto_Join_Cube_041...
 [2019.11.28-16.46.32:765][  6]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_041.MapProto_Join_Cube_041
 [2019.11.28-16.46.32:773][  6]LogEditorFactories: -- imported successfully
-[2019.11.28-16.46.32:781][  6]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.46.32:781][  6]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.46.39:113][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.11.28-16.46.39:319][362]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_0419820A23E48C355253A181FBF5A19087D.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_041.uasset'
 [2019.11.28-16.46.40:243][414]LogSlate: Window 'MapProto_Join_Cube_041' being destroyed
@@ -2283,14 +2283,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.46.54:994][218]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.46.54:999][218]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.46.55:034][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
-[2019.11.28-16.46.55:082][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.46.55:091][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.46.55:082][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.46.55:091][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.46.55:103][218]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.28-16.46.55:103][218]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
 [2019.11.28-16.46.55:103][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.11.28-16.46.55:132][218]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.11.28-16.46.55:132][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.46.55:147][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.46.55:132][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.46.55:147][218]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.47.00:401][218]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
 [2019.11.28-16.47.00:401][218]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
 [2019.11.28-16.47.00:401][218]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
@@ -2402,7 +2402,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.47.43:801][781]LogStaticMesh: Building static mesh MapProto_Join_Cube_025...
 [2019.11.28-16.47.43:848][781]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_025.MapProto_Join_Cube_025
 [2019.11.28-16.47.43:871][781]LogEditorFactories: -- imported successfully
-[2019.11.28-16.47.43:880][781]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.28-16.47.43:880][781]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
 [2019.11.28-16.47.45:536][862]LogSavePackage: Moving '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Saved/MapProto_Join_Cube_025953DEFA844D64C2A75E3E29B219F0605.tmp' to '../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Assets/MapAssets/Prototype_Map/MapProto_Join_Cube_025.uasset'
 [2019.11.28-16.47.47:884][  0]LogSlate: Window 'MapProto_Join_Cube_025' being destroyed
 [2019.11.28-16.47.47:913][  0]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
@@ -2413,14 +2413,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.47.52:482][255]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.47.52:486][255]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.47.52:523][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
-[2019.11.28-16.47.52:571][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.47.52:571][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.47.52:581][255]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.28-16.47.52:581][255]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.11.28-16.47.52:581][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.47.52:581][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.47.52:593][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.11.28-16.47.52:622][255]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.11.28-16.47.52:622][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.47.52:637][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.47.52:622][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.47.52:637][255]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.47.57:828][255]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
 [2019.11.28-16.47.57:828][255]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
 [2019.11.28-16.47.57:828][255]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
@@ -2569,15 +2569,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.50.07:023][926]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.50.07:027][926]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.50.07:064][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
-[2019.11.28-16.50.07:112][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.50.07:112][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.50.07:122][926]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.28-16.50.07:122][926]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.11.28-16.50.07:122][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.50.07:122][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.50.07:133][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.11.28-16.50.07:164][926]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.11.28-16.50.07:164][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.50.07:179][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.50.07:194][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.50.07:164][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.50.07:179][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.50.07:194][926]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.50.12:580][926]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 45
 [2019.11.28-16.50.12:580][926]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 44
 [2019.11.28-16.50.12:580][926]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 43
@@ -2748,15 +2748,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.28-16.51.24:850][228]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.11.28-16.51.24:855][228]LogWorld: UWorld::CleanupWorld for Test_Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.11.28-16.51.24:890][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
-[2019.11.28-16.51.24:937][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.51.24:937][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.51.24:947][228]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.11.28-16.51.24:947][228]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.11.28-16.51.24:947][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.51.24:947][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.51.24:958][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.11.28-16.51.24:988][228]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.11.28-16.51.24:988][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.51.25:004][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.11.28-16.51.25:019][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.28-16.51.24:988][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.51.25:004][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.11.28-16.51.25:019][228]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.11.28-16.51.30:429][228]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 45
 [2019.11.28-16.51.30:429][228]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 44
 [2019.11.28-16.51.30:429][228]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 43
