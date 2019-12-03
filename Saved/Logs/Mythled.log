@@ -122,12 +122,12 @@ LogInit: Build: ++UE4+Release-4.23-CL-8386587
 LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Net CL: 8386587
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4200H CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 4600
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -403,7 +403,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.22.21:938][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
 [2019.12.03-20.22.21:939][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
 [2019.12.03-20.22.21:939][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2019.12.03-20.22.21:939][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.03-20.22.21:939][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0
 [2019.12.03-20.22.21:939][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
 [2019.12.03-20.22.21:939][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
 [2019.12.03-20.22.21:939][  0]LogD3D11RHI:      Driver Date: Unknown
@@ -575,23 +575,23 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.24.08:334][867]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.12.03-20.24.08:546][867]LogWorld: UWorld::CleanupWorld for Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.12.03-20.24.08:988][867]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
-[2019.12.03-20.24.09:122][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.24.09:122][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.24.09:207][867]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.12.03-20.24.09:207][867]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.12.03-20.24.09:207][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.24.09:207][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.24.09:216][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
-[2019.12.03-20.24.09:384][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:393][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:402][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:412][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:422][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.24.09:384][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:393][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:402][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:412][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:422][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.24.09:434][867]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 48
-[2019.12.03-20.24.09:434][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:445][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:457][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:469][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:481][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.24.09:497][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.24.09:434][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:445][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:457][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:469][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:481][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.24.09:497][867]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.24.17:858][867]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 61
 [2019.12.03-20.24.17:859][867]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 60
 [2019.12.03-20.24.17:859][867]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 59
@@ -669,10 +669,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.24.34:921][867]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
 [2019.12.03-20.24.34:921][867]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
 [2019.12.03-20.24.34:921][867]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.12.03-20.24.36:091][867]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2019.12.03-20.24.36:091][867]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling.
 [2019.12.03-20.24.36:137][867]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.12.03-20.24.36:138][867]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.12.03-20.24.36:138][867]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2019.12.03-20.24.36:138][867]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling.
 [2019.12.03-20.24.36:941][867]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
 [2019.12.03-20.24.36:941][867]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
 [2019.12.03-20.24.36:941][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
@@ -706,7 +706,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.25.23:571][867]Lightmass on PC_RONALD: 36.1 sec total, 2.13 sec importing, 50 ms setup, 5.00 sec photons, 28.6 sec processing, 0 ms extra exporting [253/253 mappings]. Threads: 1:54 min total, 35.8 sec processing.
 [2019.12.03-20.25.23:571][867]LogStaticLightingSystem: Proto_MAP_BuiltData storing lightmap data for 102 meshes in 9 LightmapResourceClusters (11.3 Meshes per cluster).
 [2019.12.03-20.25.23:589][867]LogMaterial: Display: Material /Game/Assets/MapAssets/Object/Porte/Material.Material needed to have new flag set bUsedWithStaticLighting !
-[2019.12.03-20.25.23:592][867]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.12.03-20.25.23:592][867]LogMaterial: Display: Missing cached shader map for material Material, compiling.
 [2019.12.03-20.25.23:731][867]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 69
 [2019.12.03-20.25.23:731][867]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 59
 [2019.12.03-20.25.23:731][867]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 49
@@ -728,12 +728,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.25.33:423][867]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
 [2019.12.03-20.25.33:423][867]Cmd: MAP CHECK DONTDISPLAYDIALOG
 [2019.12.03-20.25.33:423][867]MapCheck: New page: Proto_MAP - 3 déc. 2019 10:25:33
-[2019.12.03-20.25.33:428][867]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property 
+[2019.12.03-20.25.33:428][867]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property
 [2019.12.03-20.25.33:428][867]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 4,587ms to complete.
 [2019.12.03-20.25.33:430][867]LogEditorBuildUtils: Build time 1:25
 [2019.12.03-20.25.33:544][868]Cmd: MAP CHECK NOTIFYRESULTS
 [2019.12.03-20.25.33:544][868]MapCheck: New page: Proto_MAP - 3 déc. 2019 10:25:33
-[2019.12.03-20.25.33:545][868]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property 
+[2019.12.03-20.25.33:545][868]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property
 [2019.12.03-20.25.33:546][868]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 1,814ms to complete.
 [2019.12.03-20.25.46:363][633]LogSlate: Window 'Message Log' being destroyed
 [2019.12.03-20.25.46:366][633]LogSlate: Window 'Message Log' being destroyed
@@ -742,23 +742,23 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.25.51:332][930]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.12.03-20.25.51:481][930]LogWorld: UWorld::CleanupWorld for Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.12.03-20.25.51:762][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
-[2019.12.03-20.25.51:865][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.51:875][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.25.51:865][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.51:875][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.25.51:885][930]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
 [2019.12.03-20.25.51:885][930]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
 [2019.12.03-20.25.51:885][930]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
 [2019.12.03-20.25.51:885][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
-[2019.12.03-20.25.51:915][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.51:929][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.51:942][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.51:956][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.51:970][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.51:984][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.51:997][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.52:010][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.52:023][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.52:037][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.25.52:062][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.25.51:915][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.51:929][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.51:942][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.51:956][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.51:970][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.51:984][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.51:997][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.52:010][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.52:023][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.52:037][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.25.52:062][930]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.25.58:565][930]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 61
 [2019.12.03-20.25.58:565][930]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 60
 [2019.12.03-20.25.58:565][930]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 59
@@ -836,10 +836,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.26.03:508][930]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
 [2019.12.03-20.26.03:508][930]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
 [2019.12.03-20.26.03:508][930]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.12.03-20.26.03:669][930]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2019.12.03-20.26.03:669][930]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling.
 [2019.12.03-20.26.03:696][930]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.12.03-20.26.03:696][930]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2019.12.03-20.26.03:696][930]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2019.12.03-20.26.03:696][930]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling.
 [2019.12.03-20.26.04:402][930]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
 [2019.12.03-20.26.04:402][930]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
 [2019.12.03-20.26.04:402][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
@@ -882,12 +882,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.26.36:527][930]Primitives with unbuilt interactions: 0
 [2019.12.03-20.26.36:619][930]Cmd: MAP CHECK DONTDISPLAYDIALOG
 [2019.12.03-20.26.36:620][930]MapCheck: New page: Proto_MAP - 3 déc. 2019 10:26:36
-[2019.12.03-20.26.36:620][930]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property 
+[2019.12.03-20.26.36:620][930]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property
 [2019.12.03-20.26.36:621][930]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,959ms to complete.
 [2019.12.03-20.26.36:622][930]LogEditorBuildUtils: Build time 0:45
 [2019.12.03-20.26.36:646][931]Cmd: MAP CHECK NOTIFYRESULTS
 [2019.12.03-20.26.36:646][931]MapCheck: New page: Proto_MAP - 3 déc. 2019 10:26:36
-[2019.12.03-20.26.36:647][931]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property 
+[2019.12.03-20.26.36:647][931]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property
 [2019.12.03-20.26.36:648][931]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 1,803ms to complete.
 [2019.12.03-20.27.03:776][509]LogSlate: Window 'Message Log' being destroyed
 [2019.12.03-20.27.05:016][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maps/Proto_MAP" FILE="../../../../../../Users/Marylène/Documents/GitHub/Mythled/Content/Levels/Maps/Proto_MAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
@@ -923,23 +923,23 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.27.57:688][571]LogEditorServer: Rebuildmap Clear paths rebuilt
 [2019.12.03-20.27.57:834][571]LogWorld: UWorld::CleanupWorld for Proto_MAP, bSessionEnded=true, bCleanupResources=false
 [2019.12.03-20.27.58:012][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
-[2019.12.03-20.27.58:099][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:109][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.27.58:099][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:109][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.27.58:121][571]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
 [2019.12.03-20.27.58:121][571]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
 [2019.12.03-20.27.58:121][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
 [2019.12.03-20.27.58:150][571]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2019.12.03-20.27.58:150][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:165][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:179][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:193][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:207][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:221][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:235][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:248][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:261][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:275][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.12.03-20.27.58:297][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.12.03-20.27.58:150][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:165][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:179][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:193][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:207][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:221][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:235][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:248][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:261][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:275][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
+[2019.12.03-20.27.58:297][571]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling.
 [2019.12.03-20.28.06:573][571]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 61
 [2019.12.03-20.28.06:573][571]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 60
 [2019.12.03-20.28.06:573][571]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 59
@@ -1054,12 +1054,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.28.46:310][571]Primitives with unbuilt interactions: 0
 [2019.12.03-20.28.46:402][571]Cmd: MAP CHECK DONTDISPLAYDIALOG
 [2019.12.03-20.28.46:402][571]MapCheck: New page: Proto_MAP - 3 déc. 2019 10:28:46
-[2019.12.03-20.28.46:403][571]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property 
+[2019.12.03-20.28.46:403][571]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property
 [2019.12.03-20.28.46:403][571]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 1,013ms to complete.
 [2019.12.03-20.28.46:405][571]LogEditorBuildUtils: Build time 0:48
 [2019.12.03-20.28.46:443][572]Cmd: MAP CHECK NOTIFYRESULTS
 [2019.12.03-20.28.46:443][572]MapCheck: New page: Proto_MAP - 3 déc. 2019 10:28:46
-[2019.12.03-20.28.46:444][572]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property 
+[2019.12.03-20.28.46:444][572]MapCheck: Warning: Guardian_BP_2 Static mesh actor has NULL StaticMesh property
 [2019.12.03-20.28.46:444][572]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 1,615ms to complete.
 [2019.12.03-20.28.59:388][347]LogSlate: Window 'Message Log' being destroyed
 [2019.12.03-20.28.59:391][347]LogSlate: Window 'Message Log' being destroyed
