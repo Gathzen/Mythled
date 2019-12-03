@@ -1,4 +1,4 @@
-﻿Log file open, 12/03/19 15:07:59
+﻿Log file open, 12/03/19 15:22:21
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: Mythled
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.070264
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.077489
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -127,7 +127,7 @@ LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -404,7 +404,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.08.00:064][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
 [2019.12.03-20.08.00:064][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
 [2019.12.03-20.08.00:064][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.12.03-20.08.00:064][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.12.03-20.08.00:064][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter
 [2019.12.03-20.08.00:064][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
 [2019.12.03-20.08.00:065][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
 [2019.12.03-20.08.00:065][  0]LogD3D11RHI:      Driver Date: 11-20-2019
@@ -689,47 +689,47 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.20.59:980][414]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
 [2019.12.03-20.21.00:341][414]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 2,3
 [2019.12.03-20.21.00:342][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
-[2019.12.03-20.21.00:424][414]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.12.03-20.21.00:424][414]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
 [2019.12.03-20.21.00:744][415]LogRenderer: Reallocating scene render targets to support 1280x716 Format 10 NumSamples 1 (Frame:1).
-[2019.12.03-20.21.00:972][415]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:055][416]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:071][417]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:125][418]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:217][419]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:269][420]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:288][421]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:317][422]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:337][423]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:351][424]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:370][425]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:386][426]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:403][427]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:419][428]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:435][429]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:453][430]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:469][431]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:486][432]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:502][433]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:519][434]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:535][435]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:569][436]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:574][437]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:593][438]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:609][439]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:624][440]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:641][441]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:658][442]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:675][443]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:692][444]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:709][445]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:727][446]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:745][447]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:761][448]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:778][449]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:794][450]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:811][451]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:828][452]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
-[2019.12.03-20.21.01:844][453]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2019.12.03-20.21.00:972][415]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:055][416]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:071][417]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:125][418]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:217][419]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:269][420]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:288][421]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:317][422]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:337][423]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:351][424]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:370][425]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:386][426]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:403][427]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:419][428]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:435][429]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:453][430]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:469][431]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:486][432]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:502][433]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:519][434]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:535][435]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:569][436]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:574][437]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:593][438]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:609][439]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:624][440]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:641][441]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:658][442]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:675][443]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:692][444]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:709][445]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:727][446]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:745][447]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:761][448]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:778][449]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:794][450]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:811][451]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:828][452]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
+[2019.12.03-20.21.01:844][453]PIE: Warning: Mobility of /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Bridge_BP : StaticMeshComponent0 has to be 'Movable' if you'd like to move.
 [2019.12.03-20.21.31:396][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
 [2019.12.03-20.21.31:410][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.12.03-20.21.31:411][223]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
