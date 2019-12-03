@@ -1051,3 +1051,69 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.38.48:724][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
 [2019.12.03-20.38.49:011][756]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP4B72E4E24FB35B112405DEAD8F310CEC.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
 [2019.12.03-20.38.49:055][756]LogFileHelpers: Saving map 'Test_Nathaneil_MAP' took 0.355
+[2019.12.03-20.40.25:659][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-20.40.25:776][513]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.03-20.40.25:797][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.12.03-20.40.25:797][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.03-20.40.25:810][513]PIE: New page: PIE session: Test_Nathaneil_MAP (2019-12-03 10:40:25)
+[2019.12.03-20.40.25:810][513]LogPlayLevel: Creating play world package: /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.12.03-20.40.25:842][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032053s)
+[2019.12.03-20.40.25:842][513]LogAIModule: Creating AISystem for world Test_Nathaneil_MAP
+[2019.12.03-20.40.25:843][513]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2019.12.03-20.40.25:843][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP to /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP (0.033171s)
+[2019.12.03-20.40.25:871][513]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.12.03-20.40.25:924][513]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.03-20.40.25:946][513]LogInit: FAudioDevice initialized.
+[2019.12.03-20.40.25:952][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.03-20.40.25:953][513]LogLoad: Game class is 'Test_Nathaniel_GM_C'
+[2019.12.03-20.40.25:985][513]LogWorld: Bringing World /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP.Test_Nathaneil_MAP up for play (max tick rate 60) at 2019.12.03-15.40.25
+[2019.12.03-20.40.25:986][513]LogWorld: Bringing up level for play took: 0.032167
+[2019.12.03-20.40.25:986][513]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2019.12.03-20.40.26:252][513]PIE: Play in editor start time for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP 0,211
+[2019.12.03-20.40.26:252][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.12.03-20.40.28:290][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.12.03-20.40.28:328][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.03-20.40.28:328][626]LogWorld: BeginTearingDown for /Game/Levels/Maps/UEDPIE_0_Test_Nathaneil_MAP
+[2019.12.03-20.40.28:349][626]LogSlate: Window 'Mythled Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.03-20.40.28:355][626]LogWorld: UWorld::CleanupWorld for Test_Nathaneil_MAP, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.40.28:377][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.03-20.40.28:377][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP' with GeneratedClass '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP_C' with ClassGeneratedBy '/Game/Levels/Maps/Test_Nathaneil_MAP.Test_Nathaneil_MAP:PersistentLevel.Test_Nathaneil_MAP'
+[2019.12.03-20.40.28:439][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.12.03-20.40.28:451][627]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.12.03-20.40.37:962][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-20.40.38:139][193]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Guardian_BP.Guardian_BP
+[2019.12.03-20.41.05:616][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.41.05:684][814]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BPB25F6B0849191D9BD4E259A4FD79644D.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.42.04:609][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.42.04:684][287]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BP2DAB104B4298386F5A5753AEC4D1F8B4.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.42.05:784][353]BlueprintLog: New page: Compile Guardian_BP
+[2019.12.03-20.42.05:821][353]LogBlueprint: Error: [Compiler Guardian_BP] This blueprint (self) is not a Bridge_BP_C, therefore ' Target ' must have a connection.
+[2019.12.03-20.42.06:016][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.12.03-20.42.06:506][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.42.06:573][376]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BP00C81FE9477489068A6981B29A3A69AD.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.42.10:390][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.42.10:457][599]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BP830158DF4A0E429874BE6AA6CA04CBA8.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.42.11:493][661]BlueprintLog: New page: Compile Guardian_BP
+[2019.12.03-20.42.11:668][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.12.03-20.42.12:263][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.42.12:334][690]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BPF838CC6B43C652B940562DBA35754FF9.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.42.16:204][921]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.42.23:215][328]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.12.03-20.42.23:323][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.12.03-20.42.23:495][328]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP702885514FCB636595CB7B95847FE202.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
+[2019.12.03-20.42.23:538][328]LogFileHelpers: Saving map 'Test_Nathaneil_MAP' took 0.241
+[2019.12.03-20.42.24:584][386]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Guardian_BP.Guardian_BP
+[2019.12.03-20.42.48:702][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.42.48:864][784]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BPF51D005746ECE2C24A1FC38450B33A8C.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.42.49:599][828]BlueprintLog: New page: Compile Guardian_BP
+[2019.12.03-20.42.49:778][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2019.12.03-20.42.50:180][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.42.50:251][845]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BP1B8DA0AB423FF89BAA0E9D8DD34EDACD.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.42.50:889][882]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.42.51:860][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.03-20.42.52:472][963]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.12.03-20.42.52:476][963]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.03-20.42.52:554][963]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.03-20.42.52:591][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.12.03-20.42.52:768][963]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP00BCE52343CC2198085202A24D708A4C.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
+[2019.12.03-20.42.52:811][963]LogFileHelpers: Saving map 'Test_Nathaneil_MAP' took 0.246
