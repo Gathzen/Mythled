@@ -1034,3 +1034,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.25.01:339][994]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP_BuiltData71EB4D1F4D9DCE534A1BD384A51BE10A.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP_BuiltData.uasset'
 [2019.12.03-20.25.03:053][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
 [2019.12.03-20.25.04:453][162]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.12.03-20.37.20:207][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-20.37.20:451][916]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Guardian_BP.Guardian_BP
+[2019.12.03-20.37.59:949][  0]BlueprintLog: New page: Compile Guardian_BP
+[2019.12.03-20.38.00:595][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.12.03-20.38.01:128][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.38.01:308][ 21]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BP31AC86AC498475F0113F73A8E4778E67.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.38.19:846][ 90]BlueprintLog: New page: Compile Guardian_BP
+[2019.12.03-20.38.20:150][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.12.03-20.38.20:703][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Guardian_BP" FILE="../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset" SILENT=true
+[2019.12.03-20.38.20:790][113]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Guardian_BP3B8D4720435312C323D7158B0ADCF565.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Blueprints/Objects/Guardian_BP.uasset'
+[2019.12.03-20.38.26:031][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-20.38.46:667][656]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.38.48:597][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.12.03-20.38.48:685][756]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.03-20.38.48:724][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.12.03-20.38.49:011][756]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP4B72E4E24FB35B112405DEAD8F310CEC.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
+[2019.12.03-20.38.49:055][756]LogFileHelpers: Saving map 'Test_Nathaneil_MAP' took 0.355
