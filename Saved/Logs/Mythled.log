@@ -1117,3 +1117,45 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-20.42.52:591][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
 [2019.12.03-20.42.52:768][963]LogSavePackage: Moving '../../../../../../Users/Camille/Documents/GitHub/Mythled/Saved/Test_Nathaneil_MAP00BCE52343CC2198085202A24D708A4C.tmp' to '../../../../../../Users/Camille/Documents/GitHub/Mythled/Content/Levels/Maps/Test_Nathaneil_MAP.umap'
 [2019.12.03-20.42.52:811][963]LogFileHelpers: Saving map 'Test_Nathaneil_MAP' took 0.246
+[2019.12.03-20.44.28:920][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-20.44.29:065][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.12.03-20.44.29:289][856]LogSlate: Window 'Mythled - Unreal Editor' being destroyed
+[2019.12.03-20.44.29:886][857]Cmd: QUIT_EDITOR
+[2019.12.03-20.44.31:731][857]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.03-20.44.31:886][857]LogExit: Preparing to exit.
+[2019.12.03-20.44.32:883][857]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:884][857]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:885][857]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:886][857]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:886][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:886][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:886][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:886][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:886][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:886][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:886][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:887][857]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:888][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:888][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:888][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:888][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:888][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:888][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:888][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:888][857]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:889][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:889][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:889][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:889][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:889][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:889][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:889][857]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.12.03-20.44.32:889][857]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:890][857]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.32:891][857]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.33:281][857]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2019.12.03-20.44.33:602][857]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2019.12.03-20.44.33:602][857]LogExit: Editor shut down
+[2019.12.03-20.44.33:603][857]LogExit: Transaction tracking system shut down
+[2019.12.03-20.44.36:267][857]LogExit: Object subsystem successfully closed.
+[2019.12.03-20.44.36:533][857]LogShaderCompilers: Display: Shaders left to compile 0
