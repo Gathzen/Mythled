@@ -122,12 +122,12 @@ LogInit: Build: ++UE4+Release-4.23-CL-8386587
 LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Net CL: 8386587
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4200H CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 4600
 LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -404,7 +404,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-18.12.46:427][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
 [2019.12.03-18.12.46:427][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
 [2019.12.03-18.12.46:427][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.12.03-18.12.46:428][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.12.03-18.12.46:428][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter
 [2019.12.03-18.12.46:428][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
 [2019.12.03-18.12.46:428][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
 [2019.12.03-18.12.46:428][  0]LogD3D11RHI:      Driver Date: 11-20-2019
@@ -15825,16 +15825,16 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.03-19.10.41:403][653]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
 [2019.12.03-19.10.41:406][653]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
 [2019.12.03-19.11.47:087][475]LogUObjectBase: Warning: Object is not registered
-[2019.12.03-19.11.47:147][475]LogOutputDevice: Warning: 
+[2019.12.03-19.11.47:147][475]LogOutputDevice: Warning:
 
 Script Stack (0 frames):
 
 [2019.12.03-19.11.50:357][475]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.211 s
 [2019.12.03-19.11.50:357][475]LogOutputDevice: Error: === Handled ensure: ===
-[2019.12.03-19.11.50:357][475]LogOutputDevice: Error: 
+[2019.12.03-19.11.50:357][475]LogOutputDevice: Error:
 [2019.12.03-19.11.50:357][475]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetDebugUtilities.cpp] [Line: 1154]
 [2019.12.03-19.11.50:357][475]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
-[2019.12.03-19.11.50:357][475]LogOutputDevice: Error: Stack: 
+[2019.12.03-19.11.50:357][475]LogOutputDevice: Error: Stack:
 [2019.12.03-19.11.50:357][475]LogOutputDevice: Error: [Callstack] 0x00007ffaee9641e9 UE4Editor-UnrealEd.dll!UnknownFunction []
 [2019.12.03-19.11.50:357][475]LogOutputDevice: Error: [Callstack] 0x00007ffaee187d9a UE4Editor-UnrealEd.dll!UnknownFunction []
 [2019.12.03-19.11.50:357][475]LogOutputDevice: Error: [Callstack] 0x00007ffaee195fff UE4Editor-UnrealEd.dll!UnknownFunction []
@@ -15860,7 +15860,7 @@ Script Stack (0 frames):
 [2019.12.03-19.11.50:358][475]LogOutputDevice: Error: [Callstack] 0x00007ff6dc95e60e UE4Editor.exe!UnknownFunction []
 [2019.12.03-19.11.50:358][475]LogOutputDevice: Error: [Callstack] 0x00007ffb49267bd4 KERNEL32.DLL!UnknownFunction []
 [2019.12.03-19.11.50:358][475]LogOutputDevice: Error: [Callstack] 0x00007ffb4a16ced1 ntdll.dll!UnknownFunction []
-[2019.12.03-19.11.50:358][475]LogOutputDevice: Error: 
+[2019.12.03-19.11.50:358][475]LogOutputDevice: Error:
 [2019.12.03-19.11.50:397][475]LogStats:                SubmitErrorReport -  0.000 s
 [2019.12.03-19.12.04:557][475]LogStats:                    SendNewReport - 14.160 s
 [2019.12.03-19.12.04:557][475]LogStats:             FDebug::EnsureFailed - 17.453 s
@@ -17881,7 +17881,7 @@ Script Stack (0 frames):
 [2019.12.03-19.15.32:636][891]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
 [2019.12.03-19.15.44:138][429]LogAIModule: Creating AISystem for world Proto_MAP
 [2019.12.03-19.15.44:171][429]LogMaterial: Display: Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial needed to have new flag set bUsedWithSkeletalMesh !
-[2019.12.03-19.15.44:216][429]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.12.03-19.15.44:216][429]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling.
 [2019.12.03-19.15.44:536][429]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 127
 [2019.12.03-19.15.44:536][429]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 117
 [2019.12.03-19.15.44:536][429]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 107
